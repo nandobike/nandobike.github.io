@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nandobike.github.io/al-folio/sitemap.xml
+Sitemap: https://nandobike.github.io/sitemap.xml
