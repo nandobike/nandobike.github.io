@@ -24,18 +24,18 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Morgan Advanced Materials",
+      "position": "Global Labs Manager",
+      "url": "https://www.morganadvancedmaterials.com",
+      "startDate": "2018-01-01",
+      "endDate": "2100-01-01",
+      "summary": "Doing research at Carbon Science Centre of Excellence. Managing US-based testing laboratories.",
+      "highlights": ["Carbon"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
+      "organization": "American Carbon Society",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
       "url": "https://example.com",
@@ -47,10 +47,10 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Universidad de Concepcion",
+      "location": "Concepcion, Chile",
+      "url": "https://www.udec.cl/",
+      "area": "Chemical Engineering",
       "studyType": "PhD",
       "startDate": "1905-01-01",
       "endDate": "1905-01-01",
