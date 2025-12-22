@@ -28,16 +28,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm the Global Labs Manager at [Morgan Advanced Materials](https://www.morganadvancedmaterials.com), overseeing all testing labs for our Performance Carbon division. I get to design cutting-edge equipment and push our characterization techniques to their absolute limits. Honestly, I started as a materials scientist but discovered I don't have the patience to synthesize materials over and over—I'd rather figure out clever ways to test them and squeeze every insight from the data.
+I'm the Global Labs Manager at [Morgan Advanced Materials](https://www.morganadvancedmaterials.com), running testing labs for our Performance Carbon division. I design cutting-edge equipment and push our capabilities to the limit. Started as a materials scientist but quickly realized I lack the patience for endless synthesis—I'd rather build smarter tests and mine the data for insights.
 
-My path from Chile to Japan to the US gave me a PhD in carbon reactions and a deep love for adsorption science. There's something satisfying about understanding how molecules behave on carbon surfaces at the nanoscale, and that curiosity still drives a lot of what I do today, even if I'm now more focused on building the tools than running endless experiments myself.
+My PhD journey from Chile through Japan to the US got me hooked on carbon reactions and adsorption science. How molecules behave on carbon surfaces at the nanoscale still fascinates me—I just prefer building the tools over babysitting experiments.
 
-I'm also pretty obsessed with data analysis, cybersecurity, and networking. I spend a lot of time learning these skills and applying them at work—whether it's securing our lab systems or finding patterns in test data that others might miss. My home lab is where I tinker with new tech, 3D printing projects, and whatever catches my interest that week.
+I'm obsessed with data analysis, cybersecurity, and networks. I apply these skills at work constantly—securing lab systems, uncovering hidden patterns in data. My home lab is my playground for new tech, 3D printing, and whatever sparks my curiosity.
 
-Outside work, I'm all about doing sports, not watching them. Skiing, cycling, tennis, hiking—if it's outdoors and gets me moving, I'm in. I also love woodworking and building things with my hands, which probably explains why I enjoy designing lab equipment so much. It's all about solving problems and making things work better.
-
-#Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-#Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I do sports, don't watch them. Skiing, cycling, tennis, hiking—anything outdoors works. I also love woodworking and building things, which explains my passion for designing lab equipment. It's all about solving problems and making things work brilliantly.
