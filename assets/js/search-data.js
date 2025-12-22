@@ -487,13 +487,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -506,13 +499,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/nandobike", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -529,13 +515,6 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-2262-9868", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -543,11 +522,11 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=xD9OQosAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-wikipedia',
+        title: 'Wikipedia',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.vallejos.cl/", "_blank");
+          window.open("https://wikipedia.org/wiki/User:Nandobike", "_blank");
         },
       },{
       id: 'light-theme',
