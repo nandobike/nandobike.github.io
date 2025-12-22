@@ -32,6 +32,13 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
+          description: "Materials for courses.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
@@ -465,6 +472,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-applied-research",
+          title: 'Applied Research',
+          description: "Graduate course on applying research in industry and transition from academia",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/applied_research_2026/";
             },},{
         id: 'social-email',
         title: 'email',
