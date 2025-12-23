@@ -40,6 +40,7 @@ The migration process involved several key steps:
 **1. DNS Provider Change**
 
 Migrated from the previous hosting provider's nameservers to Cloudflare:
+
 - Updated nameservers at NIC Chile registry to Cloudflare's NS
 - Cloudflare automatically detected existing DNS records during setup
 - All MX records for Gmail-hosted email were preserved
@@ -47,6 +48,7 @@ Migrated from the previous hosting provider's nameservers to Cloudflare:
 **2. Email Service Continuity**
 
 The email configuration remained fully operational throughout:
+
 - MX records were automatically imported by Cloudflare
 - No changes to Gmail MX record priorities
 - Zero downtime for email services
@@ -55,6 +57,7 @@ The email configuration remained fully operational throughout:
 **3. Static Site Deployment**
 
 Set up GitHub Pages with custom domain:
+
 - Repository configured for GitHub Pages deployment
 - Custom domain configured in repository settings
 - CNAME file added to repository root
@@ -63,6 +66,7 @@ Set up GitHub Pages with custom domain:
 **4. SSL/TLS Configuration**
 
 Cloudflare provides automatic HTTPS:
+
 - Universal SSL certificate issued automatically
 - Full (strict) encryption mode enabled
 - Automatic HTTP to HTTPS redirects configured
@@ -99,24 +103,28 @@ Cloudflare provides automatic HTTPS:
 If you're considering a similar migration, here are some helpful tips:
 
 **DNS Migration**
+
 - Cloudflare's auto-scan feature correctly identified all DNS records
 - Allow 24-48 hours for nameserver propagation
 - Keep old hosting active until DNS fully propagates
 - Verify MX records are correct before shutting down old hosting
 
 **GitHub Pages Setup**
+
 - Use a CNAME file in your repository root for custom domains
 - Configure DNS with A records pointing to GitHub's IPs (see GitHub documentation)
 - Enable "Enforce HTTPS" in repository settings after DNS propagates
 - Use GitHub Actions for automated Jekyll builds
 
 **Email Considerations**
+
 - MX records are independent of web hosting
 - Email continues to work as long as MX records are correct
 - Test email functionality before decommissioning old hosting
 - Keep SPF records updated if changing providers
 
 **Cloudflare Configuration**
+
 - Use "Full (strict)" SSL mode for end-to-end encryption
 - Enable "Always Use HTTPS" redirect
 - Configure appropriate caching rules for static content
@@ -127,12 +135,14 @@ If you're considering a similar migration, here are some helpful tips:
 ### Lessons Learned
 
 **What Went Well**
+
 - Cloudflare's automatic DNS record detection was accurate
 - Gmail MX records transferred seamlessly
 - GitHub Actions deployment workflow was straightforward
 - Zero downtime achieved for both web and email
 
 **Challenges Encountered**
+
 - Initial GitHub Actions workflow had a lighthouse plugin error (resolved by disabling)
 - DNS propagation took ~6 hours for full global coverage
 - Some local DNS caches required manual flushing

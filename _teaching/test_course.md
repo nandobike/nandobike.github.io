@@ -8,7 +8,7 @@ category: test
 
 ## Course Content
 
-This is the course page content. If you can click the card and see this, 
+This is the course page content. If you can click the card and see this,
 the link is working but the card display has an issue.
 
 ## Materials
