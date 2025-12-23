@@ -10,23 +10,25 @@ horizontal: false
 
 <!-- pages/teaching.md -->
 <div class="teaching">
-  <!-- Display teaching collection without categories -->
   {% assign sorted_teaching = site.teaching | sort: "importance" %}
   
-  <!-- Generate cards for each course -->
-  {% if page.horizontal %}
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2">
-        {% for course in sorted_teaching %}
-          {% include projects_horizontal.liquid project=course %}
-        {% endfor %}
-      </div>
-    </div>
-  {% else %}
-    <div class="row row-cols-1 row-cols-md-3">
-      {% for course in sorted_teaching %}
-        {% include projects.liquid project=course %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  <!-- DEBUG: Show course info -->
+  <div style="background: #f0f0f0; padding: 10px; margin-bottom: 20px;">
+    <h3>Debug Info:</h3>
+    <p>Total courses: {{ sorted_teaching.size }}</p>
+    {% for course in sorted_teaching %}
+      <p>
+        <strong>{{ course.title }}</strong><br>
+        URL: {{ course.url }}<br>
+        Path: {{ course.path }}<br>
+      </p>
+    {% endfor %}
+  </div>
+  
+  <!-- Generate cards -->
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for course in sorted_teaching %}
+      {% include projects.liquid project=course %}
+    {% endfor %}
+  </div>
 </div>
