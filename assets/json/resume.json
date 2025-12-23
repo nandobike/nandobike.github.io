@@ -36,13 +36,13 @@
   "volunteer": [
     {
       "organization": "American Carbon Society",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "location": "State College, USA",
+      "position": "Advisory Committee",
+      "url": "https://www.americancarbonsociety.org/",
+      "startDate": "2023-04-01",
+      "endDate": "2029-07-01",
+      "summary": "Advisory committee member.",
+      "highlights": ["Carbon archives.", "Carbon conference."]
     }
   ],
   "education": [
@@ -52,19 +52,19 @@
       "url": "https://www.udec.cl/",
       "area": "Chemical Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2000-01-01",
+      "endDate": "2011-01-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Oxygen Transfer on Carbons and Carbon-Supported Catalysts"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Best Poster Award",
+      "date": "2016",
+      "awarder": " Japanese Adsorption Society",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "Best poster award for visualization of molecular structures in virtual reality"
     }
   ],
   "certificates": [
@@ -74,34 +74,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
     },
     {
       "name": "Quantum Teleportation",
@@ -159,6 +131,11 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Basic",
+      "icon": ""
     }
   ],
   "interests": [
@@ -177,12 +154,12 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Ljubisa Radovic",
       "icon": "fa-solid fa-laptop",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Katsumi Kaneko",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
