@@ -2,6 +2,7 @@
 layout: book-review
 title: Elon Musk
 author: Walter Isaacson
+cover: assets/img/book_covers/elon_musk.jpg
 olid: OL35720357W # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 1982181281 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: biography
