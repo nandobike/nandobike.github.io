@@ -414,7 +414,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-elon-musk",
+          title: 'Elon Musk',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/elon_musk/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
