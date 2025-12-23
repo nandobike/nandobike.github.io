@@ -2,7 +2,7 @@
 layout: page
 title: Applied Research
 description: Graduate course on applying research in industry and transition from academia
-img: assets/img/12.jpg
+img: assets/img/applied_research.png
 importance: 1
 category: graduate
 related_publications: true
@@ -10,7 +10,7 @@ related_publications: true
 
 ## Course Information
 
-**Course Code:** CHEM 301  
+**Course Code:** 4146038
 **Level:** Graduate  
 **Semester:** Summer 2026
 **Credits:** 1
@@ -56,9 +56,9 @@ This course provides a comprehensive introduction to classical thermodynamics an
 
 ## Schedule
 
-**Lectures:** Tuesday & Thursday, 10:00-11:30 AM  
+**Lectures:** Weekdays morning, 9:00 - 12:00 PM
 **Office Hours:** Wednesday, 2:00-4:00 PM  
-**Location:** Science Building, Room 301  
+**Location:** Just email me
 
 ## Resources
 
@@ -69,4 +69,4 @@ This course provides a comprehensive introduction to classical thermodynamics an
 
 ## Contact
 
-For questions about course content, please use office hours or email me at your.email@university.edu
+For questions about course content, please use office hours or email me at fvb@vallejos.cl
