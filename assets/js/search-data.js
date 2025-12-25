@@ -414,16 +414,36 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-elon-musk",
+      },{id: "books-elements-of-investing",
+          title: 'Elements of Investing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/elements_investing/";
+            },},{id: "books-elon-musk",
           title: 'Elon Musk',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/elon_musk/";
+            },},{id: "books-hands-on-introduction-to-labview",
+          title: 'Hands-On Introduction to LabVIEW',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/labview_engineers/";
             },},{id: "books-cybersecurity-myths-and-misconceptions",
           title: 'Cybersecurity Myths and Misconceptions',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/myth_cybersec/";
+            },},{id: "books-python-crash-course",
+          title: 'Python Crash Course',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/python_crash/";
+            },},{id: "books-schneier-on-security",
+          title: 'Schneier on Security',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/schneier_security/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
