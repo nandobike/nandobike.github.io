@@ -419,6 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/elon_musk/";
+            },},{id: "books-cybersecurity-myths-and-misconceptions",
+          title: 'Cybersecurity Myths and Misconceptions',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/myth_cybersec/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
