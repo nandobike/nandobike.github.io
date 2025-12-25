@@ -16,7 +16,7 @@ related_publications: true
 
 ## Course Information
 
-**Course Code:** 4146038
+**Course Code:** 4146038  
 **Level:** Graduate  
 **Duration:** 5 days (mornings only)  
 **Schedule:** 2026, January 19 - 23 , 9:00 AM - 12:00 PM daily  
@@ -49,8 +49,7 @@ _Morgan Advanced Materials_
 - Experience in academic research and industrial R&D
 - Currently working on high-performance carbon materials
 
-**Email:** [YOUR EMAIL]  
-**Office Hours:** [TO BE DETERMINED]
+**Email:** fvb@vallejos.cl
 
 ---
 
@@ -58,8 +57,8 @@ _Morgan Advanced Materials_
 
 ### Presenter 1: Academic Researcher
 
-**[NAME]**  
-_[TITLE/INSTITUTION]_
+**Prof. Radovan Kukobat**  
+_University of Banja Luka_
 
 [PHOTO HERE]
 
@@ -72,7 +71,21 @@ _[TITLE/INSTITUTION]_
 
 ### Presenter 2: Academic Researcher
 
-**[NAME]**  
+**Prof. Derek Hall**  
+_Penn State University_
+
+[PHOTO HERE]
+
+**Topic:** [TO BE DETERMINED]  
+**Session:** Day 2, 11:30 AM - 12:30 PM
+
+[SHORT BIO]
+
+---
+
+### Presenter 3: Academic Researcher
+
+**Cesar Solis**  
 _[TITLE/INSTITUTION]_
 
 [PHOTO HERE]
@@ -84,10 +97,10 @@ _[TITLE/INSTITUTION]_
 
 ---
 
-### Presenter 3: Industrial PhD (Project Management)
+### Presenter 4: Industrial PhD (Project Management)
 
-**[NAME]**  
-_[TITLE/COMPANY]_
+**Dr. Sara Andreoli**  
+_Project Manager, Morgan Advanced Materials_
 
 [PHOTO HERE]
 
@@ -98,10 +111,10 @@ _[TITLE/COMPANY]_
 
 ---
 
-### Presenter 4: Chief Technology Officer
+### Presenter 5: Chief Technology Officer
 
-**[NAME]**  
-_[TITLE/COMPANY]_
+**Thomas Connolly**  
+_CTO, Morgan Advanced Materials_
 
 [PHOTO HERE]
 
@@ -443,9 +456,8 @@ Active participation is essential. Students are expected to attend all sessions.
 
 ### Communication
 
-- Email: [YOUR EMAIL]
+- Email: fvb@vallejos.cl
 - Questions during class are encouraged
-- Office hours: [TO BE DETERMINED]
 
 ### Academic Integrity
 
@@ -458,12 +470,10 @@ All work must be original. Collaboration is encouraged for group work, but indiv
 ### Prerequisites
 
 - Basic programming knowledge (any language)
-- Graduate-level standing
 - Interest in applied research
 
 ### What to Bring
 
-- Laptop with required software installed
 - Notebook for taking notes
 - Open mind and willingness to participate
 
@@ -477,8 +487,6 @@ All materials will be posted at: [YOUR WEBSITE URL]
 
 **Instructor:** Fernando Vallejos-Burgos
 **Email:** fvb@vallejos.cl
-**Office:** [LOCATION]  
-**Office Hours:** [SCHEDULE]
 
 ---
 
@@ -488,4 +496,4 @@ All materials will be posted at: [YOUR WEBSITE URL]
 
 ---
 
-_Last updated: [DATE]_
+_Last updated: Dec, 25, 2025_
