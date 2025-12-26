@@ -414,7 +414,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-elements-of-investing",
+      },{id: "books-the-art-of-cyberwarfare",
+          title: 'The Art of Cyberwarfare',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/art_cyberwarfare/";
+            },},{id: "books-cybersecurity-for-small-networks",
+          title: 'Cybersecurity for Small Networks',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cybersec_small/";
+            },},{id: "books-elements-of-investing",
           title: 'Elements of Investing',
           description: "",
           section: "Books",handler: () => {
