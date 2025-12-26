@@ -419,6 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/art_cyberwarfare/";
+            },},{id: "books-the-boys-from-biloxi",
+          title: 'The Boys from Biloxi',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/boys_biloxi/";
             },},{id: "books-cybersecurity-for-small-networks",
           title: 'Cybersecurity for Small Networks',
           description: "",
@@ -454,11 +459,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/schneier_security/";
-            },},{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
             },},{id: "news-get-ready-for-world-carbon-conference-2026-sparkles-smile",
           title: 'Get ready for World Carbon Conference 2026! :sparkles: :smile:',
           description: "",
