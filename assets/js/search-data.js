@@ -443,12 +443,12 @@ ninja.data = [{
           title: 'For the Love of Physics: From the End of the Rainbow to the...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/for-the-love-of-physics-from-the-end-of-the-rainbow-to-the-edge-of-time-a-journey-through-the-wonders-of-physics/";
+              window.location.href = "/books/for-the-love-of-physics/";
             },},{id: "books-the-golden-section-nature-s-greatest-secret",
           title: 'The Golden Section: Nature’s Greatest Secret',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-golden-section-natures-greatest-secret/";
+              window.location.href = "/books/the-golden-section/";
             },},{id: "books-the-neverending-story",
           title: 'The Neverending Story',
           description: "",
@@ -463,7 +463,7 @@ ninja.data = [{
           title: 'What is Chemistry?: A Very Short Introduction',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/what-is-chemistry-a-very-short-introduction/";
+              window.location.href = "/books/what-is-chemistry/";
             },},{id: "books-einstein-his-life-and-universe",
           title: 'Einstein: His Life and Universe',
           description: "",
@@ -483,7 +483,7 @@ ninja.data = [{
           title: 'The Jungle Book: Mowgli&amp;#39;s Story',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-jungle-book-mowglis-story/";
+              window.location.href = "/books/the-jungle-book/";
             },},{id: "books-the-time-keeper",
           title: 'The Time Keeper',
           description: "",
@@ -558,12 +558,12 @@ ninja.data = [{
           title: 'By Way of Deception: The Making of a Mossad Officer',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/by-way-of-deception-the-making-of-a-mossad-officer/";
+              window.location.href = "/books/by-way-of-deception/";
             },},{id: "books-clear-and-present-danger-jack-ryan-5-jack-ryan-universe-6",
           title: 'Clear and Present Danger (Jack Ryan, #5; Jack Ryan Universe, #6)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/clear-and-present-danger-jack-ryan-5-jack-ryan-universe-6/";
+              window.location.href = "/books/clear-and-present-danger-jack-ryan-5-jack/";
             },},{id: "books-code-to-zero",
           title: 'Code to Zero',
           description: "",
@@ -583,7 +583,7 @@ ninja.data = [{
           title: 'Freakonomics: A Rogue Economist Explores the Hidden Side of Everything',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/freakonomics-a-rogue-economist-explores-the-hidden-side-of-everything/";
+              window.location.href = "/books/freakonomics-a-rogue-economist-explores-the-hidden-side/";
             },},{id: "books-games-of-state-tom-clancy-39-s-op-center-3",
           title: 'Games of State (Tom Clancy&amp;#39;s Op-Center, #3)',
           description: "",
@@ -613,7 +613,7 @@ ninja.data = [{
           title: 'Mi país inventado: Un paseo nostálgico por Chile',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/mi-pas-inventado-un-paseo-nostlgico-por-chile/";
+              window.location.href = "/books/mi-pas-inventado/";
             },},{id: "books-mozart-39-s-journey-to-prague",
           title: 'Mozart&amp;#39;s Journey to Prague',
           description: "",
@@ -648,12 +648,12 @@ ninja.data = [{
           title: 'Submarine: A Guided Tour Inside a Nuclear Warship (Guided Tour)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/submarine-a-guided-tour-inside-a-nuclear-warship-guided-tour/";
+              window.location.href = "/books/submarine-a-guided-tour-inside-a-nuclear-warship/";
             },},{id: "books-the-adventures-of-huckleberry-finn-adventures-of-tom-and-huck-2",
           title: 'The Adventures of Huckleberry Finn (Adventures of Tom and Huck, #2)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-adventures-of-huckleberry-finn-adventures-of-tom-and-huck-2/";
+              window.location.href = "/books/the-adventures-of-huckleberry-finn-adventures-of-tom/";
             },},{id: "books-the-amulet-of-samarkand-bartimaeus-1",
           title: 'The Amulet of Samarkand (Bartimaeus, #1)',
           description: "",
@@ -668,7 +668,7 @@ ninja.data = [{
           title: 'The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe Without Design...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-blind-watchmaker-why-the-evidence-of-evolution-reveals-a-universe-without-design/";
+              window.location.href = "/books/the-blind-watchmaker/";
             },},{id: "books-the-cardinal-of-the-kremlin-jack-ryan-4",
           title: 'The Cardinal of the Kremlin (Jack Ryan, #4)',
           description: "",
@@ -683,12 +683,12 @@ ninja.data = [{
           title: 'The Fellowship of the Ring (The Lord of the Rings, #1)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-fellowship-of-the-ring-the-lord-of-the-rings-1/";
+              window.location.href = "/books/the-fellowship-of-the-ring-the-lord-of/";
             },},{id: "books-the-goldilocks-enigma-why-is-the-universe-just-right-for-life",
           title: 'The Goldilocks Enigma: Why Is the Universe Just Right for Life?',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-goldilocks-enigma-why-is-the-universe-just-right-for-life/";
+              window.location.href = "/books/the-goldilocks-enigma/";
             },},{id: "books-the-golem-39-s-eye-bartimaeus-2",
           title: 'The Golem&amp;#39;s Eye (Bartimaeus, #2)',
           description: "",
@@ -713,7 +713,7 @@ ninja.data = [{
           title: 'The Pleasure of Finding Things Out: The Best Short Works of Richard P....',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-pleasure-of-finding-things-out-the-best-short-works-of-richard-p-feynman/";
+              window.location.href = "/books/the-pleasure-of-finding-things-out/";
             },},{id: "books-the-red-defector",
           title: 'The Red Defector',
           description: "",
@@ -723,7 +723,7 @@ ninja.data = [{
           title: 'The Return of the King (The Lord of the Rings, #3)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-return-of-the-king-the-lord-of-the-rings-3/";
+              window.location.href = "/books/the-return-of-the-king-the-lord-of/";
             },},{id: "books-the-street-lawyer",
           title: 'The Street Lawyer',
           description: "",
@@ -733,12 +733,12 @@ ninja.data = [{
           title: 'The Two Towers (The Lord of the Rings, #2)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-two-towers-the-lord-of-the-rings-2/";
+              window.location.href = "/books/the-two-towers-the-lord-of-the-rings/";
             },},{id: "books-una-muerte-sospechosa-sean-king-amp-michelle-maxwell-3",
           title: 'Una muerte sospechosa (Sean King &amp;amp; Michelle Maxwell, #3)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/una-muerte-sospechosa-sean-king-michelle-maxwell-3/";
+              window.location.href = "/books/una-muerte-sospechosa-sean-king-michelle-maxwell/";
             },},{id: "books-white-fang",
           title: 'White Fang',
           description: "",
@@ -748,7 +748,7 @@ ninja.data = [{
           title: 'The Particle at the End of the Universe: How the Hunt for the...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-particle-at-the-end-of-the-universe-how-the-hunt-for-the-higgs-boson-leads-us-to-the-edge-of-a-new-world/";
+              window.location.href = "/books/the-particle-at-the-end-of-the-universe/";
             },},{id: "books-metamorphosis-and-other-stories",
           title: 'Metamorphosis and Other Stories',
           description: "",
@@ -763,7 +763,7 @@ ninja.data = [{
           title: 'Reading the Race: Bike Racing from Inside the Peloton',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/reading-the-race-bike-racing-from-inside-the-peloton/";
+              window.location.href = "/books/reading-the-race/";
             },},{id: "books-the-complete-book-of-road-cycling-amp-racing",
           title: 'The Complete Book of Road Cycling &amp;amp; Racing',
           description: "",
@@ -778,12 +778,12 @@ ninja.data = [{
           title: 'The Theoretical Minimum: What You Need to Know to Start Doing Physics (Theoretical...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-theoretical-minimum-what-you-need-to-know-to-start-doing-physics-theoretical-minimum-1/";
+              window.location.href = "/books/the-theoretical-minimum/";
             },},{id: "books-gliding-for-gold-the-physics-of-winter-sports",
           title: 'Gliding for Gold: The Physics of Winter Sports',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/gliding-for-gold-the-physics-of-winter-sports/";
+              window.location.href = "/books/gliding-for-gold/";
             },},{id: "books-fahrenheit-451",
           title: 'Fahrenheit 451',
           description: "",
@@ -793,7 +793,7 @@ ninja.data = [{
           title: 'The Magic of Reality: How We Know What&amp;#39;s Really True',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-magic-of-reality-how-we-know-whats-really-true/";
+              window.location.href = "/books/the-magic-of-reality/";
             },},{id: "books-los-cuatro-acuerdos",
           title: 'Los Cuatro Acuerdos',
           description: "",
@@ -813,12 +813,12 @@ ninja.data = [{
           title: 'The Drunkard&amp;#39;s Walk: How Randomness Rules Our Lives',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-drunkards-walk-how-randomness-rules-our-lives/";
+              window.location.href = "/books/the-drunkards-walk/";
             },},{id: "books-fear-of-physics-a-guide-for-the-perplexed",
           title: 'Fear of Physics: A Guide for the Perplexed',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/fear-of-physics-a-guide-for-the-perplexed/";
+              window.location.href = "/books/fear-of-physics/";
             },},{id: "books-good-omens",
           title: 'Good Omens',
           description: "",
@@ -833,12 +833,12 @@ ninja.data = [{
           title: 'What If?: Serious Scientific Answers to Absurd Hypothetical Questions',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/what-if-serious-scientific-answers-to-absurd-hypothetical-questions/";
+              window.location.href = "/books/what-if-serious-scientific-answers-to-absurd-hypothetical/";
             },},{id: "books-entropy-and-the-second-law-interpretation-and-misss-interpretationsss",
           title: 'Entropy And The Second Law: Interpretation And Misss-Interpretationsss',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/entropy-and-the-second-law-interpretation-and-misss-interpretationsss/";
+              window.location.href = "/books/entropy-and-the-second-law/";
             },},{id: "books-xkcd-volume-0",
           title: 'xkcd: volume 0',
           description: "",
@@ -848,7 +848,7 @@ ninja.data = [{
           title: 'The Greatest Show on Earth: The Evidence for Evolution',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-greatest-show-on-earth-the-evidence-for-evolution/";
+              window.location.href = "/books/the-greatest-show-on-earth/";
             },},{id: "books-the-character-of-physical-law",
           title: 'The Character of Physical Law',
           description: "",
@@ -873,7 +873,7 @@ ninja.data = [{
           title: 'The Demon-Haunted World: Science as a Candle in the Dark',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-demon-haunted-world-science-as-a-candle-in-the-dark/";
+              window.location.href = "/books/the-demon-haunted-world/";
             },},{id: "books-the-book-of-awesome",
           title: 'The Book of Awesome',
           description: "",
@@ -898,7 +898,7 @@ ninja.data = [{
           title: 'How to Solve It : A New Aspect of Mathematical Method',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/how-to-solve-it-a-new-aspect-of-mathematical-method/";
+              window.location.href = "/books/how-to-solve-it/";
             },},{id: "books-the-shining-the-shining-1",
           title: 'The Shining (The Shining, #1)',
           description: "",
@@ -913,7 +913,7 @@ ninja.data = [{
           title: 'The Hitchhiker’s Guide to the Galaxy (Hitchhiker&amp;#39;s Guide to the Galaxy, #1)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-hitchhikers-guide-to-the-galaxy-hitchhikers-guide-to-the-galaxy-1/";
+              window.location.href = "/books/the-hitchhikers-guide-to-the-galaxy-hitchhikers-guide/";
             },},{id: "books-the-squire-39-s-tale-the-squire-39-s-tales-1",
           title: 'The Squire&amp;#39;s Tale (The Squire&amp;#39;s Tales, #1)',
           description: "",
@@ -923,27 +923,27 @@ ninja.data = [{
           title: 'The Squire, His Knight, and His Lady (The Squire&amp;#39;s Tales, #2)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-squire-his-knight-and-his-lady-the-squires-tales-2/";
+              window.location.href = "/books/the-squire-his-knight-and-his-lady-the/";
             },},{id: "books-the-restaurant-at-the-end-of-the-universe-hitchhiker-39-s-guide-2",
           title: 'The Restaurant at the End of the Universe (Hitchhiker&amp;#39;s Guide, #2)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-restaurant-at-the-end-of-the-universe-hitchhikers-guide-2/";
+              window.location.href = "/books/the-restaurant-at-the-end-of-the-universe/";
             },},{id: "books-life-the-universe-and-everything-the-hitchhiker-39-s-guide-to-the-galaxy-3",
           title: 'Life, the Universe and Everything (The Hitchhiker&amp;#39;s Guide to the Galaxy, #3)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/life-the-universe-and-everything-the-hitchhikers-guide-to-the-galaxy-3/";
+              window.location.href = "/books/life-the-universe-and-everything-the-hitchhikers-guide/";
             },},{id: "books-so-long-and-thanks-for-all-the-fish-hitchhiker-39-s-guide-to-the-galaxy-4",
           title: 'So Long, and Thanks for All the Fish (Hitchhiker&amp;#39;s Guide to the Galaxy,...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/so-long-and-thanks-for-all-the-fish-hitchhikers-guide-to-the-galaxy-4/";
+              window.location.href = "/books/so-long-and-thanks-for-all-the-fish/";
             },},{id: "books-the-savage-damsel-and-the-dwarf-squire-39-s-tales-3",
           title: 'The Savage Damsel and the Dwarf (Squire&amp;#39;s Tales, 3)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-savage-damsel-and-the-dwarf-squires-tales-3/";
+              window.location.href = "/books/the-savage-damsel-and-the-dwarf-squires-tales/";
             },},{id: "books-parsifal-39-s-page-the-squire-39-s-tales-4",
           title: 'Parsifal&amp;#39;s Page (The Squire&amp;#39;s Tales, #4)',
           description: "",
@@ -963,17 +963,17 @@ ninja.data = [{
           title: 'The Ballad of Sir Dinadan (The Squire&amp;#39;s Tales, #5)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-ballad-of-sir-dinadan-the-squires-tales-5/";
+              window.location.href = "/books/the-ballad-of-sir-dinadan-the-squires-tales/";
             },},{id: "books-the-princess-the-crone-and-the-dung-cart-knight-the-squire-39-s-tales-6",
           title: 'The Princess, the Crone, and the Dung-Cart Knight (The Squire&amp;#39;s Tales, #6)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-princess-the-crone-and-the-dung-cart-knight-the-squires-tales-6/";
+              window.location.href = "/books/the-princess-the-crone-and-the-dung-cart-knight/";
             },},{id: "books-the-lioness-and-her-knight-the-squire-39-s-tales-7",
           title: 'The Lioness and Her Knight (The Squire&amp;#39;s Tales, #7)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-lioness-and-her-knight-the-squires-tales-7/";
+              window.location.href = "/books/the-lioness-and-her-knight-the-squires-tales/";
             },},{id: "books-mostly-harmless-hitchhiker-39-s-guide-to-the-galaxy-5",
           title: 'Mostly Harmless (Hitchhiker&amp;#39;s Guide to the Galaxy, #5)',
           description: "",
@@ -988,7 +988,7 @@ ninja.data = [{
           title: 'The Quest of the Fair Unknown (The Squire&amp;#39;s Tales, #8)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-quest-of-the-fair-unknown-the-squires-tales-8/";
+              window.location.href = "/books/the-quest-of-the-fair-unknown-the-squires/";
             },},{id: "books-twenty-thousand-leagues-under-the-sea",
           title: 'Twenty Thousand Leagues Under the Sea',
           description: "",
@@ -1003,7 +1003,7 @@ ninja.data = [{
           title: 'The Legend of the King (The Squire&amp;#39;s Tales, #10)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-legend-of-the-king-the-squires-tales-10/";
+              window.location.href = "/books/the-legend-of-the-king-the-squires-tales/";
             },},{id: "books-the-adventures-of-tom-sawyer",
           title: 'The Adventures of Tom Sawyer',
           description: "",
@@ -1018,12 +1018,12 @@ ninja.data = [{
           title: 'An Appetite for Wonder: The Making of a Scientist',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/an-appetite-for-wonder-the-making-of-a-scientist/";
+              window.location.href = "/books/an-appetite-for-wonder/";
             },},{id: "books-la-razón-de-estar-contigo-1-la-razón-de-estar-contigo-la-novela-en-la-que-se-basó-la-película-tu-mejor-amigo-spanish-edition",
           title: 'La razón de estar contigo 1 - La razón de estar contigo: La...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/la-razn-de-estar-contigo-1-la-razn-de-estar-contigo-la-novela-en-la-que-se-bas-la-pelcula-tu-mejor-amigo-spanish-edition/";
+              window.location.href = "/books/la-razn-de-estar-contigo-1-la/";
             },},{id: "books-the-illustrated-man",
           title: 'The Illustrated Man',
           description: "",
@@ -1033,7 +1033,7 @@ ninja.data = [{
           title: 'Barrio Bravo: ¿Por qué amamos la pelota? (Spanish Edition)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/barrio-bravo-por-qu-amamos-la-pelota-spanish-edition/";
+              window.location.href = "/books/barrio-bravo-por-qu-amamos-la-pelota-spanish/";
             },},{id: "books-el-valle-de-los-leones",
           title: 'El valle de los leones',
           description: "",
@@ -1043,7 +1043,7 @@ ninja.data = [{
           title: 'Rainbow Six (John Clark, #2; Jack Ryan Universe, #10)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/rainbow-six-john-clark-2-jack-ryan-universe-10/";
+              window.location.href = "/books/rainbow-six-john-clark-2-jack-ryan-universe/";
             },},{id: "books-make-electronics-learning-by-discovery",
           title: 'Make: Electronics (Learning by Discovery)',
           description: "",
@@ -1083,7 +1083,7 @@ ninja.data = [{
           title: 'Hijos de las estrellas. Un maravilloso recorrido sobre los orígenes del universo y...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/hijos-de-las-estrellas-un-maravilloso-recorrido-sobre-los-orgenes-del-universo-y-del-ser-humano/";
+              window.location.href = "/books/hijos-de-las-estrellas-un-maravilloso-recorrido-sobre/";
             },},{id: "books-the-last-mile",
           title: 'The Last Mile',
           description: "",
@@ -1138,12 +1138,12 @@ ninja.data = [{
           title: 'Expecting Better: Why the Conventional Pregnancy Wisdom is Wrong and What You Really...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/expecting-better-why-the-conventional-pregnancy-wisdom-is-wrong-and-what-you-really-need-to-know/";
+              window.location.href = "/books/expecting-better-why-the-conventional-pregnancy-wisdom-is/";
             },},{id: "books-one-two-three-infinity-facts-amp-speculations-of-science",
           title: 'One Two Three...Infinity: Facts &amp;amp; Speculations of Science',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/one-two-threeinfinity-facts-speculations-of-science/";
+              window.location.href = "/books/one-two-threeinfinity/";
             },},{id: "books-a-student-39-s-guide-to-python-for-physical-modeling",
           title: 'A Student&amp;#39;s Guide to Python for Physical Modeling',
           description: "",
@@ -1178,17 +1178,17 @@ ninja.data = [{
           title: 'Duty and Honor (Jack Ryan Jr, #9; Jack Ryan Universe, #21)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/duty-and-honor-jack-ryan-jr-9-jack-ryan-universe-21/";
+              window.location.href = "/books/duty-and-honor-jack-ryan-jr-9-jack/";
             },},{id: "books-breakfast-with-einstein-the-exotic-physics-of-everyday-objects",
           title: 'Breakfast with Einstein: The Exotic Physics of Everyday Objects',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/breakfast-with-einstein-the-exotic-physics-of-everyday-objects/";
+              window.location.href = "/books/breakfast-with-einstein/";
             },},{id: "books-learning-unix-for-os-x-going-deep-with-the-terminal-and-shell",
           title: 'Learning Unix for OS X: Going Deep With the Terminal and Shell',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/learning-unix-for-os-x-going-deep-with-the-terminal-and-shell/";
+              window.location.href = "/books/learning-unix-for-os-x/";
             },},{id: "books-the-first-time-manager",
           title: 'The First-Time Manager',
           description: "",
@@ -1203,12 +1203,12 @@ ninja.data = [{
           title: 'NASA Space Shuttle Manual: An Insight into the Design, Construction and Operation of...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/nasa-space-shuttle-manual-an-insight-into-the-design-construction-and-operation-of-the-nasa-space-shuttle-owners-workshop-manual/";
+              window.location.href = "/books/nasa-space-shuttle-manual/";
             },},{id: "books-cockpit-confidential-everything-you-need-to-know-about-air-travel-questions-answers-amp-reflections",
           title: 'Cockpit Confidential: Everything You Need to Know About Air Travel: Questions, Answers &amp;amp;...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/cockpit-confidential-everything-you-need-to-know-about-air-travel-questions-answers-reflections/";
+              window.location.href = "/books/cockpit-confidential-everything-you-need-to-know-about/";
             },},{id: "books-the-fallen-amos-decker-4",
           title: 'The Fallen (Amos Decker, #4)',
           description: "",
@@ -1228,17 +1228,17 @@ ninja.data = [{
           title: 'Do Nothing!: How to Stop Overmanaging and Become a Great Leader',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/do-nothing-how-to-stop-overmanaging-and-become-a-great-leader/";
+              window.location.href = "/books/do-nothing-how-to-stop-overmanaging-and-become/";
             },},{id: "books-winnie-the-pooh-on-management-in-which-a-very-important-bear-and-his-friends-are-introduced-to-a-very",
           title: 'Winnie-the-Pooh on Management: In which a Very Important Bear and his friends are...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/winnie-the-pooh-on-management-in-which-a-very-important-bear-and-his-friends-are-introduced-to-a-very/";
+              window.location.href = "/books/winnie-the-pooh-on-management/";
             },},{id: "books-the-amazing-story-of-quantum-mechanics-a-math-free-exploration-of-the-science-that-made-our-world",
           title: 'The Amazing Story of Quantum Mechanics: A Math-Free Exploration of the Science that...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-amazing-story-of-quantum-mechanics-a-math-free-exploration-of-the-science-that-made-our-world/";
+              window.location.href = "/books/the-amazing-story-of-quantum-mechanics/";
             },},{id: "books-power-and-empire-jack-ryan-universe-24",
           title: 'Power and Empire (Jack Ryan Universe, #24)',
           description: "",
@@ -1253,12 +1253,12 @@ ninja.data = [{
           title: 'Spy the Lie: Former CIA Officers Teach You How to Detect Deception',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/spy-the-lie-former-cia-officers-teach-you-how-to-detect-deception/";
+              window.location.href = "/books/spy-the-lie/";
             },},{id: "books-the-truth-about-lies-in-the-workplace-how-to-spot-liars-and-what-to-do-about-them",
           title: 'The Truth about Lies in the Workplace: How to Spot Liars and What...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-truth-about-lies-in-the-workplace-how-to-spot-liars-and-what-to-do-about-them/";
+              window.location.href = "/books/the-truth-about-lies-in-the-workplace/";
             },},{id: "books-a-legacy-of-spies-george-smiley-9",
           title: 'A Legacy of Spies (George Smiley, #9)',
           description: "",
@@ -1278,12 +1278,12 @@ ninja.data = [{
           title: 'Dead or Alive (Jack Ryan Jr, #2; Jack Ryan Universe, #13)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/dead-or-alive-jack-ryan-jr-2-jack-ryan-universe-13/";
+              window.location.href = "/books/dead-or-alive-jack-ryan-jr-2-jack/";
             },},{id: "books-locked-on-jack-ryan-jr-3-jack-ryan-universe-14",
           title: 'Locked On (Jack Ryan Jr, #3; Jack Ryan Universe, #14)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/locked-on-jack-ryan-jr-3-jack-ryan-universe-14/";
+              window.location.href = "/books/locked-on-jack-ryan-jr-3-jack-ryan/";
             },},{id: "books-splinter-cell-tom-clancy-39-s-splinter-cell-1",
           title: 'Splinter Cell (Tom Clancy&amp;#39;s Splinter Cell, #1)',
           description: "",
@@ -1293,7 +1293,7 @@ ninja.data = [{
           title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life/";
+              window.location.href = "/books/the-subtle-art-of-not-giving-a-fck/";
             },},{id: "books-operation-barracuda-tom-clancy-39-s-splinter-cell-2",
           title: 'Operation Barracuda (Tom Clancy&amp;#39;s Splinter Cell, #2)',
           description: "",
@@ -1333,12 +1333,12 @@ ninja.data = [{
           title: 'Numbers Don&amp;#39;t Lie: 71 Stories to Help Us Understand the Modern World',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/numbers-dont-lie-71-stories-to-help-us-understand-the-modern-world/";
+              window.location.href = "/books/numbers-dont-lie/";
             },},{id: "books-the-courage-to-be-disliked-how-to-free-yourself-change-your-life-and-achieve-real-happiness",
           title: 'The Courage to Be Disliked: How to Free Yourself, Change Your Life and...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-courage-to-be-disliked-how-to-free-yourself-change-your-life-and-achieve-real-happiness/";
+              window.location.href = "/books/the-courage-to-be-disliked/";
             },},{id: "books-fallout-tom-clancy-39-s-splinter-cell-4",
           title: 'Fallout (Tom Clancy&amp;#39;s Splinter Cell, #4)',
           description: "",
@@ -1408,7 +1408,7 @@ ninja.data = [{
           title: '',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/breaking-and-entering-the-extraordinary-story-of-a-hacker-called-alien-a-womans-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity/";
+              window.location.href = "/books/breaking-and-entering/";
             },},{id: "books-outliers-the-story-of-success",
           title: 'Outliers: The Story of Success',
           description: "",
@@ -1423,7 +1423,7 @@ ninja.data = [{
           title: 'Humble Pi: When Math Goes Wrong in the Real World',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/humble-pi-when-math-goes-wrong-in-the-real-world/";
+              window.location.href = "/books/humble-pi-when-math-goes-wrong-in-the/";
             },},{id: "books-make-me-jack-reacher-20",
           title: 'Make Me (Jack Reacher, #20)',
           description: "",
@@ -1438,12 +1438,12 @@ ninja.data = [{
           title: 'Silos, Politics and Turf Wars: A Leadership Fable About Destroying the Barriers That...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/silos-politics-and-turf-wars-a-leadership-fable-about-destroying-the-barriers-that-turn-colleagues-into-competitors-j-b-lencioni-series/";
+              window.location.href = "/books/silos-politics-and-turf-wars/";
             },},{id: "books-the-evolution-of-physics-from-early-concepts-to-relativity-and-quanta",
           title: 'The Evolution of Physics: From Early Concepts to Relativity and Quanta',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-evolution-of-physics-from-early-concepts-to-relativity-and-quanta/";
+              window.location.href = "/books/the-evolution-of-physics/";
             },},{id: "books-envisioning-information",
           title: 'Envisioning Information',
           description: "",
@@ -1473,7 +1473,7 @@ ninja.data = [{
           title: 'The Dilbert Principle: A Cubicle&amp;#39;s-Eye View of Bosses, Meetings, Management Fads &amp;amp; Other...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-dilbert-principle-a-cubicles-eye-view-of-bosses-meetings-management-fads-other-workplace-afflictions/";
+              window.location.href = "/books/the-dilbert-principle/";
             },},{id: "books-end-game-will-robie-5",
           title: 'End Game (Will Robie, #5)',
           description: "",
@@ -1483,17 +1483,17 @@ ninja.data = [{
           title: 'The Signal and the Noise: Why So Many Predictions Fail—But Some Don&amp;#39;t',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-signal-and-the-noise-why-so-many-predictions-failbut-some-dont/";
+              window.location.href = "/books/the-signal-and-the-noise/";
             },},{id: "books-hands-on-hacking-become-an-expert-at-next-gen-penetration-testing-and-purple-teaming",
           title: 'Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/hands-on-hacking-become-an-expert-at-next-gen-penetration-testing-and-purple-teaming/";
+              window.location.href = "/books/hands-on-hacking/";
             },},{id: "books-sandworm-a-new-era-of-cyberwar-and-the-hunt-for-the-kremlin-39-s-most-dangerous-hackers",
           title: 'Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin&amp;#39;s Most...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/sandworm-a-new-era-of-cyberwar-and-the-hunt-for-the-kremlins-most-dangerous-hackers/";
+              window.location.href = "/books/sandworm-a-new-era-of-cyberwar-and-the/";
             },},{id: "books-dune-dune-1",
           title: 'Dune (Dune #1)',
           description: "",
@@ -1518,7 +1518,7 @@ ninja.data = [{
           title: 'Learning Git: A Hands-On and Visual Guide to the Basics of Git',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/learning-git-a-hands-on-and-visual-guide-to-the-basics-of-git/";
+              window.location.href = "/books/learning-git-a-hands-on-and-visual-guide-to/";
             },},{id: "books-worm-the-first-digital-world-war",
           title: 'Worm: The First Digital World War',
           description: "",
@@ -1528,27 +1528,27 @@ ninja.data = [{
           title: 'Una especie de zumbido en la cabeza (Bibilioteca Eric Goles) (Spanish Edition)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/una-especie-de-zumbido-en-la-cabeza-bibilioteca-eric-goles-spanish-edition/";
+              window.location.href = "/books/una-especie-de-zumbido-en-la-cabeza-bibilioteca/";
             },},{id: "books-rainbow-six-book-1-john-clark-2-part-1",
           title: 'Rainbow Six, Book 1 (John Clark, #2 part 1)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/rainbow-six-book-1-john-clark-2-part-1/";
+              window.location.href = "/books/rainbow-six-book-1-john-clark-2-part/";
             },},{id: "books-the-bear-and-the-dragon-john-clark-3-jack-ryan-universe-11",
           title: 'The Bear and the Dragon  (John Clark, #3; Jack Ryan Universe, #11)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-bear-and-the-dragon-john-clark-3-jack-ryan-universe-11/";
+              window.location.href = "/books/the-bear-and-the-dragon-john-clark-3/";
             },},{id: "books-without-remorse-john-clark-1-jack-ryan-universe-publication-order-6",
           title: 'Without Remorse (John Clark, #1; Jack Ryan Universe Publication Order, #6)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/without-remorse-john-clark-1-jack-ryan-universe-publication-order-6/";
+              window.location.href = "/books/without-remorse-john-clark-1-jack-ryan-universe/";
             },},{id: "books-the-edge-the-6-20-man-2",
           title: 'The Edge (The 6:20 Man, #2)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-edge-the-6-20-man-2/";
+              window.location.href = "/books/the-edge-the-6/";
             },},{id: "books-when-the-scientific-secrets-of-perfect-timing",
           title: 'When: The Scientific Secrets of Perfect Timing',
           description: "",
@@ -1598,32 +1598,32 @@ ninja.data = [{
           title: 'The Adsorption of Gases and Vapors Vol I - Physical Adsorption',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i-physical-adsorption/";
+              window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i/";
             },},{id: "books-the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy",
           title: 'The Illustrated On the Shoulders of Giants: The Great Works of Physics and...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy/";
+              window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants/";
             },},{id: "books-the-skeptics-39-guide-to-the-universe-how-to-know-what-39-s-really-real-in-a-world-increasingly-full-of-fake",
           title: 'The Skeptics&amp;#39; Guide to the Universe: How to Know What&amp;#39;s Really Real in...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-skeptics-guide-to-the-universe-how-to-know-whats-really-real-in-a-world-increasingly-full-of-fake/";
+              window.location.href = "/books/the-skeptics-guide-to-the-universe/";
             },},{id: "books-the-code-book-the-science-of-secrecy-from-ancient-egypt-to-quantum-cryptography",
           title: 'The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-code-book-the-science-of-secrecy-from-ancient-egypt-to-quantum-cryptography/";
+              window.location.href = "/books/the-code-book/";
             },},{id: "books-command-authority-jack-ryan-jr-5-jack-ryan-9",
           title: 'Command Authority (Jack Ryan Jr, #5; Jack Ryan, #9)',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/command-authority-jack-ryan-jr-5-jack-ryan-9/";
+              window.location.href = "/books/command-authority-jack-ryan-jr-5-jack-ryan/";
             },},{id: "books-code-the-hidden-language-of-computer-hardware-and-software",
           title: 'Code: The Hidden Language of Computer Hardware and Software',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/code-the-hidden-language-of-computer-hardware-and-software/";
+              window.location.href = "/books/code-the-hidden-language-of-computer-hardware-and/";
             },},{id: "books-the-ten-most-beautiful-experiments",
           title: 'The Ten Most Beautiful Experiments',
           description: "",
@@ -1648,12 +1648,12 @@ ninja.data = [{
           title: 'Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/linux-basics-for-hackers-getting-started-with-networking-scripting-and-security-in-kali/";
+              window.location.href = "/books/linux-basics-for-hackers/";
             },},{id: "books-the-art-of-cyberwarfare-an-investigator-39-s-guide-to-espionage-ransomware-and-organized-cybercrime",
           title: 'The Art of Cyberwarfare: An Investigator&amp;#39;s Guide to Espionage, Ransomware, and Organized Cybercrime...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-art-of-cyberwarfare-an-investigators-guide-to-espionage-ransomware-and-organized-cybercrime/";
+              window.location.href = "/books/the-art-of-cyberwarfare/";
             },},{id: "books-schneier-on-security",
           title: 'Schneier on Security',
           description: "",
@@ -1663,7 +1663,7 @@ ninja.data = [{
           title: 'The Culture Solution: A Practical Guide to Building a Dynamic Culture so People...',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the-culture-solution-a-practical-guide-to-building-a-dynamic-culture-so-people-love-coming-to-work-and-accomplishing-great-things-together/";
+              window.location.href = "/books/the-culture-solution/";
             },},{id: "books-the-elements-of-investing",
           title: 'The Elements of Investing',
           description: "",
@@ -1673,7 +1673,7 @@ ninja.data = [{
           title: 'Cybersecurity for Small Networks: A No-Nonsense Guide for the Reasonably Paranoid',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/cybersecurity-for-small-networks-a-no-nonsense-guide-for-the-reasonably-paranoid/";
+              window.location.href = "/books/cybersecurity-for-small-networks/";
             },},{id: "news-get-ready-for-world-carbon-conference-2026-sparkles-smile",
           title: 'Get ready for World Carbon Conference 2026! :sparkles: :smile:',
           description: "",
