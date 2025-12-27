@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: "Breaking And Entering: The Extraordinary Story of a Hacker Called "Alien" – A Woman's Thrilling Career Journey from MIT Through Spycraft and Cybersecurity"
+title: "Breaking And Entering: The Extraordinary Story of a Hacker Called \"Alien\" – A Woman's Thrilling Career Journey from MIT Through Spycraft and Cybersecurity"
 author: Jeremy N. Smith
 date: 2025-07-26
 cover: assets/img/book_covers/breaking-and-entering.jpg
