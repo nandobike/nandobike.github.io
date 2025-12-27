@@ -414,51 +414,1266 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-art-of-cyberwarfare",
-          title: 'The Art of Cyberwarfare',
+      },{id: "books-a-chemical-history-of-a-candle",
+          title: 'A Chemical History of a Candle',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/art_cyberwarfare/";
-            },},{id: "books-the-boys-from-biloxi",
-          title: 'The Boys from Biloxi',
+              window.location.href = "/books/a-chemical-history-of-a-candle/";
+            },},{id: "books-a-gambling-man-archer",
+          title: 'A Gambling Man (Archer',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/boys_biloxi/";
-            },},{id: "books-cybersecurity-for-small-networks",
-          title: 'Cybersecurity for Small Networks',
+              window.location.href = "/books/a-gambling-man-archer-2/";
+            },},{id: "books-a-legacy-of-spies-george-smiley",
+          title: 'A Legacy of Spies (George Smiley,',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/cybersec_small/";
-            },},{id: "books-elements-of-investing",
-          title: 'Elements of Investing',
+              window.location.href = "/books/a-legacy-of-spies-george-smiley-9/";
+            },},{id: "books-a-minute-to-midnight-atlee-pine",
+          title: 'A Minute to Midnight (Atlee Pine,',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/elements_investing/";
+              window.location.href = "/books/a-minute-to-midnight-atlee-pine-2/";
+            },},{id: "books-a-painted-house",
+          title: 'A Painted House',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-painted-house/";
+            },},{id: "books-a-short-history-of-nearly-everything",
+          title: 'A Short History of Nearly Everything',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-short-history-of-nearly-everything/";
+            },},{id: "books-a-student-39-s-guide-to-python-for-physical-modeling",
+          title: 'A Student&amp;#39;s Guide to Python for Physical Modeling',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-students-guide-to-python-for-physical-modeling/";
+            },},{id: "books-adsorption-surface-area-amp-porosity",
+          title: 'Adsorption, Surface Area &amp;amp; Porosity',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/adsorption-surface-area-porosity/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/an-appetite-for-wonder-the-making-of-a-scientist/";
+            },},{id: "books-angels-amp-demons-robert-langdon",
+          title: 'Angels &amp;amp; Demons (Robert Langdon,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/angels-demons-robert-langdon-1/";
+            },},{id: "books-astrophysics-for-people-in-a-hurry",
+          title: 'Astrophysics for People in a Hurry',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/astrophysics-for-people-in-a-hurry/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/barrio-bravo-por-qu-amamos-la-pelota-spanish-edition/";
+            },},{id: "books-beatrice-and-virgil",
+          title: 'Beatrice and Virgil',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/beatrice-and-virgil/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/breakfast-with-einstein-the-exotic-physics-of-everyday-objects/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/breaking-and-entering-the-extraordinary-story-of-a-hacker-called-alien-a-womans-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/by-way-of-deception-the-making-of-a-mossad-officer/";
+            },},{id: "books-checkmate-tom-clancy-39-s-splinter-cell",
+          title: 'Checkmate (Tom Clancy&amp;#39;s Splinter Cell,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/checkmate-tom-clancys-splinter-cell-3/";
+            },},{id: "books-clear-and-present-danger-jack-ryan",
+          title: 'Clear and Present Danger (Jack Ryan,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/clear-and-present-danger-jack-ryan-5-jack-ryan-universe-6/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cockpit-confidential-everything-you-need-to-know-about-air-travel-questions-answers-reflections/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/code-the-hidden-language-of-computer-hardware-and-software/";
+            },},{id: "books-code-to-zero",
+          title: 'Code to Zero',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/code-to-zero/";
+            },},{id: "books-command-authority-jack-ryan-jr",
+          title: 'Command Authority (Jack Ryan Jr,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/command-authority-jack-ryan-jr-5-jack-ryan-9/";
+            },},{id: "books-contact",
+          title: 'Contact',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/contact/";
+            },},{id: "books-cosmos",
+          title: 'Cosmos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cosmos/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/cybersecurity-for-small-networks-a-no-nonsense-guide-for-the-reasonably-paranoid/";
+            },},{id: "books-daylight-atlee-pine",
+          title: 'Daylight (Atlee Pine,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/daylight-atlee-pine-3/";
+            },},{id: "books-dead-or-alive-jack-ryan-jr",
+          title: 'Dead or Alive (Jack Ryan Jr,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dead-or-alive-jack-ryan-jr-2-jack-ryan-universe-13/";
+            },},{id: "books-divine-justice-the-camel-club",
+          title: 'Divine Justice (The Camel Club,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/divine-justice-the-camel-club-4/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dna-the-secret-of-life/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/do-nothing-how-to-stop-overmanaging-and-become-a-great-leader/";
+            },},{id: "books-dune-dune",
+          title: 'Dune (Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dune-dune-1/";
+            },},{id: "books-duty-and-honor-jack-ryan-jr",
+          title: 'Duty and Honor (Jack Ryan Jr,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/duty-and-honor-jack-ryan-jr-9-jack-ryan-universe-21/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/einstein-his-life-and-universe/";
+            },},{id: "books-el-inocente",
+          title: 'El Inocente',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/el-inocente/";
+            },},{id: "books-el-valle-de-los-leones",
+          title: 'El valle de los leones',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/el-valle-de-los-leones/";
             },},{id: "books-elon-musk",
           title: 'Elon Musk',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/elon_musk/";
-            },},{id: "books-hands-on-introduction-to-labview",
-          title: 'Hands-On Introduction to LabVIEW',
+              window.location.href = "/books/elon-musk/";
+            },},{id: "books-end-game-will-robie",
+          title: 'End Game (Will Robie,',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/labview_engineers/";
-            },},{id: "books-cybersecurity-myths-and-misconceptions",
-          title: 'Cybersecurity Myths and Misconceptions',
+              window.location.href = "/books/end-game-will-robie-5/";
+            },},{id: "books-energy-from-heaven-and-earth",
+          title: 'Energy from Heaven and Earth',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/myth_cybersec/";
-            },},{id: "books-python-crash-course",
-          title: 'Python Crash Course',
+              window.location.href = "/books/energy-from-heaven-and-earth/";
+            },},{id: "books-",
+          title: '',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/python_crash/";
+              window.location.href = "/books/entropy-and-the-second-law-interpretation-and-misss-interpretationsss/";
+            },},{id: "books-envisioning-information",
+          title: 'Envisioning Information',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/envisioning-information/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/expecting-better-why-the-conventional-pregnancy-wisdom-is-wrong-and-what-you-really-need-to-know/";
+            },},{id: "books-fahrenheit-451",
+          title: 'Fahrenheit 451',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fahrenheit-451/";
+            },},{id: "books-fallout-tom-clancy-39-s-splinter-cell",
+          title: 'Fallout (Tom Clancy&amp;#39;s Splinter Cell,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fallout-tom-clancys-splinter-cell-4/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/fear-of-physics-a-guide-for-the-perplexed/";
+            },},{id: "books-flatland",
+          title: 'Flatland',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/flatland/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/for-the-love-of-physics-from-the-end-of-the-rainbow-to-the-edge-of-time-a-journey-through-the-wonders-of-physics/";
+            },},{id: "books-four-laws-that-drive-the-universe",
+          title: 'Four Laws That Drive the Universe',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/four-laws-that-drive-the-universe/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/freakonomics-a-rogue-economist-explores-the-hidden-side-of-everything/";
+            },},{id: "books-galveston",
+          title: 'Galveston',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/galveston/";
+            },},{id: "books-games-of-state-tom-clancy-39-s-op-center",
+          title: 'Games of State (Tom Clancy&amp;#39;s Op-Center,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/games-of-state-tom-clancys-op-center-3/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/gideons-spies-the-secret-history-of-the-mossad/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/gliding-for-gold-the-physics-of-winter-sports/";
+            },},{id: "books-go-set-a-watchman",
+          title: 'Go Set a Watchman',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/go-set-a-watchman/";
+            },},{id: "books-good-omens",
+          title: 'Good Omens',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/good-omens/";
+            },},{id: "books-gwendy-39-s-button-box-the-button-box",
+          title: 'Gwendy&amp;#39;s Button Box (The Button Box,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/gwendys-button-box-the-button-box-1/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands-on-hacking-become-an-expert-at-next-gen-penetration-testing-and-purple-teaming/";
+            },},{id: "books-hands-on-introduction-to-labview-for-scientists-and-engineers",
+          title: 'Hands-On Introduction to LabVIEW for Scientists and Engineers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands-on-introduction-to-labview-for-scientists-and-engineers/";
+            },},{id: "books-hell-39-s-corner-the-camel-club",
+          title: 'Hell&amp;#39;s Corner (The Camel Club,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hells-corner-the-camel-club-5/";
+            },},{id: "books-heroes-of-the-valley",
+          title: 'Heroes of the Valley',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/heroes-of-the-valley/";
+            },},{id: "books-high-heat-jack-reacher",
+          title: 'High Heat (Jack Reacher,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/high-heat-jack-reacher-175/";
+            },},{id: "books-hijos-de-las-estrellas-un-maravilloso-recorrido-sobre-los-orígenes-del-universo-y-del-ser-humano",
+          title: 'Hijos de las estrellas. Un maravilloso recorrido sobre los orígenes del universo y...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hijos-de-las-estrellas-un-maravilloso-recorrido-sobre-los-orgenes-del-universo-y-del-ser-humano/";
+            },},{id: "books-how-to-lie-with-statistics",
+          title: 'How to Lie with Statistics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-lie-with-statistics/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-solve-it-a-new-aspect-of-mathematical-method/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hubble-15-years-of-discovery/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/humble-pi-when-math-goes-wrong-in-the-real-world/";
+            },},{id: "books-la-25e-heure",
+          title: 'La 25e heure',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la-25e-heure/";
+            },},{id: "books-la-ciudad-de-las-bestias",
+          title: 'La ciudad de las bestias',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la-ciudad-de-las-bestias/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/la-razn-de-estar-contigo-1-la-razn-de-estar-contigo-la-novela-en-la-que-se-bas-la-pelcula-tu-mejor-amigo-spanish-edition/";
+            },},{id: "books-las-matemáticas-y-la-mona-lisa",
+          title: 'Las matemáticas y la Mona Lisa',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/las-matemticas-y-la-mona-lisa/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/learning-git-a-hands-on-and-visual-guide-to-the-basics-of-git/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/learning-unix-for-os-x-going-deep-with-the-terminal-and-shell/";
+            },},{id: "books-leipzig-einstein-diffusion",
+          title: 'Leipzig, Einstein, Diffusion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/leipzig-einstein-diffusion/";
+            },},{id: "books-les-aventures-d-39-alice-au-pays-des-merveilles",
+          title: 'Les Aventures d&amp;#39;Alice au pays des merveilles',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/les-aventures-dalice-au-pays-des-merveilles/";
+            },},{id: "books-les-derniers-jours-de-nos-pères",
+          title: 'Les derniers jours de nos pères',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/les-derniers-jours-de-nos-pres/";
+            },},{id: "books-life-the-universe-and-everything-the-hitchhiker-39-s-guide-to-the-galaxy",
+          title: 'Life, the Universe and Everything (The Hitchhiker&amp;#39;s Guide to the Galaxy,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/life-the-universe-and-everything-the-hitchhikers-guide-to-the-galaxy-3/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/linux-basics-for-hackers-getting-started-with-networking-scripting-and-security-in-kali/";
+            },},{id: "books-locked-on-jack-ryan-jr",
+          title: 'Locked On (Jack Ryan Jr,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/locked-on-jack-ryan-jr-3-jack-ryan-universe-14/";
+            },},{id: "books-long-road-to-mercy-atlee-pine",
+          title: 'Long Road to Mercy (Atlee Pine,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/long-road-to-mercy-atlee-pine-1/";
+            },},{id: "books-los-cuatro-acuerdos",
+          title: 'Los Cuatro Acuerdos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/los-cuatro-acuerdos/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/make-electronics-learning-by-discovery/";
+            },},{id: "books-make-me-jack-reacher",
+          title: 'Make Me (Jack Reacher,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/make-me-jack-reacher-20/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/materials-a-very-short-introduction/";
+            },},{id: "books-meaning-of-it-all-the",
+          title: 'Meaning Of It All, The',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/meaning-of-it-all-the/";
+            },},{id: "books-memory-man-memory-man-series-book-1",
+          title: 'Memory Man (Memory Man Series Book 1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/memory-man-memory-man-series-book-1/";
+            },},{id: "books-mercy-atlee-pine",
+          title: 'Mercy (Atlee Pine,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mercy-atlee-pine-4/";
+            },},{id: "books-metamorphosis-and-other-stories",
+          title: 'Metamorphosis and Other Stories',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/metamorphosis-and-other-stories/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mi-pas-inventado-un-paseo-nostlgico-por-chile/";
+            },},{id: "books-mirror-image-tom-clancy-39-s-op-center",
+          title: 'Mirror Image (Tom Clancy&amp;#39;s Op-Center,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mirror-image-tom-clancys-op-center-2/";
+            },},{id: "books-molecular-modelling-for-beginners",
+          title: 'Molecular Modelling for Beginners',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/molecular-modelling-for-beginners/";
+            },},{id: "books-mostly-harmless-hitchhiker-39-s-guide-to-the-galaxy",
+          title: 'Mostly Harmless (Hitchhiker&amp;#39;s Guide to the Galaxy,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mostly-harmless-hitchhikers-guide-to-the-galaxy-5/";
+            },},{id: "books-mozart-39-s-journey-to-prague",
+          title: 'Mozart&amp;#39;s Journey to Prague',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mozarts-journey-to-prague/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nasa-space-shuttle-manual-an-insight-into-the-design-construction-and-operation-of-the-nasa-space-shuttle-owners-workshop-manual/";
+            },},{id: "books-never-go-back-jack-reacher",
+          title: 'Never Go Back (Jack Reacher,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/never-go-back-jack-reacher-18/";
+            },},{id: "books-never",
+          title: 'Never',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/never/";
+            },},{id: "books-no-man-39-s-land-john-puller",
+          title: 'No Man&amp;#39;s Land (John Puller,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/no-mans-land-john-puller-4/";
+            },},{id: "books-nube-de-noviembre",
+          title: 'Nube de Noviembre',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nube-de-noviembre/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/numbers-dont-lie-71-stories-to-help-us-understand-the-modern-world/";
+            },},{id: "books-odessa-sea-dirk-pitt",
+          title: 'Odessa Sea (Dirk Pitt,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/odessa-sea-dirk-pitt-24/";
+            },},{id: "books-of-love-and-shadows",
+          title: 'Of Love and Shadows',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/of-love-and-shadows/";
+            },},{id: "books-of-mice-and-men",
+          title: 'Of Mice and Men',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/of-mice-and-men/";
+            },},{id: "books-on-the-origin-of-species-large-print-edition",
+          title: 'On the Origin of Species (Large Print Edition)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/on-the-origin-of-species-large-print-edition/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/one-two-threeinfinity-facts-speculations-of-science/";
+            },},{id: "books-operation-barracuda-tom-clancy-39-s-splinter-cell",
+          title: 'Operation Barracuda (Tom Clancy&amp;#39;s Splinter Cell,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/operation-barracuda-tom-clancys-splinter-cell-2/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/outliers-the-story-of-success/";
+            },},{id: "books-parsifal-39-s-page-the-squire-39-s-tales",
+          title: 'Parsifal&amp;#39;s Page (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/parsifals-page-the-squires-tales-4/";
+            },},{id: "books-penguin-random-house-python-crash-course",
+          title: 'Penguin Random House Python Crash Course',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/penguin-random-house-python-crash-course/";
+            },},{id: "books-politika-tom-clancy-39-s-power-plays",
+          title: 'Politika (Tom Clancy&amp;#39;s Power Plays,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/politika-tom-clancys-power-plays-1/";
+            },},{id: "books-power-and-empire-jack-ryan-universe",
+          title: 'Power and Empire (Jack Ryan Universe,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/power-and-empire-jack-ryan-universe-24/";
+            },},{id: "books-prince-caspian-chronicles-of-narnia",
+          title: 'Prince Caspian (Chronicles of Narnia,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/prince-caspian-chronicles-of-narnia-2/";
+            },},{id: "books-project-hail-mary",
+          title: 'Project Hail Mary',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/project-hail-mary/";
+            },},{id: "books-ptolemy-39-s-gate-bartimaeus",
+          title: 'Ptolemy&amp;#39;s Gate (Bartimaeus,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ptolemys-gate-bartimaeus-3/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/qed-the-strange-theory-of-light-and-matter/";
+            },},{id: "books-rainbow-six-book-1-john-clark",
+          title: 'Rainbow Six, Book 1 (John Clark,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rainbow-six-book-1-john-clark-2-part-1/";
+            },},{id: "books-rainbow-six-john-clark",
+          title: 'Rainbow Six (John Clark,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rainbow-six-john-clark-2-jack-ryan-universe-10/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/reading-the-race-bike-racing-from-inside-the-peloton/";
+            },},{id: "books-red-rabbit-jack-ryan",
+          title: 'Red Rabbit (Jack Ryan,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/red-rabbit-jack-ryan-2/";
+            },},{id: "books-red-storm-rising",
+          title: 'Red Storm Rising',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/red-storm-rising/";
+            },},{id: "books-redemption-amos-decker",
+          title: 'Redemption (Amos Decker,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/redemption-amos-decker-5/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sandworm-a-new-era-of-cyberwar-and-the-hunt-for-the-kremlins-most-dangerous-hackers/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sapiens-a-brief-history-of-humankind/";
             },},{id: "books-schneier-on-security",
           title: 'Schneier on Security',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/schneier_security/";
+              window.location.href = "/books/schneier-on-security/";
+            },},{id: "books-seven-brief-lessons-on-physics",
+          title: 'Seven Brief Lessons on Physics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/seven-brief-lessons-on-physics/";
+            },},{id: "books-shadows-reel-joe-pickett",
+          title: 'Shadows Reel (Joe Pickett',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/shadows-reel-joe-pickett-22/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/silos-politics-and-turf-wars-a-leadership-fable-about-destroying-the-barriers-that-turn-colleagues-into-competitors-j-b-lencioni-series/";
+            },},{id: "books-sky-amp-telescope-39-s-pocket-sky-atlas-jumbo-edition",
+          title: 'Sky &amp;amp; Telescope&amp;#39;s Pocket Sky Atlas Jumbo Edition',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sky-telescopes-pocket-sky-atlas-jumbo-edition/";
+            },},{id: "books-so-long-and-thanks-for-all-the-fish-hitchhiker-39-s-guide-to-the-galaxy",
+          title: 'So Long, and Thanks for All the Fish (Hitchhiker&amp;#39;s Guide to the Galaxy,...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/so-long-and-thanks-for-all-the-fish-hitchhikers-guide-to-the-galaxy-4/";
+            },},{id: "books-somos-polvo-de-estrellas",
+          title: 'Somos polvo de estrellas',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/somos-polvo-de-estrellas/";
+            },},{id: "books-splinter-cell-tom-clancy-39-s-splinter-cell",
+          title: 'Splinter Cell (Tom Clancy&amp;#39;s Splinter Cell,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/splinter-cell-tom-clancys-splinter-cell-1/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/spy-the-lie-former-cia-officers-teach-you-how-to-detect-deception/";
+            },},{id: "books-stone-cold-the-camel-club",
+          title: 'Stone Cold (The Camel Club,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/stone-cold-the-camel-club-3/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/submarine-a-guided-tour-inside-a-nuclear-warship-guided-tour/";
+            },},{id: "books-support-and-defend-jack-ryan-jr",
+          title: 'Support and Defend (Jack Ryan Jr,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/support-and-defend-jack-ryan-jr-6/";
+            },},{id: "books-surely-you-39-re-joking-mr-feynman",
+          title: 'Surely You&amp;#39;re Joking, Mr. Feynman!',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/surely-youre-joking-mr-feynman/";
+            },},{id: "books-ten-days-in-a-mad-house",
+          title: 'Ten Days in a Mad-House',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ten-days-in-a-mad-house/";
+            },},{id: "books-the-adsorption-of-gases-and-vapors-vol-i-physical-adsorption",
+          title: 'The Adsorption of Gases and Vapors Vol I - Physical Adsorption',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i-physical-adsorption/";
+            },},{id: "books-the-adventures-of-huckleberry-finn-adventures-of-tom-and-huck",
+          title: 'The Adventures of Huckleberry Finn (Adventures of Tom and Huck,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-adventures-of-huckleberry-finn-adventures-of-tom-and-huck-2/";
+            },},{id: "books-the-adventures-of-tom-sawyer",
+          title: 'The Adventures of Tom Sawyer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-adventures-of-tom-sawyer/";
+            },},{id: "books-the-afghan",
+          title: 'The Afghan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-afghan/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-amazing-story-of-quantum-mechanics-a-math-free-exploration-of-the-science-that-made-our-world/";
+            },},{id: "books-the-amulet-of-samarkand-bartimaeus",
+          title: 'The Amulet of Samarkand (Bartimaeus,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-amulet-of-samarkand-bartimaeus-1/";
+            },},{id: "books-the-appeal",
+          title: 'The Appeal',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-appeal/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-art-of-cyberwarfare-an-investigators-guide-to-espionage-ransomware-and-organized-cybercrime/";
+            },},{id: "books-the-backyard-astronomer-39-s-guide",
+          title: 'The Backyard Astronomer&amp;#39;s Guide',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-backyard-astronomers-guide/";
+            },},{id: "books-the-ballad-of-sir-dinadan-the-squire-39-s-tales",
+          title: 'The Ballad of Sir Dinadan (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-ballad-of-sir-dinadan-the-squires-tales-5/";
+            },},{id: "books-the-bear-and-the-dragon-john-clark",
+          title: 'The Bear and the Dragon  (John Clark,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-bear-and-the-dragon-john-clark-3-jack-ryan-universe-11/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-blind-watchmaker-why-the-evidence-of-evolution-reveals-a-universe-without-design/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-body-a-guide-for-occupants/";
+            },},{id: "books-the-book-of-awesome",
+          title: 'The Book of Awesome',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-book-of-awesome/";
+            },},{id: "books-the-boys-from-biloxi",
+          title: 'The Boys from Biloxi',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-boys-from-biloxi/";
+            },},{id: "books-the-buried-giant",
+          title: 'The Buried Giant',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-buried-giant/";
+            },},{id: "books-the-camel-club-the-camel-club",
+          title: 'The Camel Club (The Camel Club,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-camel-club-the-camel-club-1/";
+            },},{id: "books-the-cardinal-of-the-kremlin-jack-ryan",
+          title: 'The Cardinal of the Kremlin (Jack Ryan,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-cardinal-of-the-kremlin-jack-ryan-4/";
+            },},{id: "books-the-character-of-physical-law",
+          title: 'The Character of Physical Law',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-character-of-physical-law/";
+            },},{id: "books-the-cobra",
+          title: 'The Cobra',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-cobra/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-code-book-the-science-of-secrecy-from-ancient-egypt-to-quantum-cryptography/";
+            },},{id: "books-the-cold-war",
+          title: 'The Cold War',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-cold-war/";
+            },},{id: "books-the-collectors-the-camel-club",
+          title: 'The Collectors (The Camel Club,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-collectors-the-camel-club-2/";
+            },},{id: "books-the-complete-book-of-road-cycling-amp-racing",
+          title: 'The Complete Book of Road Cycling &amp;amp; Racing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-complete-book-of-road-cycling-racing/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-courage-to-be-disliked-how-to-free-yourself-change-your-life-and-achieve-real-happiness/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-culture-solution-a-practical-guide-to-building-a-dynamic-culture-so-people-love-coming-to-work-and-accomplishing-great-things-together/";
+            },},{id: "books-the-da-vinci-code-robert-langdon",
+          title: 'The Da Vinci Code (Robert Langdon,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-da-vinci-code-robert-langdon-2/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-demon-haunted-world-science-as-a-candle-in-the-dark/";
+            },},{id: "books-the-devil-39-s-alternative",
+          title: 'The Devil&amp;#39;s Alternative',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-devils-alternative/";
+            },},{id: "books-the-diary-of-a-young-girl",
+          title: 'The Diary of a Young Girl',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-diary-of-a-young-girl/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-dilbert-principle-a-cubicles-eye-view-of-bosses-meetings-management-fads-other-workplace-afflictions/";
+            },},{id: "books-the-double-helix",
+          title: 'The Double Helix',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-double-helix/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-drunkards-walk-how-randomness-rules-our-lives/";
+            },},{id: "books-the-edge-the-6-20-man",
+          title: 'The Edge (The 6:20 Man,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-edge-the-620-man-2/";
+            },},{id: "books-the-elements-of-investing",
+          title: 'The Elements of Investing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-elements-of-investing/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-evolution-of-physics-from-early-concepts-to-relativity-and-quanta/";
+            },},{id: "books-the-fallen-amos-decker",
+          title: 'The Fallen (Amos Decker,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-fallen-amos-decker-4/";
+            },},{id: "books-the-fellowship-of-the-ring-the-lord-of-the-rings",
+          title: 'The Fellowship of the Ring (The Lord of the Rings,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-fellowship-of-the-ring-the-lord-of-the-rings-1/";
+            },},{id: "books-the-first-time-manager",
+          title: 'The First-Time Manager',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-first-time-manager/";
+            },},{id: "books-the-five-dysfunctions-of-a-team",
+          title: 'The Five Dysfunctions of a Team',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-five-dysfunctions-of-a-team/";
+            },},{id: "books-the-fix-amos-decker",
+          title: 'The Fix (Amos Decker,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-fix-amos-decker-3/";
+            },},{id: "books-the-god-delusion",
+          title: 'The God Delusion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-god-delusion/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-golden-section-natures-greatest-secret/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-goldilocks-enigma-why-is-the-universe-just-right-for-life/";
+            },},{id: "books-the-golem-39-s-eye-bartimaeus",
+          title: 'The Golem&amp;#39;s Eye (Bartimaeus,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-golems-eye-bartimaeus-2/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-greatest-show-on-earth-the-evidence-for-evolution/";
+            },},{id: "books-the-guardians",
+          title: 'The Guardians',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-guardians/";
+            },},{id: "books-the-guilty-will-robie",
+          title: 'The Guilty (Will Robie,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-guilty-will-robie-4/";
+            },},{id: "books-the-hitchhiker-s-guide-to-the-galaxy-hitchhiker-39-s-guide-to-the-galaxy",
+          title: 'The Hitchhiker’s Guide to the Galaxy (Hitchhiker&amp;#39;s Guide to the Galaxy,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-hitchhikers-guide-to-the-galaxy-hitchhikers-guide-to-the-galaxy-1/";
+            },},{id: "books-the-hobbit-or-there-and-back-again",
+          title: 'The Hobbit, or There and Back Again',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-hobbit-or-there-and-back-again/";
+            },},{id: "books-the-hunt-for-red-october-jack-ryan",
+          title: 'The Hunt for Red October (Jack Ryan,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-hunt-for-red-october-jack-ryan-3/";
+            },},{id: "books-the-illustrated-man",
+          title: 'The Illustrated Man',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-illustrated-man/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy/";
+            },},{id: "books-the-inn-bill-robinson",
+          title: 'The Inn (Bill Robinson,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-inn-bill-robinson-1/";
+            },},{id: "books-the-innocent-will-robie",
+          title: 'The Innocent (Will Robie,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-innocent-will-robie-1/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-jungle-book-mowglis-story/";
+            },},{id: "books-the-king-of-torts",
+          title: 'The King of Torts',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-king-of-torts/";
+            },},{id: "books-the-last-mile",
+          title: 'The Last Mile',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-last-mile/";
+            },},{id: "books-the-legend-of-the-king-the-squire-39-s-tales",
+          title: 'The Legend of the King (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-legend-of-the-king-the-squires-tales-10/";
+            },},{id: "books-the-lioness-and-her-knight-the-squire-39-s-tales",
+          title: 'The Lioness and Her Knight (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-lioness-and-her-knight-the-squires-tales-7/";
+            },},{id: "books-the-little-prince",
+          title: 'The Little Prince',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-little-prince/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-magic-of-reality-how-we-know-whats-really-true/";
+            },},{id: "books-the-match",
+          title: 'The Match',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-match/";
+            },},{id: "books-the-midnight-line-jack-reacher",
+          title: 'The Midnight Line (Jack Reacher,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-midnight-line-jack-reacher-22/";
+            },},{id: "books-the-negotiator",
+          title: 'The Negotiator',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-negotiator/";
+            },},{id: "books-the-neverending-story",
+          title: 'The Neverending Story',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-neverending-story/";
+            },},{id: "books-the-old-man-and-the-sea",
+          title: 'The Old Man and the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-old-man-and-the-sea/";
+            },},{id: "books-the-one-minute-manager",
+          title: 'The One Minute Manager',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-one-minute-manager/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-particle-at-the-end-of-the-universe-how-the-hunt-for-the-higgs-boson-leads-us-to-the-edge-of-a-new-world/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-pleasure-of-finding-things-out-the-best-short-works-of-richard-p-feynman/";
+            },},{id: "books-the-princess-the-crone-and-the-dung-cart-knight-the-squire-39-s-tales",
+          title: 'The Princess, the Crone, and the Dung-Cart Knight (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-princess-the-crone-and-the-dung-cart-knight-the-squires-tales-6/";
+            },},{id: "books-the-quest-of-the-fair-unknown-the-squire-39-s-tales",
+          title: 'The Quest of the Fair Unknown (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-quest-of-the-fair-unknown-the-squires-tales-8/";
+            },},{id: "books-the-red-defector",
+          title: 'The Red Defector',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-red-defector/";
+            },},{id: "books-the-restaurant-at-the-end-of-the-universe-hitchhiker-39-s-guide",
+          title: 'The Restaurant at the End of the Universe (Hitchhiker&amp;#39;s Guide,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-restaurant-at-the-end-of-the-universe-hitchhikers-guide-2/";
+            },},{id: "books-the-return-of-the-king-the-lord-of-the-rings",
+          title: 'The Return of the King (The Lord of the Rings,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-return-of-the-king-the-lord-of-the-rings-3/";
+            },},{id: "books-the-ring-of-solomon-bartimaeus",
+          title: 'The Ring of Solomon (Bartimaeus,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-ring-of-solomon-bartimaeus-05/";
+            },},{id: "books-the-savage-damsel-and-the-dwarf-squire-39-s-tales-3",
+          title: 'The Savage Damsel and the Dwarf (Squire&amp;#39;s Tales, 3)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-savage-damsel-and-the-dwarf-squires-tales-3/";
+            },},{id: "books-the-shining-the-shining",
+          title: 'The Shining (The Shining,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-shining-the-shining-1/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-signal-and-the-noise-why-so-many-predictions-failbut-some-dont/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-skeptics-guide-to-the-universe-how-to-know-whats-really-real-in-a-world-increasingly-full-of-fake/";
+            },},{id: "books-the-squire-his-knight-and-his-lady-the-squire-39-s-tales",
+          title: 'The Squire, His Knight, and His Lady (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-squire-his-knight-and-his-lady-the-squires-tales-2/";
+            },},{id: "books-the-squire-39-s-quest-the-squire-39-s-tales",
+          title: 'The Squire&amp;#39;s Quest (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-squires-quest-the-squires-tales-9/";
+            },},{id: "books-the-squire-39-s-tale-the-squire-39-s-tales",
+          title: 'The Squire&amp;#39;s Tale (The Squire&amp;#39;s Tales,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-squires-tale-the-squires-tales-1/";
+            },},{id: "books-the-story-of-doctor-dolittle-doctor-dolittle",
+          title: 'The Story of Doctor Dolittle (Doctor Dolittle,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-story-of-doctor-dolittle-doctor-dolittle-1/";
+            },},{id: "books-the-street-lawyer",
+          title: 'The Street Lawyer',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-street-lawyer/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-subtle-art-of-not-giving-a-fck-a-counterintuitive-approach-to-living-a-good-life/";
+            },},{id: "books-the-ten-most-beautiful-experiments",
+          title: 'The Ten Most Beautiful Experiments',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-ten-most-beautiful-experiments/";
+            },},{id: "books-the-testament",
+          title: 'The Testament',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-testament/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-theoretical-minimum-what-you-need-to-know-to-start-doing-physics-theoretical-minimum-1/";
+            },},{id: "books-the-theory-and-practice-of-gamesmanship",
+          title: 'The Theory and Practice of Gamesmanship',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-theory-and-practice-of-gamesmanship/";
+            },},{id: "books-the-time-keeper",
+          title: 'The Time Keeper',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-time-keeper/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-truth-about-lies-in-the-workplace-how-to-spot-liars-and-what-to-do-about-them/";
+            },},{id: "books-the-two-towers-the-lord-of-the-rings",
+          title: 'The Two Towers (The Lord of the Rings,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-two-towers-the-lord-of-the-rings-2/";
+            },},{id: "books-the-wild-things",
+          title: 'The Wild Things',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-wild-things/";
+            },},{id: "books-the-winner",
+          title: 'The Winner',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-winner/";
+            },},{id: "books-the-wonderful-wizard-of-oz-oz",
+          title: 'The Wonderful Wizard of Oz (Oz,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-wonderful-wizard-of-oz-oz-1/";
+            },},{id: "books-thinking-fast-and-slow",
+          title: 'Thinking, Fast and Slow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/thinking-fast-and-slow/";
+            },},{id: "books-to-kill-a-mockingbird",
+          title: 'To Kill a Mockingbird',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/to-kill-a-mockingbird/";
+            },},{id: "books-treasure-island",
+          title: 'Treasure Island',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/treasure-island/";
+            },},{id: "books-true-faith-and-allegiance-jack-ryan-universe",
+          title: 'True Faith and Allegiance (Jack Ryan Universe,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/true-faith-and-allegiance-jack-ryan-universe-22/";
+            },},{id: "books-twenty-thousand-leagues-under-the-sea",
+          title: 'Twenty Thousand Leagues Under the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/twenty-thousand-leagues-under-the-sea/";
+            },},{id: "books-una-especie-de-zumbido-en-la-cabeza-bibilioteca-eric-goles-spanish-edition",
+          title: 'Una especie de zumbido en la cabeza (Bibilioteca Eric Goles) (Spanish Edition)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/una-especie-de-zumbido-en-la-cabeza-bibilioteca-eric-goles-spanish-edition/";
+            },},{id: "books-una-muerte-sospechosa-sean-king-amp-michelle-maxwell",
+          title: 'Una muerte sospechosa (Sean King &amp;amp; Michelle Maxwell,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/una-muerte-sospechosa-sean-king-michelle-maxwell-3/";
+            },},{id: "books-walk-the-wire-amos-decker",
+          title: 'Walk the Wire (Amos Decker,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/walk-the-wire-amos-decker-6/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-if-serious-scientific-answers-to-absurd-hypothetical-questions/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-is-chemistry-a-very-short-introduction/";
+            },},{id: "books-what-the-dog-saw-and-other-adventures",
+          title: 'What the Dog Saw and Other Adventures',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-the-dog-saw-and-other-adventures/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/when-the-scientific-secrets-of-perfect-timing/";
+            },},{id: "books-where-the-wild-things-are",
+          title: 'Where the Wild Things Are',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/where-the-wild-things-are/";
+            },},{id: "books-white-fang",
+          title: 'White Fang',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/white-fang/";
+            },},{id: "books-whiteout",
+          title: 'Whiteout',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/whiteout/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/winnie-the-pooh-on-management-in-which-a-very-important-bear-and-his-friends-are-introduced-to-a-very/";
+            },},{id: "books-without-remorse-john-clark",
+          title: 'Without Remorse (John Clark,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/without-remorse-john-clark-1-jack-ryan-universe-publication-order-6/";
+            },},{id: "books-world-without-end-kingsbridge",
+          title: 'World Without End (Kingsbridge,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/world-without-end-kingsbridge-2/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/worm-the-first-digital-world-war/";
+            },},{id: "books-worth-dying-for-jack-reacher",
+          title: 'Worth Dying For (Jack Reacher,',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/worth-dying-for-jack-reacher-15/";
+            },},{id: "books-wuthering-heights",
+          title: 'Wuthering Heights',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wuthering-heights/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/xkcd-volume-0/";
             },},{id: "news-get-ready-for-world-carbon-conference-2026-sparkles-smile",
           title: 'Get ready for World Carbon Conference 2026! :sparkles: :smile:',
           description: "",
