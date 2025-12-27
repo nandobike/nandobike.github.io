@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Fear of Physics: A Guide for the Perplexed
+title: "Fear of Physics: A Guide for the Perplexed"
 author: Lawrence M. Krauss
+date: 2015-02-22
 cover: assets/img/book_covers/fear-of-physics-a-guide-for-the-perplexed.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780465023677

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Lioness and Her Knight (The Squire's Tales, #7)
+title: "The Lioness and Her Knight (The Squire's Tales, #7)"
 author: Gerald Morris
+date: 2016-09-03
 cover: assets/img/book_covers/the-lioness-and-her-knight-the-squires-tales-7.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618507726

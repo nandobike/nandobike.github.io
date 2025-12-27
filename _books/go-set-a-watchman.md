@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Go Set a Watchman
+title: "Go Set a Watchman"
 author: Harper Lee
+date: 2024-05-05
 cover: assets/img/book_covers/go-set-a-watchman.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780062409850

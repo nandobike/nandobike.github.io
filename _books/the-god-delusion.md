@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The God Delusion
+title: "The God Delusion"
 author: Richard Dawkins
+date: 2015-07-18
 cover: assets/img/book_covers/the-god-delusion.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618680009

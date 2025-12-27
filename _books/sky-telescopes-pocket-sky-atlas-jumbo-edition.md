@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Sky & Telescope's Pocket Sky Atlas Jumbo Edition
+title: "Sky & Telescope's Pocket Sky Atlas Jumbo Edition"
 author: Roger Sinnott
+date: 2017-12-13
 cover: assets/img/book_covers/sky-telescopes-pocket-sky-atlas-jumbo-edition.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781940038254

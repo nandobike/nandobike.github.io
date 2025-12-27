@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: A Gambling Man (Archer #2)
+title: "A Gambling Man (Archer #2)"
 author: David Baldacci
+date: 2023-01-30
 cover: assets/img/book_covers/a-gambling-man-archer-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538719671

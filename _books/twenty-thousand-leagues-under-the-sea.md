@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Twenty Thousand Leagues Under the Sea
+title: "Twenty Thousand Leagues Under the Sea"
 author: Jules Verne
+date: 2016-11-23
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

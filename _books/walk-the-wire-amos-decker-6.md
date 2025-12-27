@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Walk the Wire (Amos Decker, #6)
+title: "Walk the Wire (Amos Decker, #6)"
 author: David Baldacci
+date: 2021-11-27
 cover: assets/img/book_covers/walk-the-wire-amos-decker-6.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538761465

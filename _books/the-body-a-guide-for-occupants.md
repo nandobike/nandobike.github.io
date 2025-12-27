@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Body: A Guide for Occupants
+title: "The Body: A Guide for Occupants"
 author: Bill Bryson
+date: 2024-09-22
 cover: assets/img/book_covers/the-body-a-guide-for-occupants.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780385539302

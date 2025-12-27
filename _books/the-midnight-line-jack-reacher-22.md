@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Midnight Line (Jack Reacher, #22)
+title: "The Midnight Line (Jack Reacher, #22)"
 author: Lee Child
+date: 2023-05-14
 cover: assets/img/book_covers/the-midnight-line-jack-reacher-22.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399593482

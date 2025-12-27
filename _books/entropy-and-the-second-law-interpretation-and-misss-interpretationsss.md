@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Entropy And The Second Law: Interpretation And Misss-Interpretationsss
+title: "Entropy And The Second Law: Interpretation And Misss-Interpretationsss"
 author: Arieh Ben-Naim
+date: 2015-04-20
 cover: assets/img/book_covers/entropy-and-the-second-law-interpretation-and-misss-interpretationsss.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9789814374897

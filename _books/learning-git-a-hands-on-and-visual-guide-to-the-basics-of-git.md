@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Learning Git: A Hands-On and Visual Guide to the Basics of Git
+title: "Learning Git: A Hands-On and Visual Guide to the Basics of Git"
 author: Anna Skoulikari
+date: 2024-06-23
 cover: assets/img/book_covers/learning-git-a-hands-on-and-visual-guide-to-the-basics-of-git.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781098133917

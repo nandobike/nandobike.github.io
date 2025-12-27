@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Cockpit Confidential: Everything You Need to Know About Air Travel: Questions, Answers & Reflections
+title: "Cockpit Confidential: Everything You Need to Know About Air Travel: Questions, Answers & Reflections"
 author: Patrick  Smith
+date: 2019-11-03
 cover: assets/img/book_covers/cockpit-confidential-everything-you-need-to-know-about-air-travel-questions-answers-reflections.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781402280917

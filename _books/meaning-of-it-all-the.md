@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Meaning Of It All, The
+title: "Meaning Of It All, The"
 author: Richard P. Feynman
+date: 2015-07-08
 cover: assets/img/book_covers/meaning-of-it-all-the.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780713992519

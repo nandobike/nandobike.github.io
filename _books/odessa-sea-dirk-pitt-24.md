@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Odessa Sea (Dirk Pitt, #24)
+title: "Odessa Sea (Dirk Pitt, #24)"
 author: Clive Cussler
+date: 2019-12-23
 cover: assets/img/book_covers/odessa-sea-dirk-pitt-24.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399575518

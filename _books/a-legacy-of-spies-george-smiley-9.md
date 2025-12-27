@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: A Legacy of Spies (George Smiley, #9)
+title: "A Legacy of Spies (George Smiley, #9)"
 author: John le Carré
+date: 2020-08-13
 cover: assets/img/book_covers/a-legacy-of-spies-george-smiley-9.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780735225114

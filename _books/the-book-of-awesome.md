@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Book of Awesome
+title: "The Book of Awesome"
 author: Neil Pasricha
+date: 2015-10-26
 cover: assets/img/book_covers/the-book-of-awesome.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399156519

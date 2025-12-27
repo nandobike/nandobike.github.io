@@ -1,8 +1,9 @@
 ---
 layout: book-shelf
-title: The Edge (The 6:20 Man, #2)
+title: "The Edge (The 6:20 Man, #2)"
 author: David Baldacci
-cover: assets/img/book_covers/the-edge-the-620-man-2.jpg
+date: 2024-08-14
+cover: assets/img/book_covers/the-edge-the-6-20-man-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538719923
 categories: novels

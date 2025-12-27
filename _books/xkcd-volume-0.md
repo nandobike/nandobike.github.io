@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: xkcd: volume 0
+title: "xkcd: volume 0"
 author: Randall Munroe
+date: 2015-04-20
 cover: assets/img/book_covers/xkcd-volume-0.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780615314464

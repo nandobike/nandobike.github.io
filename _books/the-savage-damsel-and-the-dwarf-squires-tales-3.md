@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Savage Damsel and the Dwarf (Squire's Tales, 3)
+title: "The Savage Damsel and the Dwarf (Squire's Tales, 3)"
 author: Gerald Morris
+date: 2016-07-19
 cover: assets/img/book_covers/the-savage-damsel-and-the-dwarf-squires-tales-3.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780395971260

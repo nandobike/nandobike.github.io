@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Complete Book of Road Cycling & Racing
+title: "The Complete Book of Road Cycling & Racing"
 author: Willard Peveler
+date: 2014-08-26
 cover: assets/img/book_covers/the-complete-book-of-road-cycling-racing.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780071489379

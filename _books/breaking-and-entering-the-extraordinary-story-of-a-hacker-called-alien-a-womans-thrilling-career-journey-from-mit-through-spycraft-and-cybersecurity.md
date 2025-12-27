@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Breaking And Entering: The Extraordinary Story of a Hacker Called "Alien" – A Woman's Thrilling Career Journey from MIT Through Spycraft and Cybersecurity
+title: "Breaking And Entering: The Extraordinary Story of a Hacker Called "Alien" – A Woman's Thrilling Career Journey from MIT Through Spycraft and Cybersecurity"
 author: Jeremy N. Smith
+date: 2025-07-26
 cover: assets/img/book_covers/breaking-and-entering-the-extraordinary-story-of-a-hacker-called-alien-a-womans-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780544903210

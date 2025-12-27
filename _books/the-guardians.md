@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Guardians
+title: "The Guardians"
 author: John Grisham
+date: 2022-05-22
 cover: assets/img/book_covers/the-guardians.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780385544184

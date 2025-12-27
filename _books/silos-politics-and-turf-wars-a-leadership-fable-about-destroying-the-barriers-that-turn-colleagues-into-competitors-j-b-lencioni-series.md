@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Silos, Politics and Turf Wars: A Leadership Fable About Destroying the Barriers That Turn Colleagues Into Competitors (J-B Lencioni Series)
+title: "Silos, Politics and Turf Wars: A Leadership Fable About Destroying the Barriers That Turn Colleagues Into Competitors (J-B Lencioni Series)"
 author: Patrick Lencioni
+date: 2023-05-25
 cover: assets/img/book_covers/silos-politics-and-turf-wars-a-leadership-fable-about-destroying-the-barriers-that-turn-colleagues-into-competitors-j-b-lencioni-series.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780787976385

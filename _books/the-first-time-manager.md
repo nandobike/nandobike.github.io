@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The First-Time Manager
+title: "The First-Time Manager"
 author: Loren B. Belker
+date: 2019-06-03
 cover: assets/img/book_covers/the-first-time-manager.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780814417843

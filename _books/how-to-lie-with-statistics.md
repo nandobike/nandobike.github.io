@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: How to Lie with Statistics
+title: "How to Lie with Statistics"
 author: Darrell Huff
+date: 2016-04-29
 cover: assets/img/book_covers/how-to-lie-with-statistics.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780393310726

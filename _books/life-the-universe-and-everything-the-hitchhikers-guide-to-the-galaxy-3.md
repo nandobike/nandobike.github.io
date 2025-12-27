@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Life, the Universe and Everything (The Hitchhiker's Guide to the Galaxy, #3)
+title: "Life, the Universe and Everything (The Hitchhiker's Guide to the Galaxy, #3)"
 author: Douglas Adams
+date: 2016-06-20
 cover: assets/img/book_covers/life-the-universe-and-everything-the-hitchhikers-guide-to-the-galaxy-3.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780345418906

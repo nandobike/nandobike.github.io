@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: World Without End (Kingsbridge, #2)
+title: "World Without End (Kingsbridge, #2)"
 author: Ken Follett
+date: 2018-08-16
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

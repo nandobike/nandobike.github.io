@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Shining (The Shining, #1)
+title: "The Shining (The Shining, #1)"
 author: Stephen  King
+date: 2016-04-14
 cover: assets/img/book_covers/the-shining-the-shining-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780450040184

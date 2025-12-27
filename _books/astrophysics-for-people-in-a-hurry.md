@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Astrophysics for People in a Hurry
+title: "Astrophysics for People in a Hurry"
 author: Neil deGrasse Tyson
+date: 2017-11-29
 cover: assets/img/book_covers/astrophysics-for-people-in-a-hurry.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780393609394

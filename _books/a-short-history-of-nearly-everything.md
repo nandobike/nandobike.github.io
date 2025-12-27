@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: A Short History of Nearly Everything
+title: "A Short History of Nearly Everything"
 author: Bill Bryson
+date: 2018-06-01
 cover: assets/img/book_covers/a-short-history-of-nearly-everything.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780767908184

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Mercy (Atlee Pine, #4)
+title: "Mercy (Atlee Pine, #4)"
 author: David Baldacci
+date: 2022-01-09
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

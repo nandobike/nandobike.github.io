@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Seven Brief Lessons on Physics
+title: "Seven Brief Lessons on Physics"
 author: Carlo Rovelli
+date: 2025-07-02
 cover: assets/img/book_covers/seven-brief-lessons-on-physics.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399184413

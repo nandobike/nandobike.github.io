@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Materials: A Very Short Introduction
+title: "Materials: A Very Short Introduction"
 author: Christopher Hall
+date: 2016-08-18
 cover: assets/img/book_covers/materials-a-very-short-introduction.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780199672677

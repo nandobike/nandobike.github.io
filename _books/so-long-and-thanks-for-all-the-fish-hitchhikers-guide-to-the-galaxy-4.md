@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: So Long, and Thanks for All the Fish (Hitchhiker's Guide to the Galaxy, #4)
+title: "So Long, and Thanks for All the Fish (Hitchhiker's Guide to the Galaxy, #4)"
 author: Douglas Adams
+date: 2016-07-11
 cover: assets/img/book_covers/so-long-and-thanks-for-all-the-fish-hitchhikers-guide-to-the-galaxy-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780330491235

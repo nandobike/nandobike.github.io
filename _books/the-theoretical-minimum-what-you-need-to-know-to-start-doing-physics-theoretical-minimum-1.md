@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Theoretical Minimum: What You Need to Know to Start Doing Physics (Theoretical Minimum #1)
+title: "The Theoretical Minimum: What You Need to Know to Start Doing Physics (Theoretical Minimum #1)"
 author: Leonard Susskind
+date: 2014-10-30
 cover: assets/img/book_covers/the-theoretical-minimum-what-you-need-to-know-to-start-doing-physics-theoretical-minimum-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780465028115

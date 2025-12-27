@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Galveston
+title: "Galveston"
 author: Nic Pizzolatto
+date: 2015-01-12
 cover: assets/img/book_covers/galveston.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9788416237005

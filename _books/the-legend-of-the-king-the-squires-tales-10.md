@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Legend of the King (The Squire's Tales, #10)
+title: "The Legend of the King (The Squire's Tales, #10)"
 author: Gerald Morris
+date: 2016-12-08
 cover: assets/img/book_covers/the-legend-of-the-king-the-squires-tales-10.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780547144207

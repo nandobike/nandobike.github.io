@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Flatland
+title: "Flatland"
 author: Edwin A. Abbott
+date: 2014-10-14
 cover: assets/img/book_covers/flatland.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781607961079

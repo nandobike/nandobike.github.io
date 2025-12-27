@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Memory Man (Memory Man Series Book 1)
+title: "Memory Man (Memory Man Series Book 1)"
 author: David Baldacci
+date: 2018-01-21
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

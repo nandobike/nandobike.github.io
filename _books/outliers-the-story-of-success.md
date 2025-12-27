@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Outliers: The Story of Success
+title: "Outliers: The Story of Success"
 author: Malcolm Gladwell
+date: 2023-02-04
 cover: assets/img/book_covers/outliers-the-story-of-success.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780316017923

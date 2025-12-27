@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Surely You're Joking, Mr. Feynman!
+title: "Surely You're Joking, Mr. Feynman!"
 author: Richard P. Feynman
+date: 2016-10-23
 cover: assets/img/book_covers/surely-youre-joking-mr-feynman.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780099173311

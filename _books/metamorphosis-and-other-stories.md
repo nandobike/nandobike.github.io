@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Metamorphosis and Other Stories
+title: "Metamorphosis and Other Stories"
 author: Franz Kafka
+date: 2014-06-10
 cover: assets/img/book_covers/metamorphosis-and-other-stories.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780141188126

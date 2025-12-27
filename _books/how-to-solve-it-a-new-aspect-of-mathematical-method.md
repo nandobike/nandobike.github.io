@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: How to Solve It : A New Aspect of Mathematical Method
+title: "How to Solve It : A New Aspect of Mathematical Method"
 author: George Pólya
+date: 2015-12-19
 cover: assets/img/book_covers/how-to-solve-it-a-new-aspect-of-mathematical-method.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780140124996

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Winner
+title: "The Winner"
 author: David Baldacci
+date: 2018-09-09
 cover: assets/img/book_covers/the-winner.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780446522595

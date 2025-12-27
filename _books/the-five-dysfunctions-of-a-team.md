@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Five Dysfunctions of a Team
+title: "The Five Dysfunctions of a Team"
 author: Patrick Lencioni
+date: 2020-12-12
 cover: assets/img/book_covers/the-five-dysfunctions-of-a-team.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780787960759

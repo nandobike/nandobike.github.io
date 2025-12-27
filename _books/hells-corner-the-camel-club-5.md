@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Hell's Corner (The Camel Club, #5)
+title: "Hell's Corner (The Camel Club, #5)"
 author: David Baldacci
+date: 2022-12-31
 cover: assets/img/book_covers/hells-corner-the-camel-club-5.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780230706156

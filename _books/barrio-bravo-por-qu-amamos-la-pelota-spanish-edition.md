@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Barrio Bravo: ¿Por qué amamos la pelota? (Spanish Edition)
+title: "Barrio Bravo: ¿Por qué amamos la pelota? (Spanish Edition)"
 author: Roberto Meléndez
+date: 2017-07-04
 cover: assets/img/book_covers/barrio-bravo-por-qu-amamos-la-pelota-spanish-edition.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9789562624961

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Gliding for Gold: The Physics of Winter Sports
+title: "Gliding for Gold: The Physics of Winter Sports"
 author: Mark Denny
+date: 2014-11-28
 cover: assets/img/book_covers/gliding-for-gold-the-physics-of-winter-sports.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781421402154

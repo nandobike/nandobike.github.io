@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Buried Giant
+title: "The Buried Giant"
 author: Kazuo Ishiguro
+date: 2017-02-25
 cover: assets/img/book_covers/the-buried-giant.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780571315062

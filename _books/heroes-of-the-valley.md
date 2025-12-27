@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Heroes of the Valley
+title: "Heroes of the Valley"
 author: Jonathan Stroud
+date: 2012-08-19
 cover: assets/img/book_covers/heroes-of-the-valley.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781423109662

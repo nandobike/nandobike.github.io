@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: True Faith and Allegiance (Jack Ryan Universe, #22)
+title: "True Faith and Allegiance (Jack Ryan Universe, #22)"
 author: Mark Greaney
+date: 2019-01-25
 cover: assets/img/book_covers/true-faith-and-allegiance-jack-ryan-universe-22.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780698410664

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Mirror Image (Tom Clancy's Op-Center, #2)
+title: "Mirror Image (Tom Clancy's Op-Center, #2)"
 author: Jeff Rovin
+date: 2018-03-25
 cover: assets/img/book_covers/mirror-image-tom-clancys-op-center-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780425150146

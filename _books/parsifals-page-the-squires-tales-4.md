@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Parsifal's Page (The Squire's Tales, #4)
+title: "Parsifal's Page (The Squire's Tales, #4)"
 author: Gerald Morris
+date: 2016-07-20
 cover: assets/img/book_covers/parsifals-page-the-squires-tales-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618055098

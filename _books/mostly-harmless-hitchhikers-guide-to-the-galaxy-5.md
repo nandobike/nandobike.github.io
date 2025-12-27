@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Mostly Harmless (Hitchhiker's Guide to the Galaxy, #5)
+title: "Mostly Harmless (Hitchhiker's Guide to the Galaxy, #5)"
 author: Douglas Adams
+date: 2016-09-24
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

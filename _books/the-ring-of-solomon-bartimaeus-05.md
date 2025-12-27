@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Ring of Solomon (Bartimaeus, #0.5)
+title: "The Ring of Solomon (Bartimaeus, #0.5)"
 author: Jonathan Stroud
+date: 2013-09-02
 cover: assets/img/book_covers/the-ring-of-solomon-bartimaeus-05.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780307738615

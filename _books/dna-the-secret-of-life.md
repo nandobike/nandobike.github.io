@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: DNA : The Secret of Life
+title: "DNA : The Secret of Life"
 author: James D. Watson
+date: 2014-05-01
 cover: assets/img/book_covers/dna-the-secret-of-life.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780099451846

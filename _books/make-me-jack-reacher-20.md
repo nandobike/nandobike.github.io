@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Make Me (Jack Reacher, #20)
+title: "Make Me (Jack Reacher, #20)"
 author: Lee Child
+date: 2023-04-29
 cover: assets/img/book_covers/make-me-jack-reacher-20.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593073896

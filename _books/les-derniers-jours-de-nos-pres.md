@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Les derniers jours de nos pères
+title: "Les derniers jours de nos pères"
 author: Joël Dicker
+date: 2015-03-25
 cover: assets/img/book_covers/les-derniers-jours-de-nos-pres.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9782877067812

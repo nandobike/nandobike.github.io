@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: An Appetite for Wonder: The Making of a Scientist
+title: "An Appetite for Wonder: The Making of a Scientist"
 author: Richard Dawkins
+date: 2017-03-31
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

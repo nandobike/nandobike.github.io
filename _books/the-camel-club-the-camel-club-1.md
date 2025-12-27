@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Camel Club (The Camel Club, #1)
+title: "The Camel Club (The Camel Club, #1)"
 author: David Baldacci
+date: 2022-11-11
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Splinter Cell (Tom Clancy's Splinter Cell, #1)
+title: "Splinter Cell (Tom Clancy's Splinter Cell, #1)"
 author: David  Michaels
+date: 2021-10-01
 cover: assets/img/book_covers/splinter-cell-tom-clancys-splinter-cell-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780425201688

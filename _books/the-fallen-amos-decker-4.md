@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Fallen (Amos Decker, #4)
+title: "The Fallen (Amos Decker, #4)"
 author: David Baldacci
+date: 2019-11-11
 cover: assets/img/book_covers/the-fallen-amos-decker-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538761397

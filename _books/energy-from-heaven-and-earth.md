@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Energy from Heaven and Earth
+title: "Energy from Heaven and Earth"
 author: Edward Teller
+date: 2025-06-17
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Nube de Noviembre
+title: "Nube de Noviembre"
 author: Hilary Ruben
+date: 1990-11-13
 cover: assets/img/book_covers/nube-de-noviembre.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9788434808607

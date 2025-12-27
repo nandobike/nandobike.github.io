@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Redemption (Amos Decker, #5)
+title: "Redemption (Amos Decker, #5)"
 author: David Baldacci
+date: 2020-05-26
 cover: assets/img/book_covers/redemption-amos-decker-5.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538761410

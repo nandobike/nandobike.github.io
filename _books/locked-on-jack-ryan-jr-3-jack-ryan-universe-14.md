@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Locked On (Jack Ryan Jr, #3; Jack Ryan Universe, #14)
+title: "Locked On (Jack Ryan Jr, #3; Jack Ryan Universe, #14)"
 author: Tom Clancy
+date: 2021-02-02
 cover: assets/img/book_covers/locked-on-jack-ryan-jr-3-jack-ryan-universe-14.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399157318

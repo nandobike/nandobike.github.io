@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: La razón de estar contigo 1 - La razón de estar contigo: La novela en la que se basó la película Tu mejor amigo (Spanish Edition)
+title: "La razón de estar contigo 1 - La razón de estar contigo: La novela en la que se basó la película Tu mejor amigo (Spanish Edition)"
 author: W. Bruce Cameron
+date: 2017-04-27
 cover: assets/img/book_covers/la-razn-de-estar-contigo-1-la-razn-de-estar-contigo-la-novela-en-la-que-se-bas-la-pelcula-tu-mejor-amigo-spanish-edition.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9788416867295

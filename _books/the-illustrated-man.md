@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Illustrated Man
+title: "The Illustrated Man"
 author: Ray Bradbury
+date: 2017-05-31
 cover: assets/img/book_covers/the-illustrated-man.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780007127740

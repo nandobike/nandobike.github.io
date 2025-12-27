@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Cybersecurity for Small Networks: A No-Nonsense Guide for the Reasonably Paranoid
+title: "Cybersecurity for Small Networks: A No-Nonsense Guide for the Reasonably Paranoid"
 author: Seth Enoka
+date: 2025-12-01
 cover: assets/img/book_covers/cybersecurity-for-small-networks-a-no-nonsense-guide-for-the-reasonably-paranoid.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781718501485

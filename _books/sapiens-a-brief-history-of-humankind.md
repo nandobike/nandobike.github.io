@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Sapiens: A Brief History of Humankind
+title: "Sapiens: A Brief History of Humankind"
 author: Yuval Noah Harari
+date: 2022-08-14
 cover: assets/img/book_covers/sapiens-a-brief-history-of-humankind.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780062316110

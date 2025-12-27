@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Neverending Story
+title: "The Neverending Story"
 author: Michael Ende
+date: 2013-09-02
 cover: assets/img/book_covers/the-neverending-story.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780525457589

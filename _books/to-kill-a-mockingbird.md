@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: To Kill a Mockingbird
+title: "To Kill a Mockingbird"
 author: Harper Lee
+date: 2024-12-29
 cover: assets/img/book_covers/to-kill-a-mockingbird.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780060935467

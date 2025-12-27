@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Cobra
+title: "The Cobra"
 author: Frederick Forsyth
+date: 2023-02-22
 cover: assets/img/book_covers/the-cobra.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399156809

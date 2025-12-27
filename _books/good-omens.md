@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Good Omens
+title: "Good Omens"
 author: Terry Pratchett
+date: 2015-03-05
 cover: assets/img/book_covers/good-omens.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781473200852

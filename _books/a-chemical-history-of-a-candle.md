@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: A Chemical History of a Candle
+title: "A Chemical History of a Candle"
 author: Michael Faraday
+date: 2016-07-25
 cover: assets/img/book_covers/a-chemical-history-of-a-candle.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781594627200

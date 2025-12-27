@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Code: The Hidden Language of Computer Hardware and Software
+title: "Code: The Hidden Language of Computer Hardware and Software"
 author: Charles Petzold
+date: 2025-05-26
 cover: assets/img/book_covers/code-the-hidden-language-of-computer-hardware-and-software.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780137909100

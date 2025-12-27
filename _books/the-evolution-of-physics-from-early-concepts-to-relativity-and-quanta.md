@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Evolution of Physics: From Early Concepts to Relativity and Quanta
+title: "The Evolution of Physics: From Early Concepts to Relativity and Quanta"
 author: Albert Einstein
+date: 2023-09-09
 cover: assets/img/book_covers/the-evolution-of-physics-from-early-concepts-to-relativity-and-quanta.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780671201562

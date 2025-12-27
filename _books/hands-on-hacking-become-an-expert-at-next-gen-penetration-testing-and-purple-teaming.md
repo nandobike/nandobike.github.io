@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming
+title: "Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming"
 author: Matthew Hickey
+date: 2024-02-24
 cover: assets/img/book_covers/hands-on-hacking-become-an-expert-at-next-gen-penetration-testing-and-purple-teaming.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781119561453

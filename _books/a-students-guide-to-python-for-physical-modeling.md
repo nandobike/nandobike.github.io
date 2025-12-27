@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: A Student's Guide to Python for Physical Modeling
+title: "A Student's Guide to Python for Physical Modeling"
 author: Jesse M. Kinder
+date: 2018-10-24
 cover: assets/img/book_covers/a-students-guide-to-python-for-physical-modeling.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780691180571

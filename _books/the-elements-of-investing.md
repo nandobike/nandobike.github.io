@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Elements of Investing
+title: "The Elements of Investing"
 author: Burton G. Malkiel
+date: 2025-11-28
 cover: assets/img/book_covers/the-elements-of-investing.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780470528495

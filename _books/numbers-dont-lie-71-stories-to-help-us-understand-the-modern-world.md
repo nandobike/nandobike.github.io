@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Numbers Don't Lie: 71 Stories to Help Us Understand the Modern World
+title: "Numbers Don't Lie: 71 Stories to Help Us Understand the Modern World"
 author: Vaclav Smil
+date: 2022-03-06
 cover: assets/img/book_covers/numbers-dont-lie-71-stories-to-help-us-understand-the-modern-world.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780525507819

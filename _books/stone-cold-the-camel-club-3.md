@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Stone Cold (The Camel Club, #3)
+title: "Stone Cold (The Camel Club, #3)"
 author: David Baldacci
+date: 2022-12-12
 cover: assets/img/book_covers/stone-cold-the-camel-club-3.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780446577397

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Contact
+title: "Contact"
 author: Carl Sagan
+date: 2017-12-30
 cover: assets/img/book_covers/contact.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9782266079990

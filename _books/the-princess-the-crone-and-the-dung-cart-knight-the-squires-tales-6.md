@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Princess, the Crone, and the Dung-Cart Knight (The Squire's Tales, #6)
+title: "The Princess, the Crone, and the Dung-Cart Knight (The Squire's Tales, #6)"
 author: Gerald Morris
+date: 2016-08-23
 cover: assets/img/book_covers/the-princess-the-crone-and-the-dung-cart-knight-the-squires-tales-6.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618737482

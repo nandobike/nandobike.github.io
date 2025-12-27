@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Guilty (Will Robie, #4)
+title: "The Guilty (Will Robie, #4)"
 author: David Baldacci
+date: 2022-08-30
 cover: assets/img/book_covers/the-guilty-will-robie-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781455586417

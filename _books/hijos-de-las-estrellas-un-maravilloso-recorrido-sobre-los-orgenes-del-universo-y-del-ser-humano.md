@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Hijos de las estrellas. Un maravilloso recorrido sobre los orígenes del universo y del ser humano
+title: "Hijos de las estrellas. Un maravilloso recorrido sobre los orígenes del universo y del ser humano"
 author: María Teresa Ruiz
+date: 2018-01-24
 cover: assets/img/book_covers/hijos-de-las-estrellas-un-maravilloso-recorrido-sobre-los-orgenes-del-universo-y-del-ser-humano.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9789569545528

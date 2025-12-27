@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Divine Justice (The Camel Club, #4)
+title: "Divine Justice (The Camel Club, #4)"
 author: David Baldacci
+date: 2022-12-18
 cover: assets/img/book_covers/divine-justice-the-camel-club-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780446195508

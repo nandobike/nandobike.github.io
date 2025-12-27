@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Red Storm Rising
+title: "Red Storm Rising"
 author: Tom Clancy
+date: 2015-11-26
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

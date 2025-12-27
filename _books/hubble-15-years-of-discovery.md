@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Hubble: 15 Years of Discovery
+title: "Hubble: 15 Years of Discovery"
 author: Lars Lindberg Christensen
+date: 2017-12-12
 cover: assets/img/book_covers/hubble-15-years-of-discovery.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780387285993

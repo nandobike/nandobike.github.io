@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Magic of Reality: How We Know What's Really True
+title: "The Magic of Reality: How We Know What's Really True"
 author: Richard Dawkins
+date: 2014-12-30
 cover: assets/img/book_covers/the-magic-of-reality-how-we-know-whats-really-true.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593066126

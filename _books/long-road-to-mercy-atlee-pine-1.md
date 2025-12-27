@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Long Road to Mercy (Atlee Pine, #1)
+title: "Long Road to Mercy (Atlee Pine, #1)"
 author: David Baldacci
+date: 2019-11-28
 cover: assets/img/book_covers/long-road-to-mercy-atlee-pine-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781538761571

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Envisioning Information
+title: "Envisioning Information"
 author: Edward R. Tufte
+date: 2023-09-17
 cover: assets/img/book_covers/envisioning-information.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780961392116

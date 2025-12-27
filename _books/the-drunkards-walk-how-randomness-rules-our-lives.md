@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Drunkard's Walk: How Randomness Rules Our Lives
+title: "The Drunkard's Walk: How Randomness Rules Our Lives"
 author: Leonard Mlodinow
+date: 2015-02-06
 cover: assets/img/book_covers/the-drunkards-walk-how-randomness-rules-our-lives.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780375424045

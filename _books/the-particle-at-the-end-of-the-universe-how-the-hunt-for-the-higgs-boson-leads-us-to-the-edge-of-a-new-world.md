@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Particle at the End of the Universe: How the Hunt for the Higgs Boson Leads Us to the Edge of a New World
+title: "The Particle at the End of the Universe: How the Hunt for the Higgs Boson Leads Us to the Edge of a New World"
 author: Sean Carroll
+date: 2014-05-08
 cover: assets/img/book_covers/the-particle-at-the-end-of-the-universe-how-the-hunt-for-the-higgs-boson-leads-us-to-the-edge-of-a-new-world.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780142180303

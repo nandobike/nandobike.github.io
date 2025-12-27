@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The One Minute Manager
+title: "The One Minute Manager"
 author: Kenneth H. Blanchard
+date: 2019-08-05
 cover: assets/img/book_covers/the-one-minute-manager.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780688014292

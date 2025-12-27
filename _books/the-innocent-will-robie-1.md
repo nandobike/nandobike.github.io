@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Innocent (Will Robie, #1)
+title: "The Innocent (Will Robie, #1)"
 author: David Baldacci
+date: 2022-06-11
 cover: assets/img/book_covers/the-innocent-will-robie-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780446572996

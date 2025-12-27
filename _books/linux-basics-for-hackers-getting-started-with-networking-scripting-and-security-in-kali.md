@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali
+title: "Linux Basics for Hackers: Getting Started with Networking, Scripting, and Security in Kali"
 author: OccupyTheWeb
+date: 2025-07-12
 cover: assets/img/book_covers/linux-basics-for-hackers-getting-started-with-networking-scripting-and-security-in-kali.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781593278564

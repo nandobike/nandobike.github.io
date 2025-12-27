@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Truth about Lies in the Workplace: How to Spot Liars and What to Do about Them
+title: "The Truth about Lies in the Workplace: How to Spot Liars and What to Do about Them"
 author: Carol Kinsey Goman
+date: 2020-07-20
 cover: assets/img/book_covers/the-truth-about-lies-in-the-workplace-how-to-spot-liars-and-what-to-do-about-them.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781609948375

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Somos polvo de estrellas
+title: "Somos polvo de estrellas"
 author: José María Maza Sancho
+date: 2018-01-15
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

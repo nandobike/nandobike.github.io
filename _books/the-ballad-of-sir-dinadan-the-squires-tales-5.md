@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Ballad of Sir Dinadan (The Squire's Tales, #5)
+title: "The Ballad of Sir Dinadan (The Squire's Tales, #5)"
 author: Gerald Morris
+date: 2016-08-22
 cover: assets/img/book_covers/the-ballad-of-sir-dinadan-the-squires-tales-5.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618548941

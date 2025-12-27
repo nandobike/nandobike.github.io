@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: When: The Scientific Secrets of Perfect Timing
+title: "When: The Scientific Secrets of Perfect Timing"
 author: Daniel H. Pink
+date: 2024-09-09
 cover: assets/img/book_covers/when-the-scientific-secrets-of-perfect-timing.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780735210622

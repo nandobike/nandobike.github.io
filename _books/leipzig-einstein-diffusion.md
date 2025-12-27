@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Leipzig, Einstein, Diffusion
+title: "Leipzig, Einstein, Diffusion"
 author: Jörg Kärger
+date: 2018-06-23
 cover: assets/img/book_covers/leipzig-einstein-diffusion.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9783865831767

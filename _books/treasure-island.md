@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Treasure Island
+title: "Treasure Island"
 author: Robert Louis Stevenson
+date: 2014-02-08
 cover: assets/img/book_covers/treasure-island.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780753453803

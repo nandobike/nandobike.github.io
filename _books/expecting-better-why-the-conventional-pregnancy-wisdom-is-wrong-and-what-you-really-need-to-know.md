@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Expecting Better: Why the Conventional Pregnancy Wisdom is Wrong and What You Really Need to Know
+title: "Expecting Better: Why the Conventional Pregnancy Wisdom is Wrong and What You Really Need to Know"
 author: Emily Oster
+date: 2018-09-16
 cover: assets/img/book_covers/expecting-better-why-the-conventional-pregnancy-wisdom-is-wrong-and-what-you-really-need-to-know.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781409152064

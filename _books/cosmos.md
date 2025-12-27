@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Cosmos
+title: "Cosmos"
 author: Carl Sagan
+date: 2015-08-14
 cover: assets/img/book_covers/cosmos.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780375508325

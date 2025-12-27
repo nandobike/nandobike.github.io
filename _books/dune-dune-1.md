@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Dune (Dune #1)
+title: "Dune (Dune #1)"
 author: Frank Herbert
+date: 2024-04-19
 cover: assets/img/book_covers/dune-dune-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593099322

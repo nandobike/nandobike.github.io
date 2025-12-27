@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Command Authority (Jack Ryan Jr, #5; Jack Ryan, #9)
+title: "Command Authority (Jack Ryan Jr, #5; Jack Ryan, #9)"
 author: Tom Clancy
+date: 2025-04-08
 cover: assets/img/book_covers/command-authority-jack-ryan-jr-5-jack-ryan-9.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399160479

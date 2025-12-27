@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Character of Physical Law
+title: "The Character of Physical Law"
 author: Richard P. Feynman
+date: 2015-06-20
 cover: assets/img/book_covers/the-character-of-physical-law.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780679601272

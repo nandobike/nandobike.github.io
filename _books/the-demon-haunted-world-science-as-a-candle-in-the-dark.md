@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Demon-Haunted World: Science as a Candle in the Dark
+title: "The Demon-Haunted World: Science as a Candle in the Dark"
 author: Carl Sagan
+date: 2015-09-21
 cover: assets/img/book_covers/the-demon-haunted-world-science-as-a-candle-in-the-dark.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780345409461

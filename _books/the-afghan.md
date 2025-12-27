@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Afghan
+title: "The Afghan"
 author: Frederick Forsyth
+date: 2007-01-01
 cover: assets/img/book_covers/the-afghan.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399153945

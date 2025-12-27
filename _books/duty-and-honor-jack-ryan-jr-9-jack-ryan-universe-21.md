@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Duty and Honor (Jack Ryan Jr, #9; Jack Ryan Universe, #21)
+title: "Duty and Honor (Jack Ryan Jr, #9; Jack Ryan Universe, #21)"
 author: Grant Blackwood
+date: 2019-02-03
 cover: assets/img/book_covers/duty-and-honor-jack-ryan-jr-9-jack-ryan-universe-21.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399176807

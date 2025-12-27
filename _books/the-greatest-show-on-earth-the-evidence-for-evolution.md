@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Greatest Show on Earth: The Evidence for Evolution
+title: "The Greatest Show on Earth: The Evidence for Evolution"
 author: Richard Dawkins
+date: 2015-05-18
 cover: assets/img/book_covers/the-greatest-show-on-earth-the-evidence-for-evolution.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780593061732

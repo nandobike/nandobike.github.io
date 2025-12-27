@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Never Go Back (Jack Reacher, #18)
+title: "Never Go Back (Jack Reacher, #18)"
 author: Lee Child
+date: 2023-09-30
 cover: assets/img/book_covers/never-go-back-jack-reacher-18.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780385344340

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Rainbow Six (John Clark, #2; Jack Ryan Universe, #10)
+title: "Rainbow Six (John Clark, #2; Jack Ryan Universe, #10)"
 author: Tom Clancy
+date: 2017-09-03
 cover: assets/img/book_covers/rainbow-six-john-clark-2-jack-ryan-universe-10.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780425170342

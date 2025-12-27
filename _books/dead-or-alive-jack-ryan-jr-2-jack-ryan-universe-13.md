@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Dead or Alive (Jack Ryan Jr, #2; Jack Ryan Universe, #13)
+title: "Dead or Alive (Jack Ryan Jr, #2; Jack Ryan Universe, #13)"
 author: Tom Clancy
+date: 2020-12-28
 cover: assets/img/book_covers/dead-or-alive-jack-ryan-jr-2-jack-ryan-universe-13.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399157233

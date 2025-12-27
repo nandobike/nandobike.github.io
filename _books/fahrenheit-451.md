@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Fahrenheit 451
+title: "Fahrenheit 451"
 author: Ray Bradbury
+date: 2014-12-26
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Squire, His Knight, and His Lady (The Squire's Tales, #2)
+title: "The Squire, His Knight, and His Lady (The Squire's Tales, #2)"
 author: Gerald Morris
+date: 2016-05-22
 cover: assets/img/book_covers/the-squire-his-knight-and-his-lady-the-squires-tales-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780395912119

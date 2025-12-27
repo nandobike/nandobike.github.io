@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Quest of the Fair Unknown (The Squire's Tales, #8)
+title: "The Quest of the Fair Unknown (The Squire's Tales, #8)"
 author: Gerald Morris
+date: 2016-11-06
 cover: assets/img/book_covers/the-quest-of-the-fair-unknown-the-squires-tales-8.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780618631520

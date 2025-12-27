@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)
+title: "The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
 author: Douglas Adams
+date: 2016-05-07
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

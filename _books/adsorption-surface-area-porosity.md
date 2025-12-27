@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Adsorption, Surface Area & Porosity
+title: "Adsorption, Surface Area & Porosity"
 author: S.J. Gregg
+date: 2014-08-01
 cover: assets/img/book_covers/adsorption-surface-area-porosity.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780123009562

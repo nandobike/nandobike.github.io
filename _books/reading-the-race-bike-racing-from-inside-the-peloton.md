@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Reading the Race: Bike Racing from Inside the Peloton
+title: "Reading the Race: Bike Racing from Inside the Peloton"
 author: Jamie O. Smith
+date: 2014-08-14
 cover: assets/img/book_covers/reading-the-race-bike-racing-from-inside-the-peloton.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781937715106

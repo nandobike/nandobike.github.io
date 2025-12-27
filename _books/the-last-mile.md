@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Last Mile
+title: "The Last Mile"
 author: David Baldacci
+date: 2018-02-05
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

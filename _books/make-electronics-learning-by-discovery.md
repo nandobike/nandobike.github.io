@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Make: Electronics (Learning by Discovery)
+title: "Make: Electronics (Learning by Discovery)"
 author: Charles Platt
+date: 2017-09-19
 cover: assets/img/book_covers/make-electronics-learning-by-discovery.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780596153748

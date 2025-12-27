@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: One Two Three...Infinity: Facts & Speculations of Science
+title: "One Two Three...Infinity: Facts & Speculations of Science"
 author: George Gamow
+date: 2018-10-18
 cover: assets/img/book_covers/one-two-threeinfinity-facts-speculations-of-science.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780670526741

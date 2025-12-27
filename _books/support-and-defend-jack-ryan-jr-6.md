@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: Support and Defend (Jack Ryan Jr, #6)
+title: "Support and Defend (Jack Ryan Jr, #6)"
 author: Mark Greaney
+date: 2020-11-19
 cover: assets/img/book_covers/support-and-defend-jack-ryan-jr-6.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780399173349

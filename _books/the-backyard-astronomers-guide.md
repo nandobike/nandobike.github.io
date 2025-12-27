@@ -1,7 +1,8 @@
 ---
 layout: book-shelf
-title: The Backyard Astronomer's Guide
+title: "The Backyard Astronomer's Guide"
 author: Terence Dickinson
+date: 2018-06-24
 cover: assets/img/book_covers/the-backyard-astronomers-guide.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781554073443
