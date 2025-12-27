@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Negotiator"
 author: Frederick Forsyth
 date: 2014-02-08
@@ -9,6 +9,7 @@ isbn: 9780553283938
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780553283938
+started: 2014-02-08
 finished: 2014-02-08
 released: 1989
 stars: 5

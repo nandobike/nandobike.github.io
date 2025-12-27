@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Worm: The First Digital World War"
 author: Mark Bowden
 date: 2024-07-11
@@ -9,6 +9,7 @@ isbn: 9780802119834
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780802119834
+started: 2024-07-11
 finished: 2024-07-11
 released: 2011
 stars: 3

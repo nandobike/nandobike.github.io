@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Guilty (Will Robie, #4)"
 author: David Baldacci
 date: 2022-08-30
@@ -9,6 +9,7 @@ isbn: 9781455586417
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781455586417
+started: 2022-08-30
 finished: 2022-08-30
 stars: 4
 goodreads_review: 40606240

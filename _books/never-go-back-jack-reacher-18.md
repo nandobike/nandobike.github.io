@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Never Go Back (Jack Reacher, #18)"
 author: Lee Child
 date: 2023-09-30
@@ -9,6 +9,7 @@ isbn: 9780385344340
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780385344340
+started: 2023-09-30
 finished: 2023-09-30
 released: 2013
 stars: 4

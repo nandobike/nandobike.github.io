@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Nube de Noviembre"
 author: Hilary Ruben
 date: 1990-11-13
@@ -9,6 +9,7 @@ isbn: 9788434808607
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9788434808607
+started: 1990-11-13
 finished: 1990-11-13
 released: 1977
 stars: 4

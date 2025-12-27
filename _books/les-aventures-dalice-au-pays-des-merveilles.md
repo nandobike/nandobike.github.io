@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Les Aventures d'Alice au pays des merveilles"
 author: Lewis Carroll
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9782290343470
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9782290343470
+started: 2014-02-04
 finished: 2014-02-04
 released: 1865
 stars: 5

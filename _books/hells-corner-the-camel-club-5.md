@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Hell's Corner (The Camel Club, #5)"
 author: David Baldacci
 date: 2022-12-31
@@ -9,6 +9,7 @@ isbn: 9780230706156
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780230706156
+started: 2022-12-31
 finished: 2022-12-31
 released: 2010
 stars: 3

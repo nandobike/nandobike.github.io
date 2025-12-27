@@ -1,0 +1,17 @@
+---
+layout: book-review
+title: "The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime"
+author: Jon DiMaggio
+date: 2025-09-07
+cover: assets/img/book_covers/the-art-of-cyberwarfare.jpg
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 9781718502147
+categories: novels
+tags:
+buy_link: https://www.amazon.com/gp/product/9781718502147
+started: 2025-09-07
+finished: 2025-09-07
+stars: 5
+goodreads_review: 58680287
+status: Finished
+---

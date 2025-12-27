@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Whiteout"
 author: Ken Follett
 date: 2022-09-11
@@ -9,6 +9,7 @@ isbn: 9781594131097
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781594131097
+started: 2022-09-11
 finished: 2022-09-11
 released: 2004
 stars: 0

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Walk the Wire (Amos Decker, #6)"
 author: David Baldacci
 date: 2021-11-27
@@ -9,6 +9,7 @@ isbn: 9781538761465
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781538761465
+started: 2021-11-27
 finished: 2021-11-27
 released: 2020
 stars: 5

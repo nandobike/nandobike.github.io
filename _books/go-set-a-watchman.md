@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Go Set a Watchman"
 author: Harper Lee
 date: 2024-05-05
@@ -9,6 +9,7 @@ isbn: 9780062409850
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780062409850
+started: 2024-05-05
 finished: 2024-05-05
 released: 2015
 stars: 2

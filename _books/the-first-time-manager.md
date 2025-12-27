@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The First-Time Manager"
 author: Loren B. Belker
 date: 2019-06-03
@@ -9,6 +9,7 @@ isbn: 9780814417843
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780814417843
+started: 2019-06-03
 finished: 2019-06-03
 released: 1978
 stars: 0

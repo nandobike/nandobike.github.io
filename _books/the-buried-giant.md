@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Buried Giant"
 author: Kazuo Ishiguro
 date: 2017-02-25
@@ -9,6 +9,7 @@ isbn: 9780571315062
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780571315062
+started: 2017-02-25
 finished: 2017-02-25
 released: 2015
 stars: 4

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The One Minute Manager"
 author: Kenneth H. Blanchard
 date: 2019-08-05
@@ -9,6 +9,7 @@ isbn: 9780688014292
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780688014292
+started: 2019-08-05
 finished: 2019-08-05
 released: 1981
 stars: 4

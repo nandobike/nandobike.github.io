@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Inn (Bill Robinson, #1)"
 author: James  Patterson
 date: 2024-11-13
@@ -9,6 +9,7 @@ isbn: 9781780899961
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781780899961
+started: 2024-11-13
 finished: 2024-11-13
 released: 2019
 stars: 4

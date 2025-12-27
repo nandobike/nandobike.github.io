@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Worth Dying For (Jack Reacher, #15)"
 author: Lee Child
 date: 2023-09-17
@@ -9,6 +9,7 @@ isbn: 9780440339342
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780440339342
+started: 2023-09-17
 finished: 2023-09-17
 released: 2010
 stars: 3

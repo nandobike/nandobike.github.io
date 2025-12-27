@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Penguin Random House Python Crash Course"
 author: Eric Matthes
 date: 2025-01-01

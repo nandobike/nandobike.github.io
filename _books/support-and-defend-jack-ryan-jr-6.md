@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Support and Defend (Jack Ryan Jr, #6)"
 author: Mark Greaney
 date: 2020-11-19
@@ -9,6 +9,7 @@ isbn: 9780399173349
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399173349
+started: 2020-11-19
 finished: 2020-11-19
 released: 2014
 stars: 4

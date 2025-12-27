@@ -1,0 +1,15 @@
+---
+layout: book-review
+title: "An Appetite for Wonder: The Making of a Scientist"
+author: Richard Dawkins
+date: 2017-03-31
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+categories: novels
+tags:
+started: 2017-03-31
+finished: 2017-03-31
+released: 2013
+stars: 4
+goodreads_review: 17924018
+status: Finished
+---

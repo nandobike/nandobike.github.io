@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Guardians"
 author: John Grisham
 date: 2022-05-22
@@ -9,6 +9,7 @@ isbn: 9780385544184
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780385544184
+started: 2022-05-22
 finished: 2022-05-22
 released: 2019
 stars: 5

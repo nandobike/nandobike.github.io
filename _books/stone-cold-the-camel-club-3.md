@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Stone Cold (The Camel Club, #3)"
 author: David Baldacci
 date: 2022-12-12
@@ -9,6 +9,7 @@ isbn: 9780446577397
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780446577397
+started: 2022-12-12
 finished: 2022-12-12
 released: 2007
 stars: 4

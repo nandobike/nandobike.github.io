@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "A Short History of Nearly Everything"
 author: Bill Bryson
 date: 2018-06-01
@@ -9,6 +9,7 @@ isbn: 9780767908184
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780767908184
+started: 2018-06-01
 finished: 2018-06-01
 released: 2003
 stars: 3

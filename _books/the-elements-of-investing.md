@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Elements of Investing"
 author: Burton G. Malkiel
 date: 2025-11-28
@@ -9,6 +9,7 @@ isbn: 9780470528495
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780470528495
+started: 2025-11-28
 finished: 2025-11-28
 released: 2009
 stars: 0

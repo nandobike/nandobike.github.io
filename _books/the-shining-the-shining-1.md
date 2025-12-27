@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Shining (The Shining, #1)"
 author: Stephen  King
 date: 2016-04-14
@@ -9,6 +9,7 @@ isbn: 9780450040184
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780450040184
+started: 2016-04-14
 finished: 2016-04-14
 released: 1977
 stars: 5

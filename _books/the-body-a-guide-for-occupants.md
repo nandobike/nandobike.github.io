@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Body: A Guide for Occupants"
 author: Bill Bryson
 date: 2024-09-22
@@ -9,6 +9,7 @@ isbn: 9780385539302
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780385539302
+started: 2024-09-22
 finished: 2024-09-22
 released: 2019
 stars: 5

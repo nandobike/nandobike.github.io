@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Long Road to Mercy (Atlee Pine, #1)"
 author: David Baldacci
 date: 2019-11-28
@@ -9,6 +9,7 @@ isbn: 9781538761571
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781538761571
+started: 2019-11-28
 finished: 2019-11-28
 stars: 4
 goodreads_review: 39088984

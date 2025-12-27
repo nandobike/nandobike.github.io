@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Testament"
 author: John Grisham
 date: 2014-02-08
@@ -9,6 +9,7 @@ isbn: 9780440234746
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780440234746
+started: 2014-02-08
 finished: 2014-02-08
 released: 1999
 stars: 5

@@ -1,11 +1,12 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Fahrenheit 451"
 author: Ray Bradbury
 date: 2014-12-26
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:
+started: 2014-12-26
 finished: 2014-12-26
 released: 1953
 stars: 0

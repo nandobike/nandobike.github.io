@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Seven Brief Lessons on Physics"
 author: Carlo Rovelli
 date: 2025-07-02
@@ -9,6 +9,7 @@ isbn: 9780399184413
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399184413
+started: 2025-07-02
 finished: 2025-07-02
 released: 2014
 stars: 3

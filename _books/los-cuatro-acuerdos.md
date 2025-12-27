@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Los Cuatro Acuerdos"
 author: Miguel Ruiz
 date: 2015-01-09
@@ -9,6 +9,7 @@ isbn: 9789507880223
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9789507880223
+started: 2015-01-09
 finished: 2015-01-09
 released: 1997
 stars: 3

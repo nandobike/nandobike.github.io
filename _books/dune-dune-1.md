@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Dune (Dune #1)"
 author: Frank Herbert
 date: 2024-04-19
@@ -9,6 +9,7 @@ isbn: 9780593099322
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780593099322
+started: 2024-04-19
 finished: 2024-04-19
 released: 1965
 stars: 5

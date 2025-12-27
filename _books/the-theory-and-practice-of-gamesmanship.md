@@ -1,11 +1,12 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Theory and Practice of Gamesmanship"
 author: Stephen Potter
 date: 2024-10-13
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:
+started: 2024-10-13
 finished: 2024-10-13
 released: 1947
 stars: 3

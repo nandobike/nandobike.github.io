@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Book of Awesome"
 author: Neil Pasricha
 date: 2015-10-26
@@ -9,6 +9,7 @@ isbn: 9780399156519
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399156519
+started: 2015-10-26
 finished: 2015-10-26
 released: 2010
 stars: 4

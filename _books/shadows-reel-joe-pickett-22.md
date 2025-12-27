@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Shadows Reel (Joe Pickett #22)"
 author: C.J. Box
 date: 2024-04-19
@@ -9,6 +9,7 @@ isbn: 9780593556351
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780593556351
+started: 2024-04-19
 finished: 2024-04-19
 released: 2022
 stars: 0

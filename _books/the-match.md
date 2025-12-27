@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Match"
 author: Harlan Coben
 date: 2024-05-27
@@ -9,6 +9,7 @@ isbn: 9781538748282
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781538748282
+started: 2024-05-27
 finished: 2024-05-27
 released: 2022
 stars: 0

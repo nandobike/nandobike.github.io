@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Parsifal's Page (The Squire's Tales, #4)"
 author: Gerald Morris
 date: 2016-07-20
@@ -9,6 +9,7 @@ isbn: 9780618055098
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780618055098
+started: 2016-07-20
 finished: 2016-07-20
 released: 2001
 stars: 5

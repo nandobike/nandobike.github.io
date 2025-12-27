@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Divine Justice (The Camel Club, #4)"
 author: David Baldacci
 date: 2022-12-18
@@ -9,6 +9,7 @@ isbn: 9780446195508
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780446195508
+started: 2022-12-18
 finished: 2022-12-18
 released: 2008
 stars: 4

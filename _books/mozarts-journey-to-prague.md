@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Mozart's Journey to Prague"
 author: Eduard Mörike
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780141023489
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780141023489
+started: 2014-05-01
 finished: 2014-05-01
 released: 1855
 stars: 0

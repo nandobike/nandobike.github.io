@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Character of Physical Law"
 author: Richard P. Feynman
 date: 2015-06-20
@@ -9,6 +9,7 @@ isbn: 9780679601272
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780679601272
+started: 2015-06-20
 finished: 2015-06-20
 released: 1964
 stars: 5

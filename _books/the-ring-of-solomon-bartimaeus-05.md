@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Ring of Solomon (Bartimaeus, #0.5)"
 author: Jonathan Stroud
 date: 2013-09-02
@@ -9,6 +9,7 @@ isbn: 9780307738615
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780307738615
+started: 2013-09-02
 finished: 2013-09-02
 released: 2010
 stars: 5

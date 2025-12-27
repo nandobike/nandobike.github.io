@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Einstein: His Life and Universe"
 author: Walter Isaacson
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780743264730
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780743264730
+started: 2014-02-04
 finished: 2014-02-04
 released: 2007
 stars: 5

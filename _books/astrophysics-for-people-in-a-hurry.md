@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Astrophysics for People in a Hurry"
 author: Neil deGrasse Tyson
 date: 2017-11-29
@@ -9,6 +9,7 @@ isbn: 9780393609394
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780393609394
+started: 2017-11-29
 finished: 2017-11-29
 released: 2017
 stars: 4

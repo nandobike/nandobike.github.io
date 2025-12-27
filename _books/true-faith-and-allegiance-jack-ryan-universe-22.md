@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "True Faith and Allegiance (Jack Ryan Universe, #22)"
 author: Mark Greaney
 date: 2019-01-25
@@ -9,6 +9,7 @@ isbn: 9780698410664
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780698410664
+started: 2019-01-25
 finished: 2019-01-25
 released: 2016
 stars: 5

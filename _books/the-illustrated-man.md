@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Illustrated Man"
 author: Ray Bradbury
 date: 2017-05-31
@@ -9,6 +9,7 @@ isbn: 9780007127740
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780007127740
+started: 2017-05-31
 finished: 2017-05-31
 released: 1951
 stars: 2

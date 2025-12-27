@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Schneier on Security"
 author: Bruce Schneier
 date: 2025-10-16
@@ -9,6 +9,7 @@ isbn: 9780470395356
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780470395356
+started: 2025-10-16
 finished: 2025-10-16
 released: 2008
 stars: 0

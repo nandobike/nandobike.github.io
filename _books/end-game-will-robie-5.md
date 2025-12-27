@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "End Game (Will Robie, #5)"
 author: David Baldacci
 date: 2024-01-01
@@ -9,6 +9,7 @@ isbn: 9781455586608
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781455586608
+started: 2024-01-01
 finished: 2024-01-01
 stars: 0
 goodreads_review: 34368113

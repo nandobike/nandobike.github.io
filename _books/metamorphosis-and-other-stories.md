@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Metamorphosis and Other Stories"
 author: Franz Kafka
 date: 2014-06-10
@@ -9,6 +9,7 @@ isbn: 9780141188126
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780141188126
+started: 2014-06-10
 finished: 2014-06-10
 released: 1915
 stars: 3

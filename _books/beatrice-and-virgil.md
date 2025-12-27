@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Beatrice and Virgil"
 author: Yann Martel
 date: 2013-05-26
@@ -9,6 +9,7 @@ isbn: 9781400069262
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781400069262
+started: 2013-05-26
 finished: 2013-05-26
 released: 2010
 stars: 2

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "What the Dog Saw and Other Adventures"
 author: Malcolm Gladwell
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780316078573
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780316078573
+started: 2014-02-04
 finished: 2014-02-04
 released: 2009
 stars: 4

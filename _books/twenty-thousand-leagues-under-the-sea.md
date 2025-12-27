@@ -1,11 +1,12 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Twenty Thousand Leagues Under the Sea"
 author: Jules Verne
 date: 2016-11-23
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:
+started: 2016-11-23
 finished: 2016-11-23
 released: 1869
 stars: 3

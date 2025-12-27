@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Cardinal of the Kremlin (Jack Ryan, #4)"
 author: Tom Clancy
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780425116845
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780425116845
+started: 2014-05-01
 finished: 2014-05-01
 released: 1988
 stars: 0

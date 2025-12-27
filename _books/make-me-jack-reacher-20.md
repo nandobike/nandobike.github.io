@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Make Me (Jack Reacher, #20)"
 author: Lee Child
 date: 2023-04-29
@@ -9,6 +9,7 @@ isbn: 9780593073896
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780593073896
+started: 2023-04-29
 finished: 2023-04-29
 released: 2015
 stars: 4

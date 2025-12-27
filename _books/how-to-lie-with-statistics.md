@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "How to Lie with Statistics"
 author: Darrell Huff
 date: 2016-04-29
@@ -9,6 +9,7 @@ isbn: 9780393310726
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780393310726
+started: 2016-04-29
 finished: 2016-04-29
 released: 1954
 stars: 3

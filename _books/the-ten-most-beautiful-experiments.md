@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Ten Most Beautiful Experiments"
 author: George Johnson
 date: 2025-06-10
@@ -9,6 +9,7 @@ isbn: 9781400034239
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781400034239
+started: 2025-06-10
 finished: 2025-06-10
 released: 2008
 stars: 4

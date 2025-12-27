@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Contact"
 author: Carl Sagan
 date: 2017-12-30
@@ -9,6 +9,7 @@ isbn: 9782266079990
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9782266079990
+started: 2017-12-30
 finished: 2017-12-30
 released: 1985
 stars: 4

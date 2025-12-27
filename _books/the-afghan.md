@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Afghan"
 author: Frederick Forsyth
 date: 2007-01-01
@@ -9,6 +9,7 @@ isbn: 9780399153945
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399153945
+started: 2007-01-01
 finished: 2007-01-01
 released: 2006
 stars: 4

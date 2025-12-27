@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Of Mice and Men"
 author: John Steinbeck
 date: 2018-08-28
@@ -9,6 +9,7 @@ isbn: 9780142000670
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780142000670
+started: 2018-08-28
 finished: 2018-08-28
 released: 1937
 stars: 4

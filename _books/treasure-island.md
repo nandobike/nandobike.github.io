@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Treasure Island"
 author: Robert Louis Stevenson
 date: 2014-02-08
@@ -9,6 +9,7 @@ isbn: 9780753453803
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780753453803
+started: 2014-02-08
 finished: 2014-02-08
 released: 1882
 stars: 4

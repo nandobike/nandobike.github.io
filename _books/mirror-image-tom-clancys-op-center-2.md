@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Mirror Image (Tom Clancy's Op-Center, #2)"
 author: Jeff Rovin
 date: 2018-03-25
@@ -9,6 +9,7 @@ isbn: 9780425150146
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780425150146
+started: 2018-03-25
 finished: 2018-03-25
 released: 1995
 stars: 0

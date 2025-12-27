@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Project Hail Mary"
 author: Andy Weir
 date: 2023-11-26
@@ -9,6 +9,7 @@ isbn: 9780593598658
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780593598658
+started: 2023-11-26
 finished: 2023-11-26
 released: 2021
 stars: 0

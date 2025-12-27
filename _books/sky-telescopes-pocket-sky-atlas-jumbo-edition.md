@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Sky & Telescope's Pocket Sky Atlas Jumbo Edition"
 author: Roger Sinnott
 date: 2017-12-13
@@ -9,6 +9,7 @@ isbn: 9781940038254
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781940038254
+started: 2017-12-13
 finished: 2017-12-13
 released: 2016
 stars: 0

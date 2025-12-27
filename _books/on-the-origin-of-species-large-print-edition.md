@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "On the Origin of Species (Large Print Edition)"
 author: Charles Darwin
 date: 2013-06-05
@@ -9,6 +9,7 @@ isbn: 9780554267388
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780554267388
+started: 2013-06-05
 finished: 2013-06-05
 released: 1859
 stars: 0

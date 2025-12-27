@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Old Man and the Sea"
 author: Ernest Hemingway
 date: 2015-01-19
@@ -9,6 +9,7 @@ isbn: 9780684830490
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780684830490
+started: 2015-01-19
 finished: 2015-01-19
 released: 1952
 stars: 0

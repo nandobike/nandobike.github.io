@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Surely You're Joking, Mr. Feynman!"
 author: Richard P. Feynman
 date: 2016-10-23
@@ -9,6 +9,7 @@ isbn: 9780099173311
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780099173311
+started: 2016-10-23
 finished: 2016-10-23
 released: 1985
 stars: 4

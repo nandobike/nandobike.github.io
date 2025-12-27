@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Squire's Quest (The Squire's Tales, #9)"
 author: Gerald Morris
 date: 2016-12-07
@@ -9,6 +9,7 @@ isbn: 9780547144245
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780547144245
+started: 2016-12-07
 finished: 2016-12-07
 released: 2009
 stars: 5

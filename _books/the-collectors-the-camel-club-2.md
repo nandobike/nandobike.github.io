@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Collectors (The Camel Club, #2)"
 author: David Baldacci
 date: 2022-12-01
@@ -9,6 +9,7 @@ isbn: 9780446531092
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780446531092
+started: 2022-12-01
 finished: 2022-12-01
 released: 2006
 stars: 0

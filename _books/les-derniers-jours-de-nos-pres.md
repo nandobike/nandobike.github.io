@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Les derniers jours de nos pères"
 author: Joël Dicker
 date: 2015-03-25
@@ -9,6 +9,7 @@ isbn: 9782877067812
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9782877067812
+started: 2015-03-25
 finished: 2015-03-25
 released: 2011
 stars: 4

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Meaning Of It All, The"
 author: Richard P. Feynman
 date: 2015-07-08
@@ -9,6 +9,7 @@ isbn: 9780713992519
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780713992519
+started: 2015-07-08
 finished: 2015-07-08
 released: 1998
 stars: 3

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Hands-On Introduction to LabVIEW for Scientists and Engineers"
 author: John Essick Dr
 date: 2025-01-01

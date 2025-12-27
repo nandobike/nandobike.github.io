@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Good Omens"
 author: Terry Pratchett
 date: 2015-03-05
@@ -9,6 +9,7 @@ isbn: 9781473200852
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781473200852
+started: 2015-03-05
 finished: 2015-03-05
 released: 1990
 stars: 0

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Double Helix"
 author: James D. Watson
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780451037701
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780451037701
+started: 2014-02-04
 finished: 2014-02-04
 released: 1968
 stars: 5

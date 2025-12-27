@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Redemption (Amos Decker, #5)"
 author: David Baldacci
 date: 2020-05-26
@@ -9,6 +9,7 @@ isbn: 9781538761410
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781538761410
+started: 2020-05-26
 finished: 2020-05-26
 released: 2019
 stars: 4

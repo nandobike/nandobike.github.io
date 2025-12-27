@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Adventures of Tom Sawyer"
 author: Mark Twain
 date: 2017-02-07
@@ -9,6 +9,7 @@ isbn: 9780143039563
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780143039563
+started: 2017-02-07
 finished: 2017-02-07
 released: 1876
 stars: 3

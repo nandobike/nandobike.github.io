@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "QED: The Strange Theory of Light and Matter"
 author: Richard P. Feynman
 date: 2018-12-25
@@ -9,6 +9,7 @@ isbn: 9780140125054
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780140125054
+started: 2018-12-25
 finished: 2018-12-25
 released: 1985
 stars: 4

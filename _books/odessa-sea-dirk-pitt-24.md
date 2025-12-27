@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Odessa Sea (Dirk Pitt, #24)"
 author: Clive Cussler
 date: 2019-12-23
@@ -9,6 +9,7 @@ isbn: 9780399575518
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399575518
+started: 2019-12-23
 finished: 2019-12-23
 released: 2016
 stars: 3

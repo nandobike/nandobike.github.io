@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Little Prince"
 author: Antoine de Saint-Exupéry
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780152023980
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780152023980
+started: 2014-05-01
 finished: 2014-05-01
 released: 1943
 stars: 0

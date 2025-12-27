@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "La 25e heure"
 author: Constantin Virgil Gheorghiu
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9782266032605
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9782266032605
+started: 2014-05-01
 finished: 2014-05-01
 released: 1949
 stars: 0

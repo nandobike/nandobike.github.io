@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Cobra"
 author: Frederick Forsyth
 date: 2023-02-22
@@ -9,6 +9,7 @@ isbn: 9780399156809
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399156809
+started: 2023-02-22
 finished: 2023-02-22
 released: 2010
 stars: 3

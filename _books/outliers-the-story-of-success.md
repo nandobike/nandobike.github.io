@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Outliers: The Story of Success"
 author: Malcolm Gladwell
 date: 2023-02-04
@@ -9,6 +9,7 @@ isbn: 9780316017923
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780316017923
+started: 2023-02-04
 finished: 2023-02-04
 released: 2008
 stars: 4

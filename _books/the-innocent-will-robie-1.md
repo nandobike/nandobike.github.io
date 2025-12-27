@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Innocent (Will Robie, #1)"
 author: David Baldacci
 date: 2022-06-11
@@ -9,6 +9,7 @@ isbn: 9780446572996
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780446572996
+started: 2022-06-11
 finished: 2022-06-11
 released: 2012
 stars: 4

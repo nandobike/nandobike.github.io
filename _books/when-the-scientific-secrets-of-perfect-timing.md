@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "When: The Scientific Secrets of Perfect Timing"
 author: Daniel H. Pink
 date: 2024-09-09
@@ -9,6 +9,7 @@ isbn: 9780735210622
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780735210622
+started: 2024-09-09
 finished: 2024-09-09
 released: 2018
 stars: 3

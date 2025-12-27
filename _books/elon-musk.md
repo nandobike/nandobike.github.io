@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Elon Musk"
 author: Walter Isaacson
 date: 2025-01-01

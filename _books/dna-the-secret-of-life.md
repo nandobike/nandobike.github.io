@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "DNA : The Secret of Life"
 author: James D. Watson
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780099451846
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780099451846
+started: 2014-05-01
 finished: 2014-05-01
 released: 2002
 stars: 5

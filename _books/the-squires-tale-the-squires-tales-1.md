@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Squire's Tale (The Squire's Tales, #1)"
 author: Gerald Morris
 date: 2016-05-15
@@ -9,6 +9,7 @@ isbn: 9780440228233
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780440228233
+started: 2016-05-15
 finished: 2016-05-15
 released: 1998
 stars: 5

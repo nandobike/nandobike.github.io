@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Las matemáticas y la Mona Lisa"
 author: Bülent Atalay
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9788496968486
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9788496968486
+started: 2014-05-01
 finished: 2014-05-01
 released: 2004
 stars: 4

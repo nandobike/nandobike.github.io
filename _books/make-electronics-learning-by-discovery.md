@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Make: Electronics (Learning by Discovery)"
 author: Charles Platt
 date: 2017-09-19
@@ -9,6 +9,7 @@ isbn: 9780596153748
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780596153748
+started: 2017-09-19
 finished: 2017-09-19
 released: 2008
 stars: 4

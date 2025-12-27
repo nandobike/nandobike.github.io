@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Heroes of the Valley"
 author: Jonathan Stroud
 date: 2012-08-19
@@ -9,6 +9,7 @@ isbn: 9781423109662
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781423109662
+started: 2012-08-19
 finished: 2012-08-19
 released: 2009
 stars: 0

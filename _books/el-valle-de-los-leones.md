@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "El valle de los leones"
 author: Ken Follett
 date: 2017-07-14
@@ -9,6 +9,7 @@ isbn: 9788490329726
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9788490329726
+started: 2017-07-14
 finished: 2017-07-14
 released: 1985
 stars: 5

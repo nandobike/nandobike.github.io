@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Time Keeper"
 author: Mitch Albom
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9781401322786
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781401322786
+started: 2014-02-04
 finished: 2014-02-04
 released: 2012
 stars: 4

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Ptolemy's Gate (Bartimaeus, #3)"
 author: Jonathan Stroud
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780786818617
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780786818617
+started: 2014-05-01
 finished: 2014-05-01
 released: 2005
 stars: 0

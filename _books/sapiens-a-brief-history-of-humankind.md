@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Sapiens: A Brief History of Humankind"
 author: Yuval Noah Harari
 date: 2022-08-14
@@ -9,6 +9,7 @@ isbn: 9780062316110
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780062316110
+started: 2022-08-14
 finished: 2022-08-14
 released: 2011
 stars: 4

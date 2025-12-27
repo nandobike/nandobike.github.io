@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Where the Wild Things Are"
 author: Maurice Sendak
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780099408390
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780099408390
+started: 2014-02-04
 finished: 2014-02-04
 released: 1963
 stars: 5

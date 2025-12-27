@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Backyard Astronomer's Guide"
 author: Terence Dickinson
 date: 2018-06-24
@@ -9,6 +9,7 @@ isbn: 9781554073443
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781554073443
+started: 2018-06-24
 finished: 2018-06-24
 released: 1994
 stars: 5

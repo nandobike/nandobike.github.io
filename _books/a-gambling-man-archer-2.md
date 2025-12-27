@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "A Gambling Man (Archer #2)"
 author: David Baldacci
 date: 2023-01-30
@@ -9,6 +9,7 @@ isbn: 9781538719671
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781538719671
+started: 2023-01-30
 finished: 2023-01-30
 stars: 5
 goodreads_review: 54334352

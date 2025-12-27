@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Gwendy's Button Box (The Button Box, #1)"
 author: Stephen  King
 date: 2019-01-07
@@ -9,6 +9,7 @@ isbn: 9781587676109
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781587676109
+started: 2019-01-07
 finished: 2019-01-07
 released: 2017
 stars: 4

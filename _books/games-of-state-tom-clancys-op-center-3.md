@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Games of State (Tom Clancy's Op-Center, #3)"
 author: Jeff Rovin
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780006498445
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780006498445
+started: 2014-05-01
 finished: 2014-05-01
 released: 1996
 stars: 0

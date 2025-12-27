@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Hubble: 15 Years of Discovery"
 author: Lars Lindberg Christensen
 date: 2017-12-12
@@ -9,6 +9,7 @@ isbn: 9780387285993
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780387285993
+started: 2017-12-12
 finished: 2017-12-12
 released: 2006
 stars: 5

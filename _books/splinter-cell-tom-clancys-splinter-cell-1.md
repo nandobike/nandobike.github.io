@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Splinter Cell (Tom Clancy's Splinter Cell, #1)"
 author: David  Michaels
 date: 2021-10-01
@@ -9,6 +9,7 @@ isbn: 9780425201688
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780425201688
+started: 2021-10-01
 finished: 2021-10-01
 released: 2004
 stars: 0

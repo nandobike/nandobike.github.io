@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Wuthering Heights"
 author: Emily Brontë
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780553212587
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780553212587
+started: 2014-02-04
 finished: 2014-02-04
 released: 1847
 stars: 3

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Five Dysfunctions of a Team"
 author: Patrick Lencioni
 date: 2020-12-12
@@ -9,6 +9,7 @@ isbn: 9780787960759
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780787960759
+started: 2020-12-12
 finished: 2020-12-12
 released: 2002
 stars: 5

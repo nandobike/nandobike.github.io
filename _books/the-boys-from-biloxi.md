@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Boys from Biloxi"
 author: John Grisham
 date: 2025-06-29
@@ -9,6 +9,7 @@ isbn: 9780385548922
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780385548922
+started: 2025-06-29
 finished: 2025-06-29
 released: 2022
 stars: 0

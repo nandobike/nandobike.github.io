@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "A Legacy of Spies (George Smiley, #9)"
 author: John le Carré
 date: 2020-08-13
@@ -9,6 +9,7 @@ isbn: 9780735225114
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780735225114
+started: 2020-08-13
 finished: 2020-08-13
 released: 2017
 stars: 4

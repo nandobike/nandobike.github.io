@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Complete Book of Road Cycling & Racing"
 author: Willard Peveler
 date: 2014-08-26
@@ -9,6 +9,7 @@ isbn: 9780071489379
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780071489379
+started: 2014-08-26
 finished: 2014-08-26
 released: 2008
 stars: 5

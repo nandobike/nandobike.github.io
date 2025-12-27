@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Materials: A Very Short Introduction"
 author: Christopher Hall
 date: 2016-08-18
@@ -9,6 +9,7 @@ isbn: 9780199672677
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780199672677
+started: 2016-08-18
 finished: 2016-08-18
 released: 2014
 stars: 4

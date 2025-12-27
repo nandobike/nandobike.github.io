@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Devil's Alternative"
 author: Frederick Forsyth
 date: 2014-02-08
@@ -9,6 +9,7 @@ isbn: 9780553264906
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780553264906
+started: 2014-02-08
 finished: 2014-02-08
 released: 1979
 stars: 5

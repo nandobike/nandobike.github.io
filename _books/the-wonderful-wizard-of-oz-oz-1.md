@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Wonderful Wizard of Oz (Oz, #1)"
 author: L. Frank Baum
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9780688166779
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780688166779
+started: 2014-02-04
 finished: 2014-02-04
 released: 1900
 stars: 5

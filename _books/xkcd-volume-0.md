@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "xkcd: volume 0"
 author: Randall Munroe
 date: 2015-04-20
@@ -9,6 +9,7 @@ isbn: 9780615314464
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780615314464
+started: 2015-04-20
 finished: 2015-04-20
 released: 2009
 stars: 3

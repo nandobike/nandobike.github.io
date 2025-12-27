@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "To Kill a Mockingbird"
 author: Harper Lee
 date: 2024-12-29
@@ -9,6 +9,7 @@ isbn: 9780060935467
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780060935467
+started: 2024-12-29
 finished: 2024-12-29
 released: 1960
 stars: 5

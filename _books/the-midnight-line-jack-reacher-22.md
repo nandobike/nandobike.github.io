@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Midnight Line (Jack Reacher, #22)"
 author: Lee Child
 date: 2023-05-14
@@ -9,6 +9,7 @@ isbn: 9780399593482
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399593482
+started: 2023-05-14
 finished: 2023-05-14
 released: 2017
 stars: 4

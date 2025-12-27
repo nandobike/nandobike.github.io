@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Hunt for Red October (Jack Ryan, #3)"
 author: Tom Clancy
 date: 2014-02-08
@@ -9,6 +9,7 @@ isbn: 9780425172902
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780425172902
+started: 2014-02-08
 finished: 2014-02-08
 released: 1984
 stars: 5

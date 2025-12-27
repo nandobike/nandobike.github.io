@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Red Rabbit (Jack Ryan, #2)"
 author: Tom Clancy
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780399148705
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780399148705
+started: 2014-05-01
 finished: 2014-05-01
 released: 2002
 stars: 0

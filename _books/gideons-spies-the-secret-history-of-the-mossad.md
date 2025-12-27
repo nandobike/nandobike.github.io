@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Gideon's Spies: The Secret History of the Mossad"
 author: Gordon Thomas
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780312339135
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780312339135
+started: 2014-05-01
 finished: 2014-05-01
 released: 1999
 stars: 0

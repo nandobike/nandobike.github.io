@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Cosmos"
 author: Carl Sagan
 date: 2015-08-14
@@ -9,6 +9,7 @@ isbn: 9780375508325
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780375508325
+started: 2015-08-14
 finished: 2015-08-14
 released: 1980
 stars: 5

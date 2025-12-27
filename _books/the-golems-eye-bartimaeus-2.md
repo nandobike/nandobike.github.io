@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Golem's Eye (Bartimaeus, #2)"
 author: Jonathan Stroud
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780786836543
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780786836543
+started: 2014-05-01
 finished: 2014-05-01
 released: 2004
 stars: 0

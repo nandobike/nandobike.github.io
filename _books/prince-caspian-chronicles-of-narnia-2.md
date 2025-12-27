@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Prince Caspian (Chronicles of Narnia, #2)"
 author: C.S. Lewis
 date: 2014-05-01
@@ -9,6 +9,7 @@ isbn: 9780007202300
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780007202300
+started: 2014-05-01
 finished: 2014-05-01
 released: 1951
 stars: 0

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Adsorption, Surface Area & Porosity"
 author: S.J. Gregg
 date: 2014-08-01
@@ -9,6 +9,7 @@ isbn: 9780123009562
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780123009562
+started: 2014-08-01
 finished: 2014-08-01
 released: 1982
 stars: 5

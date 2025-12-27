@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Envisioning Information"
 author: Edward R. Tufte
 date: 2023-09-17
@@ -9,6 +9,7 @@ isbn: 9780961392116
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780961392116
+started: 2023-09-17
 finished: 2023-09-17
 released: 1990
 stars: 0

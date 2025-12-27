@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "Galveston"
 author: Nic Pizzolatto
 date: 2015-01-12
@@ -9,6 +9,7 @@ isbn: 9788416237005
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9788416237005
+started: 2015-01-12
 finished: 2015-01-12
 released: 2010
 stars: 0

@@ -1,5 +1,5 @@
 ---
-layout: book-shelf
+layout: book-review
 title: "The Wild Things"
 author: Dave Eggers
 date: 2014-02-04
@@ -9,6 +9,7 @@ isbn: 9781934781616
 categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781934781616
+started: 2014-02-04
 finished: 2014-02-04
 released: 2009
 stars: 4
