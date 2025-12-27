@@ -1,0 +1,15 @@
+---
+layout: book-shelf
+title: Submarine: A Guided Tour Inside a Nuclear Warship (Guided Tour)
+author: Tom Clancy
+cover: assets/img/book_covers/submarine-a-guided-tour-inside-a-nuclear-warship-guided-tour.jpg
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 9780425190012
+categories: novels
+tags:
+buy_link: https://www.amazon.com/gp/product/9780425190012
+released: 1993
+stars: 0
+goodreads_review: 114098
+status: Finished
+---

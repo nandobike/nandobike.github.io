@@ -1,0 +1,13 @@
+---
+layout: book-shelf
+title: A Minute to Midnight (Atlee Pine, #2)
+author: David Baldacci
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+categories: novels
+tags:
+finished: 2021-12-25
+released: 2019
+stars: 3
+goodreads_review: 44422464
+status: Finished
+---
