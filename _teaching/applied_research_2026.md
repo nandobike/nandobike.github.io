@@ -103,7 +103,7 @@ _Penn State University_
 **Dr. Sara Andreoli**  
 _Project Manager, Morgan Advanced Materials_
 
-[PHOTO HERE]
+<img src="/assets/img/headshots/sara-andreoli.jpg" style="width: 300px; max-width: 100%;" alt="Sara">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 3, 11:00 AM - 12:00 PM
@@ -117,7 +117,7 @@ _Project Manager, Morgan Advanced Materials_
 **Thomas Connolly**  
 _CTO, Morgan Advanced Materials_
 
-[PHOTO HERE]
+<img src="/assets/img/headshots/thomas-connolly.jpg" style="width: 300px; max-width: 100%;" alt="RK">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 4, 10:00 AM - 10:30 AM
