@@ -41,7 +41,7 @@ The course features presentations from academic researchers and industry profess
 _Global Labs Manager_  
 _Morgan Advanced Materials_
 
-[PHOTO HERE]
+<img src="assets/img/prof_pic.jpg" width="300"/>
 
 **Background:**
 
@@ -60,7 +60,7 @@ _Morgan Advanced Materials_
 **Prof. Radovan Kukobat**  
 _University of Banja Luka_
 
-[PHOTO HERE]
+<img src="assets/img/headshots/radovan-kukobat.jpg" width="300"/>
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 1, 11:00 AM - 12:00 PM
@@ -77,7 +77,7 @@ _Penn State University_
 [PHOTO HERE]
 
 **Topic:** [TO BE DETERMINED]  
-**Session:** Day 2, 11:30 AM - 12:30 PM
+**Session:** Day 2, 11:00 AM - 11:30 AM
 
 [SHORT BIO]
 
@@ -85,13 +85,13 @@ _Penn State University_
 
 ### Presenter 3: Academic Researcher
 
-**Cesar Solis**  
-_[TITLE/INSTITUTION]_
+**Dr. Maria Antonieta Sanchez-Farran**  
+_Penn State University_
 
 [PHOTO HERE]
 
 **Topic:** [TO BE DETERMINED]  
-**Session:** Day 2, 11:30 AM - 12:30 PM
+**Session:** Day 2, 10:45 AM - 11:30 AM
 
 [SHORT BIO]
 
@@ -105,7 +105,7 @@ _Project Manager, Morgan Advanced Materials_
 [PHOTO HERE]
 
 **Topic:** [TO BE DETERMINED]  
-**Session:** Day 3, 11:30 AM - 12:30 PM
+**Session:** Day 3, 11:00 AM - 12:00 PM
 
 [SHORT BIO]
 
@@ -119,7 +119,7 @@ _CTO, Morgan Advanced Materials_
 [PHOTO HERE]
 
 **Topic:** [TO BE DETERMINED]  
-**Session:** Day 4, 11:15 AM - 12:15 PM
+**Session:** Day 4, 10:00 AM - 10:30 AM
 
 [SHORT BIO]
 
@@ -479,7 +479,7 @@ All work must be original. Collaboration is encouraged for group work, but indiv
 
 ### Course Website
 
-All materials will be posted at: [YOUR WEBSITE URL]
+All materials will be posted at: www.vallejos.cl
 
 ---
 
