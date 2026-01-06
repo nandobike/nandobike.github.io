@@ -41,7 +41,7 @@ The course features presentations from academic researchers and industry profess
 _Global Labs Manager_  
 _Morgan Advanced Materials_
 
-<img src="assets/img/prof_pic.jpg" width="300"/>
+![](assets/img/prof_pic.jpg)
 
 **Background:**
 
@@ -60,7 +60,7 @@ _Morgan Advanced Materials_
 **Prof. Radovan Kukobat**  
 _University of Banja Luka_
 
-<img src="assets/img/headshots/radovan-kukobat.jpg" width="300"/>
+![](assets/img/headshots/radovan-kukobat.jpg)
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 1, 11:00 AM - 12:00 PM
