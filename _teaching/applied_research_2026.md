@@ -103,7 +103,7 @@ _Penn State University_
 **Dr. Sara Andreoli**  
 _Project Manager, Morgan Advanced Materials_
 
-<img src="/assets/img/headshots/sara-andreoli.jpg" style="width: 300px; max-width: 100%;" alt="Sara">
+<img src="/assets/img/headshots/sara-andreoli.png" style="width: 300px; max-width: 100%;" alt="Sara">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 3, 11:00 AM - 12:00 PM
