@@ -75,12 +75,12 @@ _University of Banja Luka_
 **Prof. Derek Hall**  
 _Penn State University_
 
-[PHOTO HERE]
+<img src="/assets/img/headshots/derek-hall.jpg" style="width: 250px; max-width: 100%;" alt="DH">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 2, 11:00 AM - 11:30 AM
 
-[SHORT BIO]
+Derek M. Hall is an Assistant Professor in the Department of Mechanical Engineering at Penn State University. He earned his B.S in Energy Engineering in 2012 and a Ph.D. in Energy and Mineral Engineering in 2015. He was a research scientist with the Energy Institute at Penn State and a faculty fellow with Oak Ridge Institute for Science and Education at the National Energy Technology Laboratory before joining the Department of Mechanical Engineering in 2023. His background is in electrochemical energy conversion and corrosion science.  His research group, e4 Labs, focuses on developing new energy storage devices and enhancing the durability of power generation systems to foster more sustainable energy utilization practices. Their research addresses fundamental and applied electrochemical engineering problems vital to the energy sector, striving for comprehensive impact across the energy landscape.
 
 ---
 
@@ -103,7 +103,7 @@ _Penn State University_
 **Dr. Sara Andreoli**  
 _Project Manager, Morgan Advanced Materials_
 
-<img src="/assets/img/headshots/sara-andreoli.png" style="width: 300px; max-width: 100%;" alt="Sara">
+<img src="/assets/img/headshots/sara-andreoli.png" style="width: 250px; max-width: 100%;" alt="Sara">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 3, 11:00 AM - 12:00 PM
@@ -117,12 +117,12 @@ _Project Manager, Morgan Advanced Materials_
 **Thomas Connolly**  
 _CTO, Morgan Advanced Materials_
 
-<img src="/assets/img/headshots/thomas-connolly.jpg" style="width: 300px; max-width: 100%;" alt="RK">
+<img src="/assets/img/headshots/thomas-connolly.jpg" style="width: 250px; max-width: 100%;" alt="RK">
 
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 4, 10:00 AM - 10:30 AM
 
-[SHORT BIO]
+Thomas is the global technology director of Morgan Advanced Material's Performance Carbon Division. I am responsible for research, process technology and development across >25 locations globally. Morgan Advanced Materials plc is a FTSE 250 advanced materials technology company that provides highly engineered solutions to its chosen markets and has a global presence of operations in more than 50 countries with an operating profit of 1.1 billion pounds in 2024. From medical instruments, aerospace, power generation and EV automotive applications, to body armour, trains and fire protection systems, Morgan Advanced Materials products are fundamental components or enabling technologies for many of the modern world's sophisticated markets being produced in carbon, ceramics, PTFE, silicon carbide and many more advanced materials.
 
 ---
 
