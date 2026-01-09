@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: "Dune (Dune #1)"
+title: "Dune (Dune, #1)"
 author: Frank Herbert
 date: 2024-04-19
 cover: assets/img/book_covers/dune-dune-1.jpg

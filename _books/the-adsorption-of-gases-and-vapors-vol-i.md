@@ -2,7 +2,7 @@
 layout: book-review
 title: "The Adsorption of Gases and Vapors Vol I - Physical Adsorption"
 author: Stephen Brunauer
-date: 2025-01-01
+date: 2026-01-01
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

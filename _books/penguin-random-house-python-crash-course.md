@@ -2,7 +2,7 @@
 layout: book-review
 title: "Penguin Random House Python Crash Course"
 author: Eric Matthes
-date: 2025-01-01
+date: 2026-01-01
 cover: assets/img/book_covers/penguin-random-house-python-crash-course.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9781593276034
