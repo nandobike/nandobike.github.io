@@ -1414,11 +1414,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a-gambling-man-archer-2/";
-            },},{id: "books-",
-          title: '',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/breaking-and-entering/";
             },},{id: "books-outliers-the-story-of-success",
           title: 'Outliers: The Story of Success',
           description: "",
@@ -1634,6 +1629,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/linux-basics-for-hackers/";
+            },},{id: "books-breaking-and-entering-the-extraordinary-story-of-a-hacker-called-alien-a-woman-39-s-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity",
+          title: 'Breaking And Entering: The Extraordinary Story of a Hacker Called Alien – A...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/breaking-and-entering/";
             },},{id: "books-the-art-of-cyberwarfare-an-investigator-39-s-guide-to-espionage-ransomware-and-organized-cybercrime",
           title: 'The Art of Cyberwarfare: An Investigator&amp;#39;s Guide to Espionage, Ransomware, and Organized Cybercrime...',
           description: "",
