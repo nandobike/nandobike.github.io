@@ -10,7 +10,7 @@ categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780190853068
 started: 2020-03-26
-finished: 2020-03-26
+finished: 2025-12-26
 released: 2012
 stars: 5
 goodreads_review: 39401862
