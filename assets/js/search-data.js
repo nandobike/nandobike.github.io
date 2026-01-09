@@ -634,6 +634,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/prince-caspian-chronicles-of-narnia-2/";
+            },},{id: "books-prince-caspian-chronicles-of-narnia-3",
+          title: 'Prince Caspian (Chronicles of Narnia, #3)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/prince-caspian-chronicles-of-narnia-3/";
             },},{id: "books-ptolemy-39-s-gate-bartimaeus-3",
           title: 'Ptolemy&amp;#39;s Gate (Bartimaeus, #3)',
           description: "",
@@ -1234,6 +1239,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/winnie-the-pooh-on-management/";
+            },},{id: "books-hands-on-introduction-to-labview-for-scientists-and-engineers",
+          title: 'Hands-On Introduction to LabVIEW for Scientists and Engineers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/hands-on-introduction-to-labview-for-scientists-and-engineers/";
             },},{id: "books-the-amazing-story-of-quantum-mechanics-a-math-free-exploration-of-the-science-that-made-our-world",
           title: 'The Amazing Story of Quantum Mechanics: A Math-Free Exploration of the Science that...',
           description: "",
@@ -1404,6 +1414,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a-gambling-man-archer-2/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/breaking-and-entering/";
             },},{id: "books-outliers-the-story-of-success",
           title: 'Outliers: The Story of Success',
           description: "",
@@ -1490,7 +1505,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/sandworm-a-new-era-of-cyberwar-and-the/";
             },},{id: "books-dune-dune-1",
-          title: 'Dune (Dune #1)',
+          title: 'Dune (Dune, #1)',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dune-dune-1/";
@@ -1574,31 +1589,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/to-kill-a-mockingbird/";
-            },},{id: "books-elon-musk",
-          title: 'Elon Musk',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/elon-musk/";
-            },},{id: "books-hands-on-introduction-to-labview-for-scientists-and-engineers",
-          title: 'Hands-On Introduction to LabVIEW for Scientists and Engineers',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/hands-on-introduction-to-labview-for-scientists-and-engineers/";
-            },},{id: "books-penguin-random-house-python-crash-course",
-          title: 'Penguin Random House Python Crash Course',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/penguin-random-house-python-crash-course/";
-            },},{id: "books-the-adsorption-of-gases-and-vapors-vol-i-physical-adsorption",
-          title: 'The Adsorption of Gases and Vapors Vol I - Physical Adsorption',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i/";
-            },},{id: "books-the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy",
-          title: 'The Illustrated On the Shoulders of Giants: The Great Works of Physics and...',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants/";
             },},{id: "books-the-skeptics-39-guide-to-the-universe-how-to-know-what-39-s-really-real-in-a-world-increasingly-full-of-fake",
           title: 'The Skeptics&amp;#39; Guide to the Universe: How to Know What&amp;#39;s Really Real in...',
           description: "",
@@ -1644,11 +1634,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/linux-basics-for-hackers/";
-            },},{id: "books-breaking-and-entering-the-extraordinary-story-of-a-hacker-called-quot-alien-quot-a-woman-39-s-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity",
-          title: 'Breaking And Entering: The Extraordinary Story of a Hacker Called &amp;quot;Alien&amp;quot; – A...',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/breaking-and-entering/";
             },},{id: "books-the-art-of-cyberwarfare-an-investigator-39-s-guide-to-espionage-ransomware-and-organized-cybercrime",
           title: 'The Art of Cyberwarfare: An Investigator&amp;#39;s Guide to Espionage, Ransomware, and Organized Cybercrime...',
           description: "",
@@ -1669,11 +1654,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the-elements-of-investing/";
+            },},{id: "books-elon-musk",
+          title: 'Elon Musk',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/elon-musk/";
             },},{id: "books-cybersecurity-for-small-networks-a-no-nonsense-guide-for-the-reasonably-paranoid",
           title: 'Cybersecurity for Small Networks: A No-Nonsense Guide for the Reasonably Paranoid',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/cybersecurity-for-small-networks/";
+            },},{id: "books-penguin-random-house-python-crash-course",
+          title: 'Penguin Random House Python Crash Course',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/penguin-random-house-python-crash-course/";
+            },},{id: "books-the-adsorption-of-gases-and-vapors-vol-i-physical-adsorption",
+          title: 'The Adsorption of Gases and Vapors Vol I - Physical Adsorption',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i/";
+            },},{id: "books-the-art-of-statistics-how-to-learn-from-data",
+          title: 'The Art of Statistics: How to Learn from Data',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-art-of-statistics/";
+            },},{id: "books-the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy",
+          title: 'The Illustrated On the Shoulders of Giants: The Great Works of Physics and...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants/";
+            },},{id: "books-what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-what-if-2",
+          title: 'What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (What If?,...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/what-if-2/";
             },},{id: "news-get-ready-for-world-carbon-conference-2026-sparkles-smile",
           title: 'Get ready for World Carbon Conference 2026! :sparkles: :smile:',
           description: "",
