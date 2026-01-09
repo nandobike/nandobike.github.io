@@ -1629,8 +1629,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/linux-basics-for-hackers/";
-            },},{id: "books-breaking-and-entering-the-extraordinary-story-of-a-hacker-called-alien-a-woman-39-s-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity",
-          title: 'Breaking And Entering: The Extraordinary Story of a Hacker Called Alien – A...',
+            },},{id: "books-breaking-and-entering-the-extraordinary-story-of-a-hacker-called-quot-alien-quot-a-woman-39-s-thrilling-career-journey-from-mit-through-spycraft-and-cybersecurity",
+          title: 'Breaking And Entering: The Extraordinary Story of a Hacker Called &amp;quot;Alien&amp;quot; – A...',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/breaking-and-entering/";
