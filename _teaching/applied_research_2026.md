@@ -37,7 +37,7 @@ The course features presentations from academic researchers and industry profess
 
 ## Instructor
 
-**Fernando Vallejos-Burgos**  
+**Dr. Fernando Vallejos-Burgos**  
 _Global Labs Manager_  
 _Morgan Advanced Materials_
 
@@ -63,10 +63,16 @@ _University of Banja Luka_
 
 <img src="/assets/img/headshots/radovan-kukobat.jpg" style="width: 300px; max-width: 100%;" alt="RK">
 
-**Topic:** [TO BE DETERMINED]  
+**Topic:** Nanomaterials Research: A Path from PhD to Academia  
 **Session:** Day 1, 11:00 AM - 12:00 PM
 
-[SHORT BIO]
+**Radovan Kukobat** completed his undergraduate and master’s studies in the **Department of Chemical Engineering and Technology** at the **[University of Banja Luka](https://www.unibl.org/)**, and earned his **Ph.D.** at **[Shinshu University](https://www.shinshu-u.ac.jp/english/)** with the dissertation *“Sol–gel dispersants for carbon nanotubes with superior electrical conductivity.”*
+
+He conducted his **postdoctoral research at Shinshu University** in the field of **gas separation membranes**, where he worked on **graphene–zeolite membranes for hydrogen separation**, developing **highly selective membranes with ultrahigh hydrogen permeability**.
+
+In **2021**, Radovan began his **independent research career** at the **[University of Banja Luka](https://www.unibl.org/)**, where he continues to work on **membranes for carbon dioxide separation**, while also expanding into the field of **biomedical engineering**. His research in this area has resulted in **several publications**, including studies on **drug adsorption and dissolution** and **bone scaffold materials**.
+
+He is actively exploring **new routes for material synthesis** with **enhanced optical, electrical, and surface properties** for applications in **energy, environmental technologies, and bioengineering**.
 
 ---
 
