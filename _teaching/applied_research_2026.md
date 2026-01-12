@@ -86,7 +86,7 @@ Derek M. Hall is an Assistant Professor in the Department of Mechanical Engineer
 
 ### Presenter 3: Academic Researcher
 
-**Dr. Maria Antonieta Sanchez-Farran**  
+**Dr. María Antonieta Sánchez Farrán**  
 _Penn State University_
 
 [PHOTO HERE]
@@ -94,7 +94,12 @@ _Penn State University_
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 2, 10:45 AM - 11:30 AM
 
-[SHORT BIO]
+**María Antonieta Sánchez Farrán** completed her undergraduate studies in **Chemical Civil Engineering** at the **[University of Concepción (UdeC)](https://www.udec.cl/)** in 2003. After working as a **Process Engineer at [Huachipato](https://www.huachipato.cl/)** and completing a **Master’s degree in Production Engineering** in the **[Department of Industrial Engineering at UdeC](https://fi.udec.cl/)**, she applied for the **[Fulbright–CONICYT Scholarship](https://www.fulbright.cl/)** to pursue her doctoral studies in the United States.
+
+She earned her **Ph.D. in Chemical Engineering** at **[The Pennsylvania State University](https://www.psu.edu/)**, where she was part of a **multidisciplinary team** at the **[Penn State Materials Research Institute (MRI)](https://www.mri.psu.edu/)**. The team’s goal was to investigate the **collective behavior of colloidal microparticles (active colloids)** observed in experiments. Her contribution to the group was in the **theoretical and computational physics** area, where she developed **mathematical models capable of qualitatively reproducing the experimental observations**.
+
+During her postdoctoral work, also at **Penn State**, she collaborated with the pharmaceutical company **[Merck](https://www.merck.com/)**, where she investigates **flow patterns in the filters** that Merck uses in its **bioprocessing lines**.
+
 
 ---
 
