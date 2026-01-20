@@ -100,7 +100,7 @@ _Penn State University_
 
 <img src="/assets/img/headshots/MariaAntonieta.jpg" style="width: 250px; max-width: 100%;" alt="DH">
 
-**Topic:** My Academic Journey in the United States: Opportunities, Challenges, and Beyond
+**Topic:** My Academic Journey in the United States: Opportunities, Challenges, and Beyond  
 **Session:** Day 3, 10:45 AM - 11:30 AM
 
 **María Antonieta Sánchez Farrán** completed her undergraduate studies in **Chemical Engineering** at the **[University of Concepción (UdeC)](https://www.udec.cl/)** in 2003. After working as a **Process Engineer at [Huachipato](https://www.huachipato.cl/)** and completing a **Master’s degree in Production Engineering** in the **[Department of Industrial Engineering at UdeC](https://fi.udec.cl/)**, she applied for the **[Fulbright–CONICYT Scholarship](https://www.fulbright.cl/)** to pursue her doctoral studies in the United States.
