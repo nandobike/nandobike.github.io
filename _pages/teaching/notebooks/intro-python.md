@@ -2,19 +2,19 @@
 layout: page
 title: "Research Methods Demo - Applied Research Course"
 description: Interactive Jupyter notebook demonstrating research methodologies
-permalink: /teaching/applied-research/notebooks/intro_python/
+permalink: /teaching/applied-research/notebooks/intro-python/
 nav: false
 ---
 
 # Introduction to Python Demo
 
-📥 [Download Notebook](/assets/jupyter/intro_python.ipynb)
+📥 [Download Notebook](/assets/jupyter/intro-python.ipynb)
 
 ---
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/intro_python.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/intro_python.ipynb %}{% endcapture %}
+{% assign jupyter_path = 'assets/jupyter/intro-python.ipynb' | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/intro-python.ipynb %}{% endcapture %}
 {% if notebook_exists == 'true' %}
   {% jupyter_notebook jupyter_path %}
 {% else %}

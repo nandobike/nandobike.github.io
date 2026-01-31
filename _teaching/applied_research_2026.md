@@ -411,7 +411,7 @@ By the end of this course, students will be able to:
 
 Access the following Jupyter notebooks for hands-on exercises:
 
-- 📓 [Notebook 1: Introduction to Python](/teaching/applied-research/notebooks/intro_python/){:target="_blank"}
+- 📓 [Notebook 1: Introduction to Python](/teaching/applied-research/notebooks/intro-python/){:target="_blank"}
 
 > 💡 **Tip:** Right-click and "Open in new tab" to keep the course page open
 
