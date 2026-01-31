@@ -407,6 +407,17 @@ By the end of this course, students will be able to:
 - LaTeX editor (Overleaf or local installation)
 - Arduino IDE
 
+### Interactive Notebooks
+
+Access the following Jupyter notebooks for hands-on exercises:
+
+- 📓 [Notebook 1: Introduction to Python](/teaching/applied-research/notebooks/intro_python/){:target="_blank"}
+
+> 💡 **Tip:** Right-click and "Open in new tab" to keep the course page open
+
+---
+
+
 ### Datasets
 
 All course datasets will be available here:
