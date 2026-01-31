@@ -1747,11 +1747,6 @@ ninja.data = [{
           description: "Graduate course on applying research in industry and transition from academia",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/applied_research_2026/";
-            },},{id: "teaching-research-methods-demo-applied-research-course",
-          title: 'Research Methods Demo - Applied Research Course',
-          description: "Interactive Jupyter notebook demonstrating research methodologies",
-          section: "Teaching",handler: () => {
-              window.location.href = "/teaching/applied-research/notebooks/intro_python/";
             },},{id: "teaching-test-course-101",
           title: 'Test Course 101',
           description: "This is a test course to debug the display",
