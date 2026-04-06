@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-04-06'
 papers:
   xD9OQosAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: 'Pyrolyzed phthalocyanines as surrogate carbon catalysts: Initial insights into oxygen-transfer mechanisms'
     year: '2012'
   xD9OQosAAAAJ:3fE2CSJIrl8C:
-    citations: 2
+    citations: 3
     title: Fundamental aspects of supercritical gas adsorption
     year: '2019'
   xD9OQosAAAAJ:4DMP91E08xMC:
@@ -34,7 +34,7 @@ papers:
     title: 'Measuring adsorption isotherms with a flowmeter and a pressure gauge: Observations on the quasi-equilibrium method'
     year: '2019'
   xD9OQosAAAAJ:9ZlFYXVOiuMC:
-    citations: 54
+    citations: 55
     title: Ultrapermeable 2D-channeled graphene-wrapped zeolite molecular sieving membranes for hydrogen separation
     year: '2022'
   xD9OQosAAAAJ:9yKSN-GCB0IC:
@@ -86,7 +86,7 @@ papers:
     title: "Modelos de c\xE1lculo para distribuci\xF3n de tama\xF1os de poros mediante adsorci\xF3n de gases"
     year: '2008'
   xD9OQosAAAAJ:UebtZRa9Y70C:
-    citations: 110
+    citations: 111
     title: Air separation with graphene mediated by nanowindow-rim concerted motion
     year: '2018'
   xD9OQosAAAAJ:Wp0gIr-vW9MC:
@@ -94,7 +94,7 @@ papers:
     title: Kinetics of Oxygen Transfer Reactions on the Graphene Surface. Part III. H 2O vs. CO 2, Mechanistic Comparisons Between Armchair And Zigzag Sites.
     year: Unknown Year
   xD9OQosAAAAJ:Y0pCki6q_DkC:
-    citations: 56
+    citations: 57
     title: On the structural and reactivity differences between biomass- and coal-derived chars
     year: '2016'
   xD9OQosAAAAJ:YOwf2qJgpHMC:
@@ -102,7 +102,7 @@ papers:
     title: Mesoscopic cage-like structured single-wall carbon nanotube cryogels
     year: '2020'
   xD9OQosAAAAJ:YsMSGLbcyi4C:
-    citations: 121
+    citations: 125
     title: Structural prediction of graphitization and porosity in carbide-derived carbons
     year: '2017'
   xD9OQosAAAAJ:ZeXyd9-uunAC:
@@ -130,7 +130,7 @@ papers:
     title: Ambient pressure storage of high-density methane in carbon nanopores having thermally switchable graphene-locks
     year: '2022'
   xD9OQosAAAAJ:hC7cP41nSMkC:
-    citations: 1
+    citations: 5
     title: Ambient pressure storage of high-density methane in nanoporous carbon coated with graphene
     year: '2025'
   xD9OQosAAAAJ:hFOr9nPyWt4C:
@@ -142,7 +142,7 @@ papers:
     title: Molecular vibrational energy difference induced high selective separation of 18O2 from 16O2 using nanoporous carbons
     year: Unknown Year
   xD9OQosAAAAJ:mVmsd5A6BfQC:
-    citations: 13
+    citations: 16
     title: 'Edge type effect in the gasification mechanism of graphene clusters with H2O and/or CO2: armchair vs. zigzag'
     year: '2022'
   xD9OQosAAAAJ:qUcmZB5y_30C:
@@ -150,7 +150,7 @@ papers:
     title: Tuning carbon black surface morphology via controlled thermal treatment atmosphere
     year: '2025'
   xD9OQosAAAAJ:qxL8FJ1GzNcC:
-    citations: 30
+    citations: 31
     title: The subtracting pore effect method for an accurate and reliable surface area determination of porous carbons
     year: '2021'
   xD9OQosAAAAJ:roLk4NBRz8UC:
@@ -158,11 +158,11 @@ papers:
     title: 'On the structural and reactivity differences between biomass-and coal-derived chars: Supplementary Data'
     year: Unknown Year
   xD9OQosAAAAJ:u-x6o8ySG0sC:
-    citations: 86
+    citations: 87
     title: Oxygen migration on the graphene surface. 1. Origin of epoxide groups
     year: '2011'
   xD9OQosAAAAJ:u5HHmVD_uO8C:
-    citations: 115
+    citations: 117
     title: Oxygen migration on the graphene surface. 2. Thermochemistry of basal-plane diffusion (hopping)
     year: '2011'
   xD9OQosAAAAJ:ufrVoPGSRksC:
