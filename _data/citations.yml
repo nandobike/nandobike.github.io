@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-01'
+  last_updated: '2026-06-29'
 papers:
   xD9OQosAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -26,7 +26,7 @@ papers:
     title: Isotope effect on adsorption diffusivity of water molecules in hydrophobic carbon micropores
     year: '2020'
   xD9OQosAAAAJ:7PzlFSSx8tAC:
-    citations: 46
+    citations: 50
     title: 3D nanostructure prediction of porous carbons via gas adsorption
     year: '2023'
   xD9OQosAAAAJ:8k81kl-MbHgC:
@@ -58,7 +58,7 @@ papers:
     title: Enhanced dissolution of anticancer drug letrozole from mesoporous zeolite clinoptilolite
     year: '2024'
   xD9OQosAAAAJ:LkGwnXOMwfcC:
-    citations: 9
+    citations: 10
     title: Nanoporosity change on elastic relaxation of partially folded graphene monoliths
     year: '2017'
   xD9OQosAAAAJ:M3ejUd6NZC8C:
@@ -78,7 +78,7 @@ papers:
     title: Distorted graphene sheet structure-derived latent nanoporosity
     year: '2016'
   xD9OQosAAAAJ:ULOm3_A8WrAC:
-    citations: 57
+    citations: 58
     title: A water-resilient carbon nanotube based strain sensor for monitoring structural integrity
     year: '2019'
   xD9OQosAAAAJ:UeHWp8X0CEIC:
@@ -102,7 +102,7 @@ papers:
     title: Mesoscopic cage-like structured single-wall carbon nanotube cryogels
     year: '2020'
   xD9OQosAAAAJ:YsMSGLbcyi4C:
-    citations: 126
+    citations: 128
     title: Structural prediction of graphitization and porosity in carbide-derived carbons
     year: '2017'
   xD9OQosAAAAJ:ZeXyd9-uunAC:
@@ -118,7 +118,7 @@ papers:
     title: "Transferencia de ox\xEDgeno en carbones y catalizadores soportados en carbones (Oxygen transfer on carbons and carbon-supported catalysts)."
     year: '2011'
   xD9OQosAAAAJ:aqlVkmm33-oC:
-    citations: 48
+    citations: 49
     title: Adsorption separation of heavier isotope gases in subnanometer carbon pores
     year: '2021'
   xD9OQosAAAAJ:d1gkVwhDpl0C:
@@ -141,6 +141,10 @@ papers:
     citations: 0
     title: Molecular vibrational energy difference induced high selective separation of 18O2 from 16O2 using nanoporous carbons
     year: Unknown Year
+  xD9OQosAAAAJ:mB3voiENLucC:
+    citations: 0
+    title: Porosity Local Analysis (PoLA) for nanoporous carbons. Porous volume characterization and prediction of gas adsorption isotherms
+    year: '2026'
   xD9OQosAAAAJ:mVmsd5A6BfQC:
     citations: 16
     title: 'Edge type effect in the gasification mechanism of graphene clusters with H2O and/or CO2: armchair vs. zigzag'
@@ -162,7 +166,7 @@ papers:
     title: Oxygen migration on the graphene surface. 1. Origin of epoxide groups
     year: '2011'
   xD9OQosAAAAJ:u5HHmVD_uO8C:
-    citations: 117
+    citations: 118
     title: Oxygen migration on the graphene surface. 2. Thermochemistry of basal-plane diffusion (hopping)
     year: '2011'
   xD9OQosAAAAJ:ufrVoPGSRksC:
