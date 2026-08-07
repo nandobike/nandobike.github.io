@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-20'
+  last_updated: '2026-08-07'
 papers:
   xD9OQosAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Charge-transfer mediated nanopore-controlled pyrene derivatives/graphene colloids
     year: '2018'
   xD9OQosAAAAJ:2osOgNQ5qMEC:
-    citations: 38
+    citations: 39
     title: 'Pyrolyzed phthalocyanines as surrogate carbon catalysts: Initial insights into oxygen-transfer mechanisms'
     year: '2012'
   xD9OQosAAAAJ:3fE2CSJIrl8C:
@@ -34,13 +34,17 @@ papers:
     title: 'Measuring adsorption isotherms with a flowmeter and a pressure gauge: Observations on the quasi-equilibrium method'
     year: '2019'
   xD9OQosAAAAJ:9ZlFYXVOiuMC:
-    citations: 57
+    citations: 60
     title: Ultrapermeable 2D-channeled graphene-wrapped zeolite molecular sieving membranes for hydrogen separation
     year: '2022'
   xD9OQosAAAAJ:9yKSN-GCB0IC:
     citations: 22
     title: 'Preparation and characterization of inexpensive heterogeneous catalysts for air pollution control: Two case studies'
     year: '2007'
+  xD9OQosAAAAJ:HDshCWvjkbEC:
+    citations: 0
+    title: Thermodynamics of SiC sublimation in PVT crystal growth
+    year: '2026'
   xD9OQosAAAAJ:IWHjjKOFINEC:
     citations: 0
     title: Carbon Surface Modification by Thermal Treatment in Vacuum, Inert Gas, and Hydrogen
@@ -54,7 +58,7 @@ papers:
     title: CHARACTERIZATION OF SURFACE STRUCTURES ON THERMAL TREATED CARBON BLACK
     year: Unknown Year
   xD9OQosAAAAJ:L8Ckcad2t8MC:
-    citations: 10
+    citations: 8
     title: Enhanced dissolution of anticancer drug letrozole from mesoporous zeolite clinoptilolite
     year: '2024'
   xD9OQosAAAAJ:LkGwnXOMwfcC:
@@ -66,7 +70,7 @@ papers:
     title: Cu-phthalocyanine-mediated nanowindow production on single-wall carbon nanohorn
     year: '2021'
   xD9OQosAAAAJ:MXK_kJrjxJIC:
-    citations: 4
+    citations: 5
     title: Fundamental science of gas storage
     year: '2019'
   xD9OQosAAAAJ:QIV2ME_5wuYC:
@@ -74,7 +78,7 @@ papers:
     title: "Friction and wear behavior of graphene and graphite oxide\u2013reinforced epoxy composites"
     year: '2022'
   xD9OQosAAAAJ:Tyk-4Ss8FVUC:
-    citations: 22
+    citations: 21
     title: Distorted graphene sheet structure-derived latent nanoporosity
     year: '2016'
   xD9OQosAAAAJ:ULOm3_A8WrAC:
@@ -82,11 +86,11 @@ papers:
     title: A water-resilient carbon nanotube based strain sensor for monitoring structural integrity
     year: '2019'
   xD9OQosAAAAJ:UeHWp8X0CEIC:
-    citations: 4
+    citations: 3
     title: "Modelos de c\xE1lculo para distribuci\xF3n de tama\xF1os de poros mediante adsorci\xF3n de gases"
     year: '2008'
   xD9OQosAAAAJ:UebtZRa9Y70C:
-    citations: 112
+    citations: 115
     title: Air separation with graphene mediated by nanowindow-rim concerted motion
     year: '2018'
   xD9OQosAAAAJ:Wp0gIr-vW9MC:
@@ -94,7 +98,7 @@ papers:
     title: Kinetics of Oxygen Transfer Reactions on the Graphene Surface. Part III. H 2O vs. CO 2, Mechanistic Comparisons Between Armchair And Zigzag Sites.
     year: Unknown Year
   xD9OQosAAAAJ:Y0pCki6q_DkC:
-    citations: 57
+    citations: 58
     title: On the structural and reactivity differences between biomass- and coal-derived chars
     year: '2016'
   xD9OQosAAAAJ:YOwf2qJgpHMC:
@@ -102,7 +106,7 @@ papers:
     title: Mesoscopic cage-like structured single-wall carbon nanotube cryogels
     year: '2020'
   xD9OQosAAAAJ:YsMSGLbcyi4C:
-    citations: 128
+    citations: 129
     title: Structural prediction of graphitization and porosity in carbide-derived carbons
     year: '2017'
   xD9OQosAAAAJ:ZeXyd9-uunAC:
@@ -118,11 +122,11 @@ papers:
     title: "Transferencia de ox\xEDgeno en carbones y catalizadores soportados en carbones (Oxygen transfer on carbons and carbon-supported catalysts)."
     year: '2011'
   xD9OQosAAAAJ:aqlVkmm33-oC:
-    citations: 49
+    citations: 50
     title: Adsorption separation of heavier isotope gases in subnanometer carbon pores
     year: '2021'
   xD9OQosAAAAJ:d1gkVwhDpl0C:
-    citations: 69
+    citations: 70
     title: On the mechanism of nascent site deactivation in graphene
     year: '2011'
   xD9OQosAAAAJ:dhFuZR0502QC:
@@ -162,11 +166,11 @@ papers:
     title: 'On the structural and reactivity differences between biomass-and coal-derived chars: Supplementary Data'
     year: Unknown Year
   xD9OQosAAAAJ:u-x6o8ySG0sC:
-    citations: 87
+    citations: 85
     title: Oxygen migration on the graphene surface. 1. Origin of epoxide groups
     year: '2011'
   xD9OQosAAAAJ:u5HHmVD_uO8C:
-    citations: 118
+    citations: 116
     title: Oxygen migration on the graphene surface. 2. Thermochemistry of basal-plane diffusion (hopping)
     year: '2011'
   xD9OQosAAAAJ:ufrVoPGSRksC:
@@ -174,6 +178,6 @@ papers:
     title: Water adsorption property of hierarchically nanoporous detonation nanodiamonds
     year: '2017'
   xD9OQosAAAAJ:zYLM7Y9cAGgC:
-    citations: 2
+    citations: 1
     title: Fabrication of highly ultramicroporous carbon nanofoams by SF6-catalyzed laser-induced chemical vapor deposition
     year: '2016'
