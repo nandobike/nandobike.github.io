@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-09-07'
 papers:
   xD9OQosAAAAJ:-f6ydRqryjwC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: 'Pyrolyzed phthalocyanines as surrogate carbon catalysts: Initial insights into oxygen-transfer mechanisms'
     year: '2012'
   xD9OQosAAAAJ:3fE2CSJIrl8C:
-    citations: 3
+    citations: 4
     title: Fundamental aspects of supercritical gas adsorption
     year: '2019'
   xD9OQosAAAAJ:4DMP91E08xMC:
@@ -26,7 +26,7 @@ papers:
     title: Isotope effect on adsorption diffusivity of water molecules in hydrophobic carbon micropores
     year: '2020'
   xD9OQosAAAAJ:7PzlFSSx8tAC:
-    citations: 53
+    citations: 56
     title: 3D nanostructure prediction of porous carbons via gas adsorption
     year: '2023'
   xD9OQosAAAAJ:8k81kl-MbHgC:
@@ -90,7 +90,7 @@ papers:
     title: "Modelos de c\xE1lculo para distribuci\xF3n de tama\xF1os de poros mediante adsorci\xF3n de gases"
     year: '2008'
   xD9OQosAAAAJ:UebtZRa9Y70C:
-    citations: 115
+    citations: 116
     title: Air separation with graphene mediated by nanowindow-rim concerted motion
     year: '2018'
   xD9OQosAAAAJ:Wp0gIr-vW9MC:
@@ -106,7 +106,7 @@ papers:
     title: Mesoscopic cage-like structured single-wall carbon nanotube cryogels
     year: '2020'
   xD9OQosAAAAJ:YsMSGLbcyi4C:
-    citations: 129
+    citations: 135
     title: Structural prediction of graphitization and porosity in carbide-derived carbons
     year: '2017'
   xD9OQosAAAAJ:ZeXyd9-uunAC:
@@ -122,11 +122,11 @@ papers:
     title: "Transferencia de ox\xEDgeno en carbones y catalizadores soportados en carbones (Oxygen transfer on carbons and carbon-supported catalysts)."
     year: '2011'
   xD9OQosAAAAJ:aqlVkmm33-oC:
-    citations: 50
+    citations: 51
     title: Adsorption separation of heavier isotope gases in subnanometer carbon pores
     year: '2021'
   xD9OQosAAAAJ:d1gkVwhDpl0C:
-    citations: 70
+    citations: 71
     title: On the mechanism of nascent site deactivation in graphene
     year: '2011'
   xD9OQosAAAAJ:dhFuZR0502QC:
@@ -134,7 +134,7 @@ papers:
     title: Ambient pressure storage of high-density methane in carbon nanopores having thermally switchable graphene-locks
     year: '2022'
   xD9OQosAAAAJ:hC7cP41nSMkC:
-    citations: 9
+    citations: 10
     title: Ambient pressure storage of high-density methane in nanoporous carbon coated with graphene
     year: '2025'
   xD9OQosAAAAJ:hFOr9nPyWt4C:
@@ -150,7 +150,7 @@ papers:
     title: Porosity Local Analysis (PoLA) for nanoporous carbons. Porous volume characterization and prediction of gas adsorption isotherms
     year: '2026'
   xD9OQosAAAAJ:mVmsd5A6BfQC:
-    citations: 16
+    citations: 17
     title: 'Edge type effect in the gasification mechanism of graphene clusters with H2O and/or CO2: armchair vs. zigzag'
     year: '2022'
   xD9OQosAAAAJ:qUcmZB5y_30C:
