@@ -1664,6 +1664,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/cybersecurity-for-small-networks/";
+            },},{id: "books-a-random-walk-down-wall-street-the-time-tested-strategy-for-successful-investing",
+          title: 'A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-random-walk-down-wall-street/";
+            },},{id: "books-all-about-rockets-and-jets",
+          title: 'All About Rockets and Jets',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/all-about-rockets-and-jets/";
+            },},{id: "books-no-plan-b-jack-reacher-27",
+          title: 'No Plan B (Jack Reacher, #27)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/no-plan-b-jack-reacher-27/";
             },},{id: "books-penguin-random-house-python-crash-course",
           title: 'Penguin Random House Python Crash Course',
           description: "",
@@ -1674,21 +1689,56 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the-adsorption-of-gases-and-vapors-vol-i/";
-            },},{id: "books-the-art-of-statistics-how-to-learn-from-data",
-          title: 'The Art of Statistics: How to Learn from Data',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the-art-of-statistics/";
             },},{id: "books-the-illustrated-on-the-shoulders-of-giants-the-great-works-of-physics-and-astronomy",
           title: 'The Illustrated On the Shoulders of Giants: The Great Works of Physics and...',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the-illustrated-on-the-shoulders-of-giants/";
+            },},{id: "books-the-art-of-statistics-how-to-learn-from-data",
+          title: 'The Art of Statistics: How to Learn from Data',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-art-of-statistics/";
             },},{id: "books-what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-what-if-2",
           title: 'What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (What If?,...',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/what-if-2/";
+            },},{id: "books-los-inocentes-al-poder-crónica-de-una-generación",
+          title: 'Los inocentes al poder: Crónica de una generación',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/los-inocentes-al-poder/";
+            },},{id: "books-long-shadows-amos-decker-7",
+          title: 'Long Shadows (Amos Decker, #7)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/long-shadows-amos-decker-7/";
+            },},{id: "books-chaos-making-a-new-science",
+          title: 'Chaos: Making a New Science',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/chaos-making-a-new-science/";
+            },},{id: "books-12-rules-for-life-an-antidote-to-chaos",
+          title: '12 Rules for Life: An Antidote to Chaos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/12-rules-for-life/";
+            },},{id: "books-how-to-win-friends-and-influence-people-updated-for-the-next-generation-of-leaders-dale-carnegie-books",
+          title: 'How to Win Friends and Influence People: Updated For the Next Generation of...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/how-to-win-friends-and-influence-people/";
+            },},{id: "books-enemy-contact-jack-ryan-universe-27",
+          title: 'Enemy Contact (Jack Ryan Universe, #27)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/enemy-contact-jack-ryan-universe-27/";
+            },},{id: "books-a-man-called-ove",
+          title: 'A Man Called Ove',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a-man-called-ove/";
             },},{id: "news-get-ready-for-world-carbon-conference-2026-sparkles-smile",
           title: 'Get ready for World Carbon Conference 2026! :sparkles: :smile:',
           description: "",
