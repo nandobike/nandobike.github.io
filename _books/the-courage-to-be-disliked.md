@@ -3,6 +3,7 @@ layout: book-review
 title: "The Courage to Be Disliked: How to Free Yourself, Change Your Life and Achieve Real Happiness"
 author: Ichiro Kishimi
 date: 2022-03-20
+cover: assets/img/book_covers/the-courage-to-be-disliked.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

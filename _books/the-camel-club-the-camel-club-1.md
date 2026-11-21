@@ -3,6 +3,7 @@ layout: book-review
 title: "The Camel Club (The Camel Club, #1)"
 author: David Baldacci
 date: 2022-11-11
+cover: assets/img/book_covers/the-camel-club-the-camel-club-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

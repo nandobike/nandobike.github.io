@@ -3,6 +3,7 @@ layout: book-review
 title: "The Return of the King (The Lord of the Rings, #3)"
 author: J.R.R. Tolkien
 date: 2014-05-01
+cover: assets/img/book_covers/the-return-of-the-king-the-lord-of.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

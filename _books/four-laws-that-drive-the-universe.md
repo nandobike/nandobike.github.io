@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Four Laws That Drive the Universe"
-author: Peter   Atkins
+author: Peter Atkins
 date: 2024-11-04
 cover: assets/img/book_covers/four-laws-that-drive-the-universe.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

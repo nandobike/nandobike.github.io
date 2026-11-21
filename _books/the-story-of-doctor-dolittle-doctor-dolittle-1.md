@@ -3,6 +3,7 @@ layout: book-review
 title: "The Story of Doctor Dolittle (Doctor Dolittle, #1)"
 author: Hugh Lofting
 date: 2018-06-28
+cover: assets/img/book_covers/the-story-of-doctor-dolittle-doctor-dolittle-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

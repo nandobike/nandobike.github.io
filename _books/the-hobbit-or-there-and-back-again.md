@@ -3,6 +3,7 @@ layout: book-review
 title: "The Hobbit, or There and Back Again"
 author: J.R.R. Tolkien
 date: 2014-05-01
+cover: assets/img/book_covers/the-hobbit-or-there-and-back-again.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "The Inn (Bill Robinson, #1)"
-author: James  Patterson
+author: James Patterson
 date: 2024-11-13
 cover: assets/img/book_covers/the-inn-bill-robinson-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

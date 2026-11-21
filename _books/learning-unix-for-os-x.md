@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Learning Unix for OS X: Going Deep With the Terminal and Shell"
-author: Dave  Taylor
+author: Dave Taylor
 date: 2019-05-27
 cover: assets/img/book_covers/learning-unix-for-os-x.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

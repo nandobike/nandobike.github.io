@@ -3,6 +3,7 @@ layout: book-review
 title: "Memory Man (Memory Man Series Book 1)"
 author: David Baldacci
 date: 2018-01-21
+cover: assets/img/book_covers/memory-man-memory-man-series-book-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

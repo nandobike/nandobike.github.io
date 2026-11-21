@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Humble Pi: When Math Goes Wrong in the Real World"
-author: Matt    Parker
+author: Matt Parker
 date: 2023-04-09
 cover: assets/img/book_covers/humble-pi-when-math-goes-wrong-in-the.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

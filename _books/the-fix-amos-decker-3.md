@@ -11,6 +11,7 @@ tags:
 buy_link: https://www.amazon.com/gp/product/9781455586554
 started: 2018-02-20
 finished: 2018-02-20
+released: 2017
 stars: 4
 goodreads_review: 34219811
 status: Finished

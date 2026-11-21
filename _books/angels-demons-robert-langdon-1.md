@@ -1,8 +1,9 @@
 ---
 layout: book-review
 title: "Angels & Demons (Robert Langdon, #1)"
-author: Dan    Brown
+author: Dan Brown
 date: 2014-02-08
+cover: assets/img/book_covers/angels-demons-robert-langdon-1.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

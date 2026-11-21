@@ -3,6 +3,7 @@ layout: book-review
 title: "Mostly Harmless (Hitchhiker's Guide to the Galaxy, #5)"
 author: Douglas Adams
 date: 2016-09-24
+cover: assets/img/book_covers/mostly-harmless-hitchhikers-guide-to-the-galaxy-5.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

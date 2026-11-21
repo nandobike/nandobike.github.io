@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "What is Chemistry?: A Very Short Introduction"
-author: Peter   Atkins
+author: Peter Atkins
 date: 2013-12-22
 cover: assets/img/book_covers/what-is-chemistry.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

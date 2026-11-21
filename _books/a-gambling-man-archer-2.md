@@ -11,6 +11,7 @@ tags:
 buy_link: https://www.amazon.com/gp/product/9781538719671
 started: 2023-01-30
 finished: 2023-01-30
+released: 2021
 stars: 5
 goodreads_review: 54334352
 status: Finished

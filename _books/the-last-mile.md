@@ -3,6 +3,7 @@ layout: book-review
 title: "The Last Mile"
 author: David Baldacci
 date: 2018-02-05
+cover: assets/img/book_covers/the-last-mile.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

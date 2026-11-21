@@ -3,6 +3,7 @@ layout: book-review
 title: "Red Storm Rising"
 author: Tom Clancy
 date: 2015-11-26
+cover: assets/img/book_covers/red-storm-rising.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -11,7 +11,7 @@ tags:
 buy_link: https://www.amazon.com/gp/product/9782226110602
 started: 2024-08-02
 finished: 2024-08-02
-released: 2001
+released: 1998
 stars: 0
 goodreads_review: 6497371
 status: Finished

@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Fallout (Tom Clancy's Splinter Cell, #4)"
-author: David  Michaels
+author: David Michaels
 date: 2022-05-08
 cover: assets/img/book_covers/fallout-tom-clancys-splinter-cell-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

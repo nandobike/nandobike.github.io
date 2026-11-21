@@ -11,6 +11,7 @@ tags:
 buy_link: https://www.amazon.com/gp/product/9781538761571
 started: 2019-11-28
 finished: 2019-11-28
+released: 2018
 stars: 4
 goodreads_review: 39088984
 status: Finished

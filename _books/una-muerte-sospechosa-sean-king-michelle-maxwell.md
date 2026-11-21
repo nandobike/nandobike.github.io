@@ -11,6 +11,7 @@ tags:
 buy_link: https://www.amazon.com/gp/product/9788466637626
 started: 2014-05-01
 finished: 2014-05-01
+released: 2007
 stars: 0
 goodreads_review: 5509324
 status: Finished

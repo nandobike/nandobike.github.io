@@ -3,6 +3,7 @@ layout: book-review
 title: "The Diary of a Young Girl"
 author: Anne Frank
 date: 2018-10-28
+cover: assets/img/book_covers/the-diary-of-a-young-girl.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

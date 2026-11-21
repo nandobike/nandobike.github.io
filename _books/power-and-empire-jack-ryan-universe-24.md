@@ -3,6 +3,7 @@ layout: book-review
 title: "Power and Empire (Jack Ryan Universe, #24)"
 author: Marc Cameron
 date: 2020-05-05
+cover: assets/img/book_covers/power-and-empire-jack-ryan-universe-24.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

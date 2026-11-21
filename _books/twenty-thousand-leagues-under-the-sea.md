@@ -3,6 +3,7 @@ layout: book-review
 title: "Twenty Thousand Leagues Under the Sea"
 author: Jules Verne
 date: 2016-11-23
+cover: assets/img/book_covers/twenty-thousand-leagues-under-the-sea.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

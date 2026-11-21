@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Cockpit Confidential: Everything You Need to Know About Air Travel: Questions, Answers & Reflections"
-author: Patrick  Smith
+author: Patrick Smith
 date: 2019-11-03
 cover: assets/img/book_covers/cockpit-confidential-everything-you-need-to-know-about.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

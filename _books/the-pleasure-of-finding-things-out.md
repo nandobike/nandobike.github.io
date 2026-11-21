@@ -3,6 +3,7 @@ layout: book-review
 title: "The Pleasure of Finding Things Out: The Best Short Works of Richard P. Feynman"
 author: Richard P. Feynman
 date: 2014-05-01
+cover: assets/img/book_covers/the-pleasure-of-finding-things-out.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

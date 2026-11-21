@@ -10,7 +10,6 @@ categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9780762418985
 started: 2014-10-30
-finished: 2014-10-30
 released: 2002
 stars: 0
 goodreads_review: 2097

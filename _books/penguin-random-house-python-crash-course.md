@@ -10,7 +10,6 @@ categories: novels
 tags:
 buy_link: https://www.amazon.com/gp/product/9781593276034
 started: 2025-03-26
-finished: 2025-03-26
 released: 2015
 stars: 0
 goodreads_review: 23241059

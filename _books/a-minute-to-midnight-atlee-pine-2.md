@@ -3,6 +3,7 @@ layout: book-review
 title: "A Minute to Midnight (Atlee Pine, #2)"
 author: David Baldacci
 date: 2021-12-25
+cover: assets/img/book_covers/a-minute-to-midnight-atlee-pine-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

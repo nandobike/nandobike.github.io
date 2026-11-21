@@ -3,6 +3,7 @@ layout: book-review
 title: "An Appetite for Wonder: The Making of a Scientist"
 author: Richard Dawkins
 date: 2017-03-31
+cover: assets/img/book_covers/an-appetite-for-wonder.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

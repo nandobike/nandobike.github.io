@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: "Checkmate (Tom Clancy's Splinter Cell, #3)"
-author: David  Michaels
+author: David Michaels
 date: 2021-11-05
 cover: assets/img/book_covers/checkmate-tom-clancys-splinter-cell-3.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)

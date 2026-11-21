@@ -3,6 +3,7 @@ layout: book-review
 title: "Mercy (Atlee Pine, #4)"
 author: David Baldacci
 date: 2022-01-09
+cover: assets/img/book_covers/mercy-atlee-pine-4.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

@@ -3,6 +3,7 @@ layout: book-review
 title: "The Restaurant at the End of the Universe (Hitchhiker's Guide, #2)"
 author: Douglas Adams
 date: 2016-05-29
+cover: assets/img/book_covers/the-restaurant-at-the-end-of-the-universe.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

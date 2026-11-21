@@ -3,6 +3,7 @@ layout: book-review
 title: "World Without End (Kingsbridge, #2)"
 author: Ken Follett
 date: 2018-08-16
+cover: assets/img/book_covers/world-without-end-kingsbridge-2.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

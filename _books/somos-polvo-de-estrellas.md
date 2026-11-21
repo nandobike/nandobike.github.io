@@ -3,6 +3,7 @@ layout: book-review
 title: "Somos polvo de estrellas"
 author: José María Maza Sancho
 date: 2018-01-15
+cover: assets/img/book_covers/somos-polvo-de-estrellas.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:

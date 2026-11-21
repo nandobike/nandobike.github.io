@@ -3,6 +3,7 @@ layout: book-review
 title: "Ten Days in a Mad-House"
 author: Nellie Bly
 date: 2022-11-11
+cover: assets/img/book_covers/ten-days-in-a-mad-house.jpg
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
 categories: novels
 tags:
