@@ -5,6 +5,7 @@ description: a project with no image
 img:
 importance: 4
 category: fun
+published: false # template, kept for reference
 ---
 
 Every project has a beautiful feature showcase page.
