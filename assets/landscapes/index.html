@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nanowindow landscapes · LJ permeation through graphene</title>
+<meta name="description" content="Interactive energy landscapes of graphene nanowindows for a single-site Lennard-Jones particle (argon), with the permeation path and transition state.">
+<script>
+// Theme: follow vallejos.cl's light/dark toggle (localStorage "theme" = dark | light | system), else the OS setting.
+function themeOf() {
+  let s = null; try { s = localStorage.getItem("theme"); } catch (e) {}
+  if (s === "dark" || s === "light") return s;
+  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+document.documentElement.setAttribute("data-theme", themeOf());
+</script>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+<style>
+  :root { --bg:#fbfbfa; --card:#ffffff; --panel:#f3f3f0; --ink:#1f1f1e; --muted:#6b6b66; --line:#e4e3df;
+          --accent:#2a78d6; --lattice:#3a3a3d; }
+  :root[data-theme="dark"] { color-scheme:dark;
+    --bg:#161615; --card:#1e1e1d; --panel:#242423; --ink:#f0efec; --muted:#a9a89f; --line:#363634; --accent:#4a93ea; --lattice:#77777d; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .page { max-width:1440px; margin:0 auto; padding:0 24px 32px; }
+
+  /* intro */
+  header { padding:36px 0 22px; display:grid; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); gap:40px; align-items:end; }
+  h1 { font-size:clamp(24px,3vw,34px); line-height:1.15; margin:0 0 14px; font-weight:650; letter-spacing:-.01em; }
+  .lede { margin:0; max-width:68ch; }
+  .tips { display:grid; gap:10px; margin:0; padding:0; list-style:none; }
+  .tips li { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px 14px; font-size:13.5px; }
+  .tips b { display:block; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-weight:600; margin-bottom:2px; }
+
+  /* app */
+  .app { display:grid; grid-template-columns:270px minmax(0,1fr) 340px; background:var(--card);
+         border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+  aside { background:var(--panel); padding:18px 18px 14px; border-right:1px solid var(--line); }
+  .lab { display:block; font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted);
+         font-weight:600; margin:18px 0 7px; }
+  .lab:first-child { margin-top:0; }
+  .wins { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
+  .wins button { font:inherit; font-size:14px; font-weight:600; padding:7px 0; border-radius:8px; cursor:pointer;
+                 border:1.5px solid var(--line); background:var(--card); color:var(--ink); position:relative; }
+  .wins button::before { content:""; display:inline-block; width:8px; height:8px; border-radius:50%;
+                         background:var(--c); margin-right:6px; vertical-align:1px; }
+  .wins button[aria-pressed="true"] { border-color:var(--c); box-shadow:inset 0 0 0 1px var(--c); }
+  .seg { display:grid; grid-template-columns:1fr 1fr; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:3px; }
+  .seg input { position:absolute; opacity:0; pointer-events:none; }
+  .seg label { text-align:center; font-size:13.5px; padding:6px 4px; border-radius:6px; cursor:pointer; color:var(--muted); }
+  .seg input:checked + label { background:var(--panel); color:var(--ink); font-weight:600; box-shadow:0 0 0 1px var(--line); }
+  .seg input:focus-visible + label, .wins button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  select { width:100%; padding:6px 8px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--ink); font:inherit; font-size:14px; }
+  .check label { display:flex; gap:8px; align-items:center; font-size:14px; margin:6px 0; cursor:pointer; }
+  input[type=range] { width:100%; accent-color:var(--accent); }
+  .rng { display:flex; justify-content:space-between; font-size:13.5px; margin:14px 0 2px; }
+  .rng span { color:var(--muted); font-variant-numeric:tabular-nums; }
+  .hint { font-size:12.5px; color:var(--muted); margin:8px 0 0; }
+
+  .surfbox { position:relative; min-width:0; }
+  #surf { width:100%; height:min(76vh,760px); min-height:440px; }
+  .badge { position:absolute; top:14px; left:16px; font-size:13px; color:var(--muted); pointer-events:none; }
+  .badge b { color:var(--ink); font-size:16px; }
+
+  .side { border-left:1px solid var(--line); padding:18px 18px 14px; display:flex; flex-direction:column; min-width:0; }
+  .side h2 { font-size:12px; letter-spacing:.05em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:0 0 4px; }
+  #prof { width:100%; height:270px; }
+  .metrics { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:10px 0 4px; }
+  .metric { background:var(--panel); border-radius:10px; padding:10px 12px; }
+  .metric b { font-size:22px; display:block; font-variant-numeric:tabular-nums; line-height:1.2; }
+  .metric b small { font-size:13px; font-weight:500; color:var(--muted); }
+  .metric span { font-size:12.5px; color:var(--muted); }
+  .side p { font-size:13px; color:var(--muted); margin:10px 0 0; }
+
+  footer { display:flex; flex-wrap:wrap; gap:6px 18px; justify-content:space-between; font-size:12.5px; color:var(--muted);
+           padding:16px 2px 0; }
+
+  @media (max-width:1180px) { .app { grid-template-columns:260px minmax(0,1fr); }
+    .side { grid-column:1 / -1; border-left:none; border-top:1px solid var(--line); display:grid;
+            grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:0 24px; }
+    .side h2, #prof { grid-column:1; } .side .rest { grid-column:2; grid-row:1 / span 2; } }
+  @media (max-width:800px) { header { grid-template-columns:1fr; gap:18px; padding-top:24px; }
+    .page { padding:0 12px 24px; } .app { grid-template-columns:1fr; }
+    aside { border-right:none; border-bottom:1px solid var(--line); }
+    #surf { height:60vh; min-height:360px; } .side { display:block; } .side .rest { grid-row:auto; } }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <div>
+    <h1>Lennard-Jones particle permeation through graphene nanowindows</h1>
+    <p class="lede">A nanowindow is a hole made by removing n carbon atoms (8 to 32) from a rigid graphene sheet.
+      The surface shows the potential energy of a single argon atom over the sheet: at each lateral position (x, y) the
+      atom's height is relaxed to its lowest-energy value. The black line is the permeation path from an adsorption site on
+      the basal plane into the nanowindow, and its highest point is the transition state that sets the activation barrier.</p>
+  </div>
+  <ul class="tips">
+    <li><b>Explore</b>Drag to rotate, scroll to zoom, hover for values. Double-click resets the view.</li>
+    <li><b>Compare</b>In 8C and 10C the particle must squeeze through the carbon ring (transition state in the sheet plane,
+      z = 0). From 13C on, the hole is open and the barrier sits above the sheet.</li>
+    <li><b>Free energy</b>Switch to F(x, y; T) = −k<sub>B</sub>T ln ∫ e<sup>−U/k<sub>B</sub>T</sup> dz to see how
+      temperature reshapes the landscape.</li>
+  </ul>
+</header>
+
+<div class="app">
+<aside>
+  <span class="lab">Nanowindow</span>
+  <div class="wins" id="wins" role="group" aria-label="Nanowindow"></div>
+
+  <span class="lab">Surface</span>
+  <div class="seg" role="radiogroup">
+    <input type="radio" name="mode" id="mE" value="E" checked><label for="mE">Energy E<sub>min</sub></label>
+    <input type="radio" name="mode" id="mF" value="F"><label for="mF">Free energy F</label>
+  </div>
+  <div id="tbox" style="display:none">
+    <label class="lab" for="temp">Temperature</label>
+    <select id="temp"></select>
+  </div>
+
+  <span class="lab">Show</span>
+  <div class="check">
+    <label><input type="checkbox" id="showpath" checked> Permeation path and TS</label>
+    <label><input type="checkbox" id="showfloor" checked> Graphene lattice underneath</label>
+  </div>
+
+  <div class="rng"><label for="opac">Surface opacity</label><span id="opacv">0.85</span></div>
+  <input type="range" id="opac" min="0.2" max="1" step="0.05" value="0.85">
+  <div class="rng"><label for="zcap">Clip above</label><span id="zcapv">8.0 kJ mol⁻¹</span></div>
+  <input type="range" id="zcap" min="1" max="20" step="0.5" value="8">
+  <p class="hint">The repulsive rim rises steeply; clipping keeps the low-energy region readable.</p>
+</aside>
+
+<div class="surfbox">
+  <div class="badge"><b id="bwin">13C</b> · <span id="bmode">z-minimized potential energy</span></div>
+  <div id="surf"></div>
+</div>
+
+<div class="side">
+  <h2>Energy along the path</h2>
+  <div id="prof"></div>
+  <div class="rest">
+    <div class="metrics">
+      <div class="metric"><b id="m1">–</b><span>Barrier from the basal plane</span></div>
+      <div class="metric"><b id="m2">–</b><span>Transition-state height above the sheet</span></div>
+    </div>
+    <p>The path is the lowest-saddle route over the z-minimized surface, from a basal hollow site to the nanowindow plane
+      (z = 0). Crossing the plane completes permeation; the far side is the mirror image.</p>
+    <p>Model: single-site LJ particle (Ar–C: σ = 3.353 Å, ε/k<sub>B</sub> = 58.01 K, 0.482 kJ mol⁻¹) over a rigid,
+      unpassivated graphene sheet, exact lattice sums. Energies are relative to the basal-plane adsorption minimum.</p>
+  </div>
+</div>
+</div>
+
+<footer>
+  <span>© 2015–2026 Fernando Vallejos-Burgos · made with the assistance of Claude Opus 5.5 · v<span id="ver"></span></span>
+  <span>All rights reserved: code and data may not be copied, redistributed or reused without written permission · <a href="https://vallejos.cl/">vallejos.cl</a></span>
+</footer>
+</div>
+
+<script>
+const VERSION = "1.1.1";
+const TURBO = [[0.0, "#30123b"], [0.0667, "#4143a7"], [0.1333, "#4771e9"], [0.2, "#3e9bfe"], [0.2667, "#22c5e2"], [0.3333, "#1ae4b6"], [0.4, "#46f884"], [0.4667, "#88ff4e"], [0.5333, "#b9f635"], [0.6, "#e1dd37"], [0.6667, "#faba39"], [0.7333, "#fd8d27"], [0.8, "#f05b12"], [0.8667, "#d63506"], [0.9333, "#af1801"], [1.0, "#7a0403"]];  // matplotlib turbo, 16 stops
+const WCOL = { "8C": "#2a78d6", "10C": "#e4572e", "13C": "#1baf7a", "16C": "#c2449c", "24C": "#eda100", "32C": "#5b3b8c" };
+document.getElementById("ver").textContent = VERSION;
+const $ = id => document.getElementById(id);
+const cache = {};
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let WIN = "13C";
+
+async function load(w) {
+  if (!cache[w]) cache[w] = await (await fetch(`data/landscape_${w}.json`)).json();
+  return cache[w];
+}
+function argmax(a) { let k = 0; for (let i = 1; i < a.length; i++) if (a[i] > a[k]) k = i; return k; }
+function nearest(arr, v) { let k = 0, b = Infinity; for (let i = 0; i < arr.length; i++) { const d = Math.abs(arr[i] - v); if (d < b) { b = d; k = i; } } return k; }
+
+async function draw() {
+  const d = await load(WIN);
+  const mode = document.querySelector('input[name=mode]:checked').value;
+  $("tbox").style.display = mode === "F" ? "" : "none";
+  if (!$("temp").options.length) d.temps.forEach(t => $("temp").add(new Option(`${t} K`, t, t === 87, t === 87)));
+  const ti = d.temps.indexOf(+$("temp").value);
+  const Z0 = mode === "E" ? d.E : d.F[ti];
+  const zcap = +$("zcap").value, opac = +$("opac").value;
+  $("zcapv").textContent = `${zcap.toFixed(1)} kJ mol⁻¹`; $("opacv").textContent = opac.toFixed(2);
+  $("bwin").textContent = WIN; $("bwin").style.color = WCOL[WIN];
+  $("bmode").textContent = mode === "E" ? "z-minimized potential energy" : `free energy at ${d.temps[ti]} K`;
+  const Z = Z0.map(row => row.map(v => Math.min(v, zcap)));
+  let zmin = Infinity, zmax = -Infinity;
+  Z.forEach(row => row.forEach(v => { if (v < zmin) zmin = v; if (v > zmax) zmax = v; }));
+  const zfloor = zmin - 0.35 * (zmax - zmin);
+  const ink = css("--ink"), muted = css("--muted"), line = css("--line");
+  const traces = [{ type: "surface", x: d.x, y: d.y, z: Z, colorscale: TURBO, opacity: opac, cmin: zmin, cmax: zmax,
+    colorbar: { title: { text: "kJ mol<sup>−1</sup>", side: "right" }, len: 0.55, thickness: 14, outlinewidth: 0, x: 0.98 },
+    contours: { z: { show: true, usecolormap: true, width: 1 } },
+    lighting: { ambient: 0.75, diffuse: 0.6, specular: 0.12, roughness: 0.6 },
+    hovertemplate: "x %{x:.2f} Å<br>y %{y:.2f} Å<br>%{z:.2f} kJ mol<sup>−1</sup><extra></extra>" }];
+  if ($("showfloor").checked) {
+    const bx = [], by = [], bz = [];
+    d.bonds.forEach(b => { bx.push(b[0], b[2], null); by.push(b[1], b[3], null); bz.push(zfloor, zfloor, null); });
+    traces.push({ type: "scatter3d", mode: "lines", x: bx, y: by, z: bz, line: { color: css("--lattice"), width: 5 },
+      hoverinfo: "skip", showlegend: false });
+  }
+  const P = d.path;
+  const k = argmax(P.E);
+  if ($("showpath").checked) {
+    let pz;
+    if (mode === "E") pz = P.E.map(v => Math.min(v, zcap) + 0.08);
+    else pz = P.x.map((x, i) => Z[nearest(d.y, P.y[i])][nearest(d.x, x)] + 0.08);
+    const cd = P.z.map((z, i) => [z, P.E[i]]);
+    traces.push({ type: "scatter3d", mode: "lines", x: P.x, y: P.y, z: pz, line: { color: "white", width: 9 },
+      hoverinfo: "skip", showlegend: false });
+    traces.push({ type: "scatter3d", mode: "lines", x: P.x, y: P.y, z: pz, line: { color: "black", width: 4 },
+      customdata: cd, showlegend: false,
+      hovertemplate: "height z %{customdata[0]:.2f} Å<br>E %{customdata[1]:.2f} kJ mol<sup>−1</sup><extra>path</extra>" });
+    traces.push({ type: "scatter3d", mode: "markers+text", x: [P.x[k]], y: [P.y[k]], z: [pz[k]], text: ["TS"],
+      textposition: "top center", textfont: { color: ink, size: 13 },
+      marker: { size: 6, color: "black", line: { color: "white", width: 2 } }, showlegend: false,
+      hovertemplate: `transition state<br>E = ${P.E[k].toFixed(2)} kJ mol<sup>−1</sup><br>z = ${P.z[k].toFixed(2)} Å<extra></extra>` });
+  }
+  const ax = t => ({ title: { text: t, font: { size: 12, color: muted } }, color: ink, gridcolor: line,
+    zerolinecolor: line, showbackground: false, tickfont: { size: 11 } });
+  const yr = (d.y[d.y.length - 1] - d.y[0]) / (d.x[d.x.length - 1] - d.x[0]);
+  Plotly.react("surf", traces, {
+    paper_bgcolor: "rgba(0,0,0,0)", margin: { l: 0, r: 0, t: 0, b: 0 }, font: { color: ink, family: "system-ui, sans-serif" },
+    scene: { xaxis: ax("x (Å)"), yaxis: ax("y (Å)"),
+      zaxis: ax(mode === "E" ? "E<sub>min</sub> (kJ mol<sup>−1</sup>)" : `F(${d.temps[ti]} K) (kJ mol<sup>−1</sup>)`),
+      aspectmode: "manual", aspectratio: { x: 1, y: yr, z: 0.55 }, camera: { eye: { x: 1.2, y: -1.2, z: 0.8 } } },
+    uirevision: "keep" }, { responsive: true, displaylogo: false,
+    modeBarButtonsToRemove: ["resetCameraLastSave3d", "hoverClosest3d"],
+    toImageButtonOptions: { filename: `nanowindow_${WIN}`, scale: 2 } });
+  const wc = WCOL[WIN];
+  Plotly.react("prof", [{ type: "scatter", mode: "lines", x: P.s, y: P.E, customdata: P.z,
+    line: { color: wc, width: 2.5 }, fill: "tozeroy", fillcolor: wc + "1f",
+    hovertemplate: "s %{x:.2f} Å<br>E %{y:.2f} kJ mol<sup>−1</sup><br>z %{customdata:.2f} Å<extra></extra>" },
+    { type: "scatter", mode: "markers", x: [P.s[k]], y: [P.E[k]], marker: { size: 9, color: wc, line: { color: css("--card"), width: 2 } },
+      hoverinfo: "skip" }], {
+    paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)", margin: { l: 46, r: 10, t: 26, b: 40 }, showlegend: false,
+    font: { color: ink, size: 12, family: "system-ui, sans-serif" },
+    xaxis: { title: { text: "path length (Å)", font: { color: muted } }, gridcolor: line, zeroline: false },
+    yaxis: { title: { text: "E (kJ mol<sup>−1</sup>)", font: { color: muted } }, gridcolor: line, zerolinecolor: muted },
+    annotations: [{ x: P.s[k], y: P.E[k], text: "TS", showarrow: false, yshift: 14, font: { color: wc, size: 13 } }] },
+    { responsive: true, displayModeBar: false });
+  $("m1").innerHTML = `${P.E[k].toFixed(2)} <small>kJ mol⁻¹</small>`;
+  $("m2").innerHTML = `${P.z[k].toFixed(2)} <small>Å</small>`;
+}
+
+(async () => {
+  const wins = await (await fetch("data/index.json")).json();
+  wins.forEach(w => {
+    const b = document.createElement("button");
+    b.textContent = w; b.style.setProperty("--c", WCOL[w] || css("--accent"));
+    b.setAttribute("aria-pressed", w === WIN);
+    b.onclick = () => { WIN = w; $("wins").querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); };
+    $("wins").appendChild(b);
+  });
+  ["temp", "showpath", "showfloor", "opac", "zcap"].forEach(id => $(id).addEventListener("input", draw));
+  document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener("change", draw));
+  // Re-theme when the OS setting changes or the site's toggle is used in another tab.
+  const retheme = () => { const t = themeOf();
+    if (t !== document.documentElement.getAttribute("data-theme")) { document.documentElement.setAttribute("data-theme", t); draw(); } };
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", retheme);
+  addEventListener("storage", e => { if (e.key === "theme") retheme(); });
+  addEventListener("pageshow", retheme);  // back/forward cache: the site toggle may have changed meanwhile
+  draw();
+})();
+</script>
+</body>
+</html>
