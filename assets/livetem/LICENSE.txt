@@ -1,0 +1,17 @@
+Live HRTEM: simulated high-resolution transmission electron microscopy of
+disordered carbons, computed live in the browser
+
+Copyright (c) 2026 Fernando Vallejos-Burgos. All rights reserved.
+
+This notice covers every file in this directory and its subdirectories,
+including index.html, structures.json and all files in atoms/. It takes
+precedence over any other license found elsewhere in the repository or website
+that hosts them.
+
+The files are made available for viewing in a web browser only. No part of
+them, including the simulation code, the atomic structures and the simulated
+images, may be copied, downloaded for reuse, redistributed, modified,
+published, or used in other work without prior written permission from the
+copyright holder.
+
+Contact: https://vallejos.cl/
