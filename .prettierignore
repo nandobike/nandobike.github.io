@@ -15,3 +15,6 @@ _data/citations.yml
 # Self-contained interactive projects, copied from their own repos (bin/sync-livetem.sh); not formatted here
 assets/landscapes/**
 assets/livetem/**
+# Kramdown attributes ({:target="_blank"}) and Liquid-in-Markdown that Prettier versions disagree on or would break
+_pages/teaching/notebooks/intro-python.md
+_teaching/applied_research_2026.md
