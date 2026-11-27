@@ -17,4 +17,4 @@ goodreads_review: 55030
 status: Finished
 ---
 
-This book is great, I started highlighting (<i>kindle</i>) my favorite paragraphs and ended up with pages in full shine.  The best science diffusion book I have ever read, some parts made me almost cry in awe. It makes me sad to realize that some people will never appreciate any of this, <s>and instead stay in their bliss of ignorance.</s><br/><b>Five stars is short, a milky way would make bit more justice.</b><br/>Carl Sagan, thank you for a legacy to mankind!
+This book is great, I started highlighting (<i>kindle</i>) my favorite paragraphs and ended up with pages in full shine. The best science diffusion book I have ever read, some parts made me almost cry in awe. It makes me sad to realize that some people will never appreciate any of this, <s>and instead stay in their bliss of ignorance.</s><br/><b>Five stars is short, a milky way would make bit more justice.</b><br/>Carl Sagan, thank you for a legacy to mankind!

@@ -43,7 +43,6 @@ _Morgan Advanced Materials_
 
 <img src="/assets/img/prof_pic.jpg" style="width: 300px; max-width: 100%;" alt="FVB">
 
-
 **Background:**
 
 - PhD in Chemical Engineering Sciences
@@ -67,7 +66,7 @@ _University of Banja Luka_
 **Session:** Day 1, 11:00 AM - 12:00 PM
 **Email:** radovan.kukobat@tf.unibl.org
 
-**Radovan Kukobat** completed his undergraduate and master’s studies in the **Department of Chemical Engineering and Technology** at the **[University of Banja Luka](https://www.unibl.org/)**, and earned his **Ph.D.** at **[Shinshu University](https://www.shinshu-u.ac.jp/english/)** with the dissertation *“Sol–gel dispersants for carbon nanotubes with superior electrical conductivity.”*
+**Radovan Kukobat** completed his undergraduate and master’s studies in the **Department of Chemical Engineering and Technology** at the **[University of Banja Luka](https://www.unibl.org/)**, and earned his **Ph.D.** at **[Shinshu University](https://www.shinshu-u.ac.jp/english/)** with the dissertation _“Sol–gel dispersants for carbon nanotubes with superior electrical conductivity.”_
 
 He conducted his **postdoctoral research at Shinshu University** in the field of **gas separation membranes**, where he worked on **graphene–zeolite membranes for hydrogen separation**, developing **highly selective membranes with ultrahigh hydrogen permeability**.
 
@@ -89,7 +88,7 @@ _Penn State University_
 **Topic:** [TO BE DETERMINED]  
 **Session:** Day 2, 11:00 AM - 11:30 AM
 
-Derek M. Hall is an Assistant Professor in the Department of Mechanical Engineering at Penn State University. He earned his B.S in Energy Engineering in 2012 and a Ph.D. in Energy and Mineral Engineering in 2015. He was a research scientist with the Energy Institute at Penn State and a faculty fellow with Oak Ridge Institute for Science and Education at the National Energy Technology Laboratory before joining the Department of Mechanical Engineering in 2023. His background is in electrochemical energy conversion and corrosion science.  His research group, e4 Labs, focuses on developing new energy storage devices and enhancing the durability of power generation systems to foster more sustainable energy utilization practices. Their research addresses fundamental and applied electrochemical engineering problems vital to the energy sector, striving for comprehensive impact across the energy landscape.
+Derek M. Hall is an Assistant Professor in the Department of Mechanical Engineering at Penn State University. He earned his B.S in Energy Engineering in 2012 and a Ph.D. in Energy and Mineral Engineering in 2015. He was a research scientist with the Energy Institute at Penn State and a faculty fellow with Oak Ridge Institute for Science and Education at the National Energy Technology Laboratory before joining the Department of Mechanical Engineering in 2023. His background is in electrochemical energy conversion and corrosion science. His research group, e4 Labs, focuses on developing new energy storage devices and enhancing the durability of power generation systems to foster more sustainable energy utilization practices. Their research addresses fundamental and applied electrochemical engineering problems vital to the energy sector, striving for comprehensive impact across the energy landscape.
 
 ---
 
@@ -108,7 +107,6 @@ _Penn State University_
 She earned her **Ph.D. in Chemical Engineering** at **[The Pennsylvania State University](https://www.psu.edu/)**, where she was part of a **multidisciplinary team** at the **[Penn State Materials Research Center (MRSEC)](https://www.mrsec.psu.edu/)**. The team’s goal was to investigate the **collective behavior of colloidal microparticles (active colloids)** observed in experiments. Her contribution to the group was in the **theoretical and computational physics** area, where she developed **mathematical models capable of qualitatively reproducing the experimental observations**.
 
 During her postdoctoral work, also at **Penn State**, she collaborated with the pharmaceutical company **[Merck](https://www.merck.com/)**, where she investigates **flow patterns in the filters** that Merck uses in its **bioprocessing lines**.
-
 
 ---
 
@@ -416,7 +414,6 @@ Access the following Jupyter notebooks for hands-on exercises:
 > 💡 **Tip:** Right-click and "Open in new tab" to keep the course page open
 
 ---
-
 
 ### Datasets
 
