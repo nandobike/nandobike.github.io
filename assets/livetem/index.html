@@ -71,6 +71,16 @@ output.over{color:var(--hot)}
 .lim::-moz-range-track{background:linear-gradient(90deg,var(--zone) 0 var(--lo),var(--line) var(--lo) var(--hi),var(--zone) var(--hi))!important}
 .note{font-size:13px;color:var(--hot);margin:6px 0 0}
 .tinfo{font-size:13px;color:var(--dim);margin:2px 0 0}
+.seg button.rare{color:var(--hot)}.seg button.rare[aria-pressed=true]{color:var(--onphos)}
+.stat{margin-left:auto;display:inline-flex;align-items:center;gap:8px;font:13px/1.4 var(--mono);color:var(--dim)}
+.stat i{width:9px;height:9px;border-radius:50%;background:var(--phos);flex:none}
+.stat.busy{color:var(--hot)}.stat.busy i{background:var(--hot);animation:pulse .9s ease-in-out infinite}
+.stat.err{color:var(--hot)}.stat.err i{background:var(--hot)}
+@keyframes pulse{50%{opacity:.2}}
+.perfrow{width:min(100%,calc(100svh - 150px));min-width:min(100%,340px);margin:4px auto 0;text-align:right}
+.chip{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);padding:6px 14px;border-radius:99px;background:rgba(5,6,5,.72);color:#ffb35c;font:500 14px/1.3 var(--mono);pointer-events:none;display:flex;align-items:center;gap:8px}
+.chip::before{content:"";width:9px;height:9px;border-radius:50%;background:#ffb35c;animation:pulse .9s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.stat.busy i,.chip::before{animation:none}}
 .row>.seg,.row>input{grid-column:1/-1}
 .row>.seg{margin-top:4px}
 output,.mono{font:500 14px/1.4 var(--mono);color:var(--ink);white-space:nowrap}
@@ -87,7 +97,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 .hud.br{left:auto;top:auto;right:12px;bottom:10px;text-align:right}
 .wait{position:absolute;inset:0;display:grid;place-items:center;color:var(--dim);font-size:15px;pointer-events:none}
 .bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin:10px auto 0;width:min(100%,calc(100svh - 150px));min-width:min(100%,340px)}
-.perf{margin-left:auto;font:13px/1.4 var(--mono);color:var(--dim)}
+.perf{font:13px/1.4 var(--mono);color:var(--dim)}
 .ctfbox{width:min(100%,calc(100svh - 150px));min-width:min(100%,340px);margin:12px auto 0}
 .ctfhead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px}
 .ctfhead h2{margin:0}
@@ -129,8 +139,13 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
     <h2>Specimen<button class="tip" type="button" data-k="spec" aria-label="What is this?">?</button></h2>
     <div class="pick"><button id="prev" aria-label="Previous structure">‹</button><select id="struct" aria-label="Structure"></select><button id="next" aria-label="Next structure">›</button></div>
     <p class="facts" id="facts"></p>
+    <div class="row" id="lsrow" hidden><span class="lab"><label for="ls">Layer spacing</label><button class="tip" type="button" data-k="ls" aria-label="What is this?">?</button></span><output id="lsv"></output><input type="range" class="lim" id="ls" min="2.8" max="8" step="0.01" value="3.35" style="--lo:7.69%;--hi:100%"></div>
+    <p class="tinfo" id="lsi" hidden>Graphite 3.35 Å · turbostratic 3.44 Å · graphite oxide about 6–9 Å</p>
+    <p class="note" id="lsnote" hidden>Squeezed below 3.2 Å: that takes pressures of several GPa.</p>
     <div class="row"><span class="lab"><label>Beam along cell axis</label><button class="tip" type="button" data-k="face" aria-label="What is this?">?</button></span><div class="seg" id="face"><button data-v="a">a</button><button data-v="b">b</button><button data-v="c">c</button></div></div>
-    <div class="row"><span class="lab"><label for="ta">Tilt α</label><button class="tip" type="button" data-k="ta" aria-label="What is this?">?</button></span><output id="tav"></output><input type="range" class="lim" id="ta" min="-70" max="70" step="0.5" value="0" style="--lo:21.43%;--hi:78.57%"></div>
+    <div class="row"><span class="lab"><label>Specimen shape</label><button class="tip" type="button" data-k="shape" aria-label="What is this?">?</button></span><div class="seg" id="shape"><button data-v="film">Continuous film</button><button data-v="flake">Flake</button></div></div>
+    <p class="note" id="flakenote" hidden>Past ±70° a continuous film would be microns thick along the beam, so the specimen is now a finite flake: the box on the stage.</p>
+    <div class="row"><span class="lab"><label for="ta">Tilt α</label><button class="tip" type="button" data-k="ta" aria-label="What is this?">?</button></span><output id="tav"></output><input type="range" class="lim" id="ta" min="-90" max="90" step="0.5" value="0" style="--lo:27.78%;--hi:72.22%"></div>
     <div class="row"><span class="lab"><label for="tb">Tilt β</label><button class="tip" type="button" data-k="tb" aria-label="What is this?">?</button></span><output id="tbv"></output><input type="range" class="lim" id="tb" min="-70" max="70" step="0.5" value="0" style="--lo:28.57%;--hi:71.43%"></div>
     <p class="note" id="tiltnote" hidden>Beyond a standard double-tilt holder (α ±40°, β ±30°): possible here, not on most microscopes.</p>
     <div class="row"><span class="lab"><label for="th">Thickness</label><button class="tip" type="button" data-k="th" aria-label="What is this?">?</button></span><output id="thv"></output><input type="range" id="th" min="2" max="10" step="0.1" value="5"></div>
@@ -141,14 +156,16 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
   </section>
 
   <section class="scope" aria-label="Viewing screen">
-    <div class="screen" id="screen"><canvas id="scr"></canvas><canvas id="fftc"></canvas><div class="hud" id="hud"></div><div class="hud br" id="hud2"></div><div class="wait" id="wait">Computing the exit wave…</div></div>
-    <div class="bar"><div class="seg" id="zoom"><button data-v="1">×1</button><button data-v="2">×2</button><button data-v="4">×4</button></div><button id="bFFT" aria-pressed="true">Live FFT</button><button id="bPh" aria-pressed="false">Phosphor screen</button><button class="tip" type="button" data-k="scr" aria-label="What is this?">?</button><span class="perf" id="perf"></span></div>
+    <div class="screen" id="screen"><canvas id="scr"></canvas><canvas id="fftc"></canvas><div class="hud" id="hud"></div><div class="hud br" id="hud2"></div><div class="wait" id="wait">Computing the exit wave…</div><div class="chip" id="chip" hidden>Computing…</div></div>
+    <div class="bar"><div class="seg" id="zoom"><button data-v="1">×1</button><button data-v="2">×2</button><button data-v="4">×4</button></div><button id="bFFT" aria-pressed="true">Live FFT</button><button id="bPh" aria-pressed="false">Phosphor screen</button><button class="tip" type="button" data-k="scr" aria-label="What is this?">?</button><span class="stat busy" id="stat" role="status" aria-live="polite"><i></i><span id="statt">Starting…</span></span></div>
+    <div class="bar"><button id="bPub">Publication image</button><button class="tip" type="button" data-k="pub" aria-label="What is this?">?</button><span class="perf" style="margin-left:auto" id="perf"></span></div>
     <div class="ctfbox"><div class="ctfhead"><h2>Contrast transfer<button class="tip" type="button" data-k="ctf" aria-label="What is this?">?</button></h2><span id="res"></span></div><div class="fig"><canvas id="ctf"></canvas></div></div>
   </section>
 
   <section class="panel console" aria-label="Microscope controls">
     <h2>Optics<button class="tip" type="button" data-k="opt" aria-label="What is this?">?</button></h2>
-    <div class="row"><span class="lab"><label>High tension (kV)</label><button class="tip" type="button" data-k="kv" aria-label="What is this?">?</button></span><div class="seg" id="kv"><button data-v="80">80</button><button data-v="120">120</button><button data-v="200">200</button><button data-v="300">300</button></div></div>
+    <div class="row"><span class="lab"><label>High tension (kV)</label><button class="tip" type="button" data-k="kv" aria-label="What is this?">?</button></span><div class="seg" id="kv"><button data-v="80">80</button><button data-v="120">120</button><button data-v="200">200</button><button data-v="300">300</button><button data-v="1000" class="rare">1000</button><button data-v="3000" class="rare">3000</button></div></div>
+    <p class="note" id="kvnote" hidden>Above 300 kV: only a handful of high-voltage microscopes exist (1–1.25 MV); Osaka's reached 3 MV.</p>
     <div class="focus">
       <svg id="knob" viewBox="0 0 100 100" role="slider" tabindex="0" aria-label="Focus" aria-valuemin="-200" aria-valuemax="400"><circle cx="50" cy="50" r="47" class="kr"/><g id="kt"></g><g id="kg"><circle cx="50" cy="50" r="33" class="kb"/><line x1="50" y1="22" x2="50" y2="36" class="kp"/></g></svg>
       <div><div class="small lab">Focus<button class="tip" type="button" data-k="df" aria-label="What is this?">?</button></div><div class="big" id="dfv"></div><div class="small" id="dfs"></div>
@@ -167,7 +184,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 </main>
 
 <footer class="wrap foot">
-  <p>The specimen is a film cut from the periodic structure, perpendicular to the chosen cell axis, and laterally continuous. The double-tilt holder turns it in the fixed vertical beam, so the beam's path through the film grows as 1/cos(tilt). Tilts go to ±70° on both axes, past what a standard holder allows; at high tilt the slices are made thicker (shown under the screen) to keep the simulation live. The simulated window is 1.2 nm wider than the field on every side, so tilted films have no wrap-around seams. At zero tilt, with the beam along c and one cell of thickness, the image matches the gallery's HRTEM view, which in turn correlates at r ≈ 0.93 with the paper's MacTempas images.</p>
+  <p>The specimen is a film cut from the periodic structure, perpendicular to the chosen cell axis, and laterally continuous. The double-tilt holder turns it in the fixed vertical beam, so the beam's path through the film grows as 1/cos(tilt). Tilt α goes to ±90° and β to ±70°, past what a standard holder allows (beyond ±70° the film becomes a finite flake); at high tilt the slices are made thicker (shown under the screen) to keep the simulation live. The simulated window is 1.2 nm wider than the field on every side, so tilted films have no wrap-around seams. At zero tilt, with the beam along c and one cell of thickness, the image matches the gallery's HRTEM view, which in turn correlates at r ≈ 0.93 with the paper's MacTempas images.</p>
   <p>Physics: Kirkland's carbon scattering factors, phase grating and Fresnel propagation with a 2/3 band limit, and Debye–Waller damping of thermal vibrations, with B from a Debye model calibrated to B = 0.5 Å² at 20 °C (θ<sub>D</sub> ≈ 800 K). Focal spread is averaged over 7 Gauss–Hermite foci, and beam divergence is a quasi-coherent envelope. Noise is Poisson at the set dose, seen through a detector with a 0.8 Å⁻¹ Gaussian MTF.</p>
   <p class="legal"><span>© 2026 Fernando Vallejos-Burgos · made with the assistance of Claude Opus 5.5 · v<span id="ver"></span></span>
     <span>All rights reserved: code and data may not be copied, redistributed or reused without written permission · <a href="https://vallejos.cl/">vallejos.cl</a></span></p>
@@ -177,7 +194,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 <script>
 {
 const $ = id => document.getElementById(id);
-const VERSION = "1.1.0";
+const VERSION = "1.2.0";
 $('ver').textContent = VERSION;
 const PAD = 12, KSHOW = 0.9, MTF = 0.8;
 const SANS = 'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif', MONO = 'ui-monospace,"SF Mono",Menlo,Consolas,"Roboto Mono",monospace';
@@ -493,9 +510,9 @@ const ry=a=>{const c=Math.cos(a),s=Math.sin(a);return[c,0,s,0,1,0,-s,0,c]};
 const FACE={c:[1,0,0,0,1,0,0,0,1],a:[0,1,0,0,0,1,1,0,0],b:[0,0,1,1,0,0,0,1,0]};
 const AXIS={c:[0,1,2],a:[1,2,0],b:[2,0,1]};
 
-const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42,K:293};
+const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42,K:293,flake:false,autoFlake:false,ls:0};
 let meta=[],cur=null,atoms={},cloud=new Float32Array(0),E=null,frameData=null;
-const AMAX=70,BMAX=70,TMAX=10,HOLD_A=40,HOLD_B=30,HOLD_K=1573;
+const AMAX=90,FILM_A=70,BMAX=70,TMAX=10,HOLD_A=40,HOLD_B=30,HOLD_K=1573;
 // Thermal vibration of carbon, Debye model: <u²> per direction = 3ħ²/(m kB θ) [ (1/x²)∫₀ˣ t/(eᵗ−1) dt + 1/4 ], x = θ/T; B = 8π²<u²>.
 // θ is calibrated so that B = 0.5 Å² at 293 K, the value whose images match the paper's MacTempas ones.
 const HB=4.03866; // ħ²/(m_C kB) in Å²·K
@@ -518,15 +535,20 @@ async function loadAtoms(name){
 }
 // Film-frame box holding every atom the beam column can meet for tilts up to (am, bm) degrees.
 function cloudBox(am,bm){const g=geom(),h=g.W/2+1,t=st.T/2,d=Math.PI/180;let ex=h,ey=h;
+  if(st.flake)return [g.S/2+2,g.S/2+2,t+1];
   for(const a of [-am,0,am])for(const b of [-bm,0,bm]){const R=m3(rx(a*d),ry(b*d)),det=R[0]*R[4]-R[1]*R[3];
     for(const X of [-h,h])for(const Y of [-h,h])for(const z of [-t,t]){const u=X-R[2]*z,v=Y-R[5]*z;
       ex=Math.max(ex,Math.abs((u*R[4]-R[1]*v)/det));ey=Math.max(ey,Math.abs((R[0]*v-R[3]*u)/det))}}
   return [ex+2,ey+2,t+1]}
-let cloudTilt=[0,0];
+let cloudTilt=[0,0],scaled={k:'',P:null};
+// Graphite's layer spacing: stretch the cell along c (cell axis 2) by spacing / native spacing.
+function applyLayer(){if(!cur.layer)return;const f=st.ls/cur.layer;cur.L=[cur.L0[0],cur.L0[1],cur.L0[2]*f];cur.rhoS=cur.rho/f}
+function curAtoms(){const P=atoms[st.name];if(!cur.layer||Math.abs(st.ls-cur.layer)<1e-6)return P;
+  const k=st.name+'|'+st.ls;if(scaled.k!==k){const f=st.ls/cur.layer,Q=Float32Array.from(P);for(let i=2;i<Q.length;i+=3)Q[i]*=f;scaled={k,P:Q}}return scaled.P}
 const tiltBucket=(v,m)=>Math.min(m,Math.ceil(Math.abs(v)/10)*10+10);
 function buildCloud(){
-  const P=atoms[st.name],L=cur.L,F=FACE[st.face],n=P.length/3;
-  cloudTilt=[tiltBucket(st.a,AMAX),tiltBucket(st.b,BMAX)];
+  const P=curAtoms(),L=cur.L,F=FACE[st.face],n=P.length/3;
+  cloudTilt=st.flake?[AMAX,BMAX]:[tiltBucket(st.a,FILM_A),tiltBucket(st.b,BMAX)];
   const ext=cloudBox(...cloudTilt),eo=[0,0,0];
   for(let j=0;j<3;j++)eo[[0,1,2].find(c=>F[3*j+c])]=ext[j];       // FACE is a permutation: film axis j is cell axis c
   const R=[0,1,2].map(k=>Math.ceil(eo[k]/L[k]+0.5));
@@ -542,10 +564,11 @@ function buildCloud(){
 }
 function slab(n,dz0,nzMax=1e9){
   const g=geom(),R=rot(),W=g.W,h=W/2,t=st.T/2,c=cloud,N=c.length/3;
-  const zm=(t+h*(Math.abs(R[6])+Math.abs(R[7])))/Math.abs(R[8]);      // beam path half-length through the tilted film
+  const fs=g.S/2,zm=st.flake?fs*(Math.abs(R[6])+Math.abs(R[7]))+t*Math.abs(R[8])+0.5    // half-length of the flake box along the beam
+                          :(t+h*(Math.abs(R[6])+Math.abs(R[7])))/Math.abs(R[8]);      // beam path half-length through the tilted film
   const nz=Math.max(1,Math.min(nzMax,Math.round(2*zm/dz0))),dz=2*zm/nz,dx=W/n;
   const sx=new Float32Array(N),sy=new Float32Array(N),si=new Int32Array(N),offs=new Uint32Array(nz+1);let k=0;
-  for(let a=0;a<N;a++){const x=c[3*a],y=c[3*a+1],z=c[3*a+2];if(z<-t||z>=t)continue;
+  for(let a=0;a<N;a++){const x=c[3*a],y=c[3*a+1],z=c[3*a+2];if(z<-t||z>=t||(st.flake&&(Math.abs(x)>=fs||Math.abs(y)>=fs)))continue;
     const lx=R[0]*x+R[1]*y+R[2]*z;if(lx<-h||lx>=h)continue;
     const ly=R[3]*x+R[4]*y+R[5]*z;if(ly<-h||ly>=h)continue;
     const lz=R[6]*x+R[7]*y+R[8]*z;
@@ -562,18 +585,25 @@ let busy=false,again=false,tilting=false,tiltTimer=0,lastLive=0;
 const have={gk:'',sk:'',ik:'',fk:''},perf={};
 const optics=()=>({E:st.kv*1e3,df:st.df*10,cs:st.cs*1e7,spread:st.spread*10,alpha:st.div*1e-3,ap:st.ap*1e-3});
 function request(){if(busy){again=true;return}pump()}
+// Status under the screen: computing vs ready, and the live-noise frame rate.
+const fr=[];let chipT=0,pubMsg=-1e9;
+function setStat(kind,txt){const s=$('stat');s.className='stat '+kind;$('statt').textContent=txt;clearTimeout(chipT);
+  if(kind==='busy'&&!tilting)chipT=setTimeout(()=>{$('chip').textContent=txt.split(' · ')[0]+'…';$('chip').hidden=false},250);else $('chip').hidden=true}
+const readyText=()=>`Image ready${perf.total?` in ${(perf.total/1000).toFixed(1)} s`:''} · ${st.live&&st.noise?`live noise ${fr.length} fps`:'still frame'}${performance.now()-pubMsg<8000?' · publication image saved':''}`;
+function readyStat(){if(tilting)setStat('busy','Preview while you move · full quality when you stop');else setStat('ready',readyText())}
+function fpsMark(){const t=performance.now();fr.push(t);while(fr.length&&fr[0]<t-1000)fr.shift();if($('stat').classList.contains('ready'))$('statt').textContent=readyText()}
 async function pump(){
-  busy=true;
+  busy=true;let heavy=0,failed=false;
   try{
     do{again=false;
       const g=geom(),n=tilting?E.preview:E.final,dz0=tilting?E.dzPrev:E.dzFinal,gk=n+'|'+g.W;
       if(gk!==have.gk){await E.grid(n,g.W);have.gk=gk;have.sk=''}
-      const nzMax=E.kind==='gpu'?(tilting?300:800):(tilting?60:160),sk=[st.name,st.face,st.a,st.b,st.T,st.kv,st.K,dz0,nzMax,gk].join('|');
-      if(sk!==have.sk){const t0=performance.now(),sl=slab(n,dz0,nzMax);
+      const nzMax=E.kind==='gpu'?(tilting?300:800):(tilting?60:160),sk=[st.name,st.face,st.a,st.b,st.T,st.kv,st.K,st.ls,st.flake,dz0,nzMax,gk].join('|');
+      if(sk!==have.sk){heavy=heavy||performance.now();const t0=performance.now(),sl=slab(n,dz0,nzMax);setStat('busy',`Computing the exit wave · ${n}², ${sl.nz} slices`);
         await E.exit(sl.xy,sl.offs,sl.nz,sl.dz,st.kv*1e3,bOf(st.K));
         Object.assign(perf,{exit:performance.now()-t0,nz:sl.nz,dz:sl.dz,atoms:sl.count,n});have.sk=sk;have.ik=''}
       const o=optics(),ik=JSON.stringify(o)+have.sk;
-      if(ik!==have.ik){const t0=performance.now();await E.image(o);perf.img=performance.now()-t0;have.ik=ik;have.fk=''}
+      if(ik!==have.ik){heavy=heavy||performance.now();setStat('busy','Computing the image · contrast transfer');const t0=performance.now();await E.image(o);perf.img=performance.now()-t0;have.ik=ik;have.fk=''}
       const dx=g.W/n,x0=Math.round(PAD/dx),m=Math.min(n-x0,Math.round(g.S/dx)),kk=Math.min(n/2-1,Math.round(KSHOW*g.W));
       const fo={dose:st.noise?st.dose:0,mtf:MTF,seed:st.live&&st.noise?st.seed:7,x0,m,kk},fk=JSON.stringify(fo)+have.ik;
       if(fk!==have.fk){const r=await E.frame(fo);frameData={...r,m,K:2*kk+1,S:g.S,kshow:kk/g.W};have.fk=fk;toneAll()}
@@ -581,17 +611,20 @@ async function pump(){
   }catch(err){
     console.error(err);
     if(E&&E.kind==='gpu'){E=await CPUEngine.create();$('eng').innerHTML=E.label()+' <span class="warn">(GPU error, fell back)</span>';have.gk='';again=true}
-    else $('wait').textContent='Simulation error: '+err.message;
+    else{$('wait').textContent='Simulation error: '+err.message;failed=true;setStat('err','Simulation error')}
   }finally{busy=false}
-  if(again)request();
+  if(heavy)perf.total=performance.now()-heavy;
+  if(again)request();else if(!failed)readyStat();
   showPerf();
 }
-function tiltChanged(){if(cur&&((Math.abs(st.a)>cloudTilt[0]-0.01&&cloudTilt[0]<AMAX)||(Math.abs(st.b)>cloudTilt[1]-0.01&&cloudTilt[1]<BMAX)))buildCloud();tilting=true;clearTimeout(tiltTimer);tiltTimer=setTimeout(()=>{tilting=false;request()},260);dirty3D=true;sync();request()}
+function tiltChanged(){
+  if(cur&&!st.flake&&Math.abs(st.a)>FILM_A){st.flake=true;st.autoFlake=true;buildCloud()}
+  else if(cur&&((Math.abs(st.a)>cloudTilt[0]-0.01&&cloudTilt[0]<FILM_A)||(Math.abs(st.b)>cloudTilt[1]-0.01&&cloudTilt[1]<BMAX)))buildCloud();tilting=true;clearTimeout(tiltTimer);tiltTimer=setTimeout(()=>{tilting=false;request()},260);dirty3D=true;sync();request()}
 
 // ---------- viewing screen ----------
 const off=document.createElement('canvas'),offF=document.createElement('canvas');
 function toneAll(){
-  const f=frameData;if(!f)return;
+  const f=frameData;if(!f)return;fpsMark();
   const {img,m}=f;let s=0,s2=0;for(let i=0;i<img.length;i++){s+=img[i];s2+=img[i]*img[i]}
   const mean=s/img.length,sd=Math.sqrt(Math.max(s2/img.length-mean*mean,1e-12)),lo=mean-3*sd,sc=255/(6*sd);
   off.width=off.height=m;const cx=off.getContext('2d'),id=cx.createImageData(m,m),d=id.data,ph=st.phos;
@@ -740,7 +773,9 @@ function sync(){
   $('tk').value=st.K;$('tkv').textContent=`${st.K} K · ${st.K-273} °C`;$('tkv').classList.toggle('over',ok);$('tknote').hidden=!ok;
   {const B=bOf(st.K);$('tki').textContent=`Atoms vibrate by ${Math.sqrt(B/(8*Math.PI**2)).toFixed(3)} Å rms per direction · B = ${B.toFixed(2)} Å²`}
   $('th').value=(st.T/10).toFixed(1);$('thv').textContent=`${(st.T/10).toFixed(1)} nm`+(g&&Math.abs(st.T-g.Lb)<0.05?' (1 cell)':'');
-  press('face',st.face);press('kv',st.kv);press('ap',st.ap);press('zoom',st.zoom);
+  press('face',st.face);press('kv',st.kv);press('shape',st.flake?'flake':'film');$('flakenote').hidden=!(st.flake&&st.autoFlake);$('kvnote').hidden=st.kv<=300;
+  $('lsrow').hidden=$('lsi').hidden=!(cur&&cur.layer);
+  if(cur&&cur.layer){$('ls').value=st.ls;$('lsv').textContent=`${st.ls.toFixed(2)} Å`;$('lsv').classList.toggle('over',st.ls<3.2);$('lsnote').hidden=st.ls>=3.2}else $('lsnote').hidden=true;press('ap',st.ap);press('zoom',st.zoom);
   $('cs').value=st.cs;$('csv').textContent=`${st.cs.toFixed(2)} mm`;$('sp').value=st.spread;$('spv').textContent=`${st.spread.toFixed(1)} nm`;
   $('dv').value=st.div;$('dvv').textContent=`${st.div.toFixed(2)} mrad`;
   $('ds').value=Math.log10(st.dose);$('dsv').textContent=st.noise?`${nf.format(Math.round(st.dose))} e/Å²`:'noise off';
@@ -751,14 +786,15 @@ function sync(){
   $('kg').setAttribute('transform',`rotate(${df*3.6} 50 50)`);$('knob').setAttribute('aria-valuenow',df.toFixed(1));
   $('hud').textContent=`${st.kv} kV · Cs ${st.cs.toFixed(2)} mm · Δf ${df>=0?'−':'+'}${Math.abs(df).toFixed(1)} nm`;
   if(cur)$('hud2').textContent=`${cur.name} · α ${st.a.toFixed(1)}° β ${st.b.toFixed(1)}° · ${st.K} K · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}`;
-  if(cur){$('facts').textContent=`${nf.format(cur.n)} atoms · ${cur.rho.toFixed(2)} g/cm³ · cell ${new Set(cur.L.map(v=>v.toFixed(1))).size>1?cur.L.map(v=>(v/10).toFixed(2)).join(' × '):(cur.L[0]/10).toFixed(2)} nm`;$('struct').value=cur.name}
+  if(cur){$('facts').textContent=`${nf.format(cur.n)} atoms · ${(cur.rhoS??cur.rho).toFixed(2)} g/cm³ · cell ${new Set(cur.L.map(v=>v.toFixed(1))).size>1?cur.L.map(v=>(v/10).toFixed(2)).join(' × '):(cur.L[0]/10).toFixed(2)} nm`;$('struct').value=cur.name}
   drawCTF();
 }
 function showPerf(){if(!perf.n)return;$('perf').textContent=`${perf.n}² · ${perf.nz} slices${perf.dz>2.05?` of ${perf.dz.toFixed(1)} Å`:''} · ${nf.format(perf.atoms)} atoms · ${Math.round(perf.exit)} ms`}
 
 async function choose(name){
-  const was=cur;st.name=name;cur=meta.find(m=>m.name===name);
-  if(cur.face)st.face=cur.face;else if(was&&was.face)st.face='c';   // reference crystals open side-on$('wait').hidden=!!frameData;
+  const was=cur;st.name=name;cur={...meta.find(m=>m.name===name)};cur.L0=cur.L.slice();st.ls=cur.layer||0;
+  if(cur.face)st.face=cur.face;else if(was&&was.face)st.face='c';   // reference crystals open side-on
+  $('wait').hidden=!!frameData;
   await loadAtoms(name);st.T=geom().Lb;buildCloud();have.sk='';sync();request();
   try{history.replaceState(null,'','#'+name)}catch(e){}
 }
@@ -774,6 +810,8 @@ $('ta').addEventListener('input',e=>{st.a=+e.target.value;tiltChanged()});
 $('tb').addEventListener('input',e=>{st.b=+e.target.value;tiltChanged()});
 $('th').addEventListener('input',e=>{st.T=+e.target.value*10;buildCloud();tiltChanged()});
 $('tk').addEventListener('input',e=>{st.K=+e.target.value;sync();request()});
+$('ls').addEventListener('input',e=>{const old=geom().Lb;st.ls=+e.target.value;applyLayer();if(Math.abs(st.T-old)<0.05)st.T=Math.min(TMAX*10,geom().Lb);buildCloud();tiltChanged()});
+bindSeg('shape',v=>{st.flake=v==='flake';st.autoFlake=false;if(!st.flake&&Math.abs(st.a)>FILM_A)st.a=Math.sign(st.a)*FILM_A;buildCloud();tiltChanged()});
 $('rst').onclick=()=>{st.a=0;st.b=0;st.T=geom().Lb;buildCloud();dirty3D=true;sync();request()};
 bindSeg('kv',v=>{const wasS=Math.abs(st.df-scherzer())<0.3;st.kv=+v;if(wasS)st.df=+scherzer().toFixed(1);sync();request();dirty3D=true});
 bindSeg('ap',v=>{st.ap=+v;sync();request()});
@@ -854,22 +892,81 @@ async function boot(){
   requestAnimationFrame(tick);
   if(/selftest/.test(location.search))selftest();
 }
+// ---------- publication image ----------
+const CREDIT={name:'Fernando Vallejos-Burgos',site:'www.vallejos.cl',doi:''};   // put the DOI here once there is one
+const CRC=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+const crc32=b=>{let c=0xFFFFFFFF;for(const v of b)c=CRC[(c^v)&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0};
+function chunk(type,data){const ch=new Uint8Array(12+data.length),dv=new DataView(ch.buffer);dv.setUint32(0,data.length);
+  ch.set(new TextEncoder().encode(type),4);ch.set(data,8);dv.setUint32(8+data.length,crc32(ch.subarray(4,8+data.length)));return ch}
+function pngWithMeta(buf,meta,dpi){const u=new Uint8Array(buf),enc=new TextEncoder(),parts=[u.subarray(0,33)];   // after the IHDR chunk
+  const ppm=Math.round(dpi/0.0254),ph=new Uint8Array(9),dv=new DataView(ph.buffer);dv.setUint32(0,ppm);dv.setUint32(4,ppm);ph[8]=1;parts.push(chunk('pHYs',ph));
+  for(const [k,v] of Object.entries(meta)){const kw=enc.encode(k),tx=enc.encode(v),d=new Uint8Array(kw.length+5+tx.length);d.set(kw,0);d.set(tx,kw.length+5);parts.push(chunk('iTXt',d))}
+  parts.push(u.subarray(33));return new Blob(parts,{type:'image/png'})}
+let pubBusy=false;
+async function pubRender(){
+  if(pubBusy||!E||!cur)return;pubBusy=true;$('bPub').disabled=true;
+  while(busy)await new Promise(r=>setTimeout(r,50));
+  busy=true;const n=E.kind==='gpu'?2048:1024;
+  setStat('busy',`Rendering the publication image · ${n}², 1 Å slices`);
+  try{
+    const g=geom();await E.grid(n,g.W);
+    const sl=slab(n,1,E.kind==='gpu'?4000:400);
+    await E.exit(sl.xy,sl.offs,sl.nz,sl.dz,st.kv*1e3,bOf(st.K));await E.image(optics());
+    const dx=g.W/n,x0=Math.round(PAD/dx),m=Math.min(n-x0,Math.round(g.S/dx)),kk=Math.min(n/2-1,Math.round(KSHOW*g.W));
+    const r=await E.frame({dose:st.noise?st.dose:0,mtf:MTF,seed:7,x0,m,kk});
+    await savePub(r.img,m,g.S);pubMsg=performance.now();
+  }catch(e){console.error(e);setStat('err','Publication image failed: '+e.message)}
+  finally{have.gk=have.sk=have.ik=have.fk='';busy=false;pubBusy=false;$('bPub').disabled=false;request()}
+}
+async function savePub(img,m0,S){
+  let s=0,s2=0;for(const v of img){s+=v;s2+=v*v}
+  const mean=s/img.length,sd=Math.sqrt(Math.max(s2/img.length-mean*mean,1e-12)),lo=mean-3*sd,sc=255/(6*sd);
+  // The image is band-limited well inside its sampling, so smooth upscaling to >= ~1400 px adds pixels, not artefacts.
+  const t=document.createElement('canvas');t.width=t.height=m0;const tx=t.getContext('2d'),id=tx.createImageData(m0,m0);
+  for(let i=0;i<img.length;i++){let v=(img[i]-lo)*sc;v=v<0?0:v>255?255:v;id.data[4*i]=id.data[4*i+1]=id.data[4*i+2]=v;id.data[4*i+3]=255}
+  tx.putImageData(id,0,0);
+  const m=m0*Math.max(1,Math.round(1400/m0)),band=Math.round(m*0.085),c=document.createElement('canvas');c.width=m;c.height=m+band;const x=c.getContext('2d');
+  x.imageSmoothingEnabled=true;x.imageSmoothingQuality='high';x.drawImage(t,0,0,m,m);
+  // a small scale bar, bottom left
+  const fieldNm=S/10,bar=fieldNm>3?1:0.5,px=Math.round(bar/fieldNm*m),h=Math.max(3,Math.round(m/260)),bx=Math.round(m*0.035),by=Math.round(m*0.965-h),fs=Math.round(m/48);
+  x.fillStyle='#000';x.fillRect(bx-1,by-1,px+2,h+2);x.fillStyle='#fff';x.fillRect(bx,by,px,h);
+  x.font=`600 ${fs}px ${SANS}`;x.textAlign='center';x.lineJoin='round';x.lineWidth=Math.max(2,fs/5);x.strokeStyle='#000';
+  x.strokeText(`${bar} nm`,bx+px/2,by-fs*0.5);x.fillStyle='#fff';x.fillText(`${bar} nm`,bx+px/2,by-fs*0.5);
+  // caption band: conditions, credit
+  const pad=Math.round(m*0.025),fit=(t,w,size,wt='')=>{let z=size;x.font=`${wt}${z}px ${SANS}`;while(z>8&&x.measureText(t).width>w){z--;x.font=`${wt}${z}px ${SANS}`}};
+  const cond=`${cur.label||cur.name} · simulated HRTEM · ${st.kv} kV, Cs ${st.cs.toFixed(2)} mm, Δf ${st.df>=0?'−':'+'}${Math.abs(st.df).toFixed(1)} nm · α ${st.a.toFixed(1)}°, β ${st.b.toFixed(1)}° · ${(st.T/10).toFixed(1)} nm ${st.flake?'flake':'film'} · ${st.K} K · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}${cur.layer&&Math.abs(st.ls-cur.layer)>1e-6?` · layers ${st.ls.toFixed(2)} Å`:''}`;
+  const credit=`© ${new Date().getFullYear()} ${CREDIT.name} · ${CREDIT.site} · All rights reserved${CREDIT.doi?' · doi:'+CREDIT.doi:''}`,tool=`Live HRTEM v${VERSION}`;
+  x.fillStyle='#fff';x.fillRect(0,m,m,band);x.textAlign='left';x.fillStyle='#1f1f1e';
+  fit(cond,m-2*pad,Math.round(band*0.27),'500 ');x.fillText(cond,pad,m+band*0.42);
+  x.font=`${Math.round(band*0.22)}px ${SANS}`;const tw=x.measureText(tool).width;
+  x.fillStyle='#55554f';fit(credit,m-3*pad-tw,Math.round(band*0.24));x.fillText(credit,pad,m+band*0.80);
+  x.font=`${Math.round(band*0.22)}px ${SANS}`;x.textAlign='right';x.fillText(tool,m-pad,m+band*0.80);
+  const png=await new Promise(r=>c.toBlob(r,'image/png'));
+  const blob=pngWithMeta(await png.arrayBuffer(),{Title:`Simulated HRTEM: ${cur.label||cur.name}`,Author:CREDIT.name,
+    Copyright:`© ${new Date().getFullYear()} ${CREDIT.name}. All rights reserved.`,Description:cond,Software:tool,Source:'https://'+CREDIT.site+'/'+(CREDIT.doi?' doi:'+CREDIT.doi:'')},300);
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`live-hrtem_${cur.name}_${st.kv}kV.png`;document.body.append(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),10000);
+}
+$('bPub').onclick=pubRender;
 // ---------- "?" tips ----------
 const TIPS={
   spec:'Reference crystals (graphite, nanotubes; they open side-on, switch the beam to c to look down the layers or tubes) and the 78 virtual carbons, periodic boxes of disordered carbon, each listed with its density. Use ‹ › or the arrow keys in the list to step through them.',
   face:'Which edge of the periodic cell points along the beam before any tilt. The film is cut perpendicular to it.',
-  ta:'Rotation of the film about the holder axis (x). A standard double-tilt holder reaches about ±40°, tomography holders ±70° or more; the orange part of the track is beyond a standard holder. The beam path through the film grows as 1/cos(tilt), so tilted films look thicker.',
+  ta:'Rotation of the specimen about the holder axis (x), up to ±90°. A standard double-tilt holder reaches about ±40°, tomography holders ±70° or more; the orange part of the track is beyond a standard holder. The beam path through a film grows as 1/cos(tilt); past ±70° the specimen becomes a finite flake, so at 90° you look along its edge.',
+  shape:'Continuous film: laterally endless, like a real thin film; the beam path grows as 1/cos(tilt). Flake: a finite piece the size of the field (the box on the stage), which you can turn fully edge-on. Tilting α past ±70° switches to the flake on its own.',
+  ls:'Spacing between graphite layers. Natural graphite has 3.35 Å; turbostratic carbons about 3.44 Å; intercalated graphite and graphite oxide reach 6–9 Å. Watch the 0.34 nm fringes and the FFT ring move. Below 3.2 Å (orange) takes GPa pressures.',
+  pub:'Renders the current view at high resolution (2048² with WebGPU, 1024² on the CPU, 1 Å slices) and downloads a PNG of about 1400 px or more at 300 dpi with a scale bar, the imaging conditions and the copyright line, which are also stored in the file metadata. Takes a few seconds on a GPU, up to a minute on the CPU.',
   tb:'Rotation about the second, perpendicular axis (y). Double-tilt holders give about ±30° here; the orange part of the track is beyond that, possible only in the simulation.',
   th:'Film thickness along its normal. Thicker films stack more atoms in projection, so the image of each layer washes out. It starts at one periodic cell.',
-  tk:'Specimen temperature. Atoms vibrate more as it rises (Debye model), which damps the finest image detail through the Debye–Waller factor. Only the vibrations change: the structure does not anneal or graphitize, which would need molecular dynamics with a force field. Cryo holders reach about −180 °C, heating holders about 1300 °C (orange beyond).',
+  tk:'Specimen temperature. Atoms vibrate more as it rises (Debye model), which damps the finest image detail through the Debye–Waller factor. The vibrations are tenths of an ångström, so the effect only shows with fine detail: try graphite or diamond with the beam along c and the Corrected 80 kV preset. Only the vibrations change: the structure does not anneal or graphitize, which would need molecular dynamics with a force field. Cryo holders reach about −180 °C, heating holders about 1300 °C (orange beyond).',
   opt:'The objective lens and illumination: together they decide which spatial frequencies reach the image, shown in the contrast-transfer plot under the screen.',
-  kv:'Accelerating voltage. Higher voltage means a shorter electron wavelength and finer resolution, but weaker contrast from light carbon atoms. Above about 80 kV, real electrons also knock carbon atoms out (not simulated).',
+  kv:'Accelerating voltage. Higher voltage means a shorter electron wavelength and finer resolution, but weaker contrast from light carbon atoms. Above about 80 kV, real electrons also knock carbon atoms out (not simulated). 1000 and 3000 kV (orange) exist only in a handful of high-voltage microscopes.',
   df:'Objective lens defocus: drag the knob up or down, or use the arrow keys when it is focused. Scherzer focus gives the widest band of uniform phase contrast; at Gaussian focus a thin specimen almost disappears.',
   cs:'Spherical aberration of the objective: rays far from the axis focus too strongly. It sets the Scherzer focus and the point resolution; aberration-corrected microscopes reach about 0.01 mm.',
   sp:'Spread of focus from chromatic aberration and the energy spread of the beam (temporal coherence). It damps fine detail and sets the information limit.',
   dv:'Angular spread of the illumination (spatial coherence). It damps detail wherever the contrast transfer oscillates quickly, mostly at large defocus.',
   ap:'An aperture in the back focal plane that blocks electrons scattered beyond an angle. Smaller apertures remove fine detail and noise, like a low-pass filter (shaded in the contrast-transfer plot).',
-  cam:'The detector: dose sets how many electrons make the image, shot noise draws random counts, and live frames keep recording new noisy frames like a camera feed.',
+  cam:'The detector: dose sets how many electrons make the image, shot noise draws random counts, and live frames keep drawing new noise on the finished image, like a camera feed. The status under the screen says when the image itself is ready.',
   ds:'Electrons per Å² in each recorded frame. Lower dose means a noisier image, as in beam-sensitive work.',
   scr:'Zoom and pan the micrograph (drag when zoomed). Live FFT shows the power spectrum of the frame, with rings at 0.34 nm (graphite 002) and 0.21 nm (graphite 100/10). Phosphor screen gives the round viewing-screen look.',
   ctf:'How strongly each spatial frequency is passed to image contrast with the current optics. Green: transfer function; dashed: damping envelopes from focus spread and divergence; orange line: the 0.34 nm graphite layer spacing; shaded: blocked by the aperture.',
