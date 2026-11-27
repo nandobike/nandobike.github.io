@@ -59,7 +59,18 @@ button[aria-pressed=true]{background:color-mix(in srgb,var(--phos) 16%,var(--pan
 select{font-size:16px;width:100%}
 .facts{color:var(--dim);font-size:14px;margin:6px 0 4px}
 .row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:0 8px;margin-top:8px}
-.row>label{font-size:14px;color:var(--dim)}
+.row>label,.row>.lab{font-size:14px;color:var(--dim)}
+.lab{display:inline-flex;align-items:center;gap:6px}
+.tip{display:inline-grid;place-items:center;width:18px;height:18px;min-height:0;padding:0;border-radius:50%;font:600 11px/1 var(--sans);color:var(--dim);background:transparent;border:1px solid var(--line);cursor:help;flex:none}
+.tip:hover,.tip[aria-expanded=true]{color:var(--ink);border-color:var(--dim)}
+h2 .tip{margin-left:6px;vertical-align:1px}
+#tipbox{position:fixed;z-index:10;max-width:min(340px,calc(100vw - 16px));padding:9px 12px;border-radius:8px;background:var(--panel2);color:var(--ink);border:1px solid var(--hover);box-shadow:0 6px 24px rgba(0,0,0,.25);font-size:13.5px;line-height:1.45;pointer-events:none}
+output.over{color:var(--hot)}
+.lim{--zone:color-mix(in srgb,var(--hot) 55%,var(--line))}
+.lim::-webkit-slider-runnable-track{background:linear-gradient(90deg,var(--zone) 0 var(--lo),var(--line) var(--lo) var(--hi),var(--zone) var(--hi))!important}
+.lim::-moz-range-track{background:linear-gradient(90deg,var(--zone) 0 var(--lo),var(--line) var(--lo) var(--hi),var(--zone) var(--hi))!important}
+.note{font-size:13px;color:var(--hot);margin:6px 0 0}
+.tinfo{font-size:13px;color:var(--dim);margin:2px 0 0}
 .row>.seg,.row>input{grid-column:1/-1}
 .row>.seg{margin-top:4px}
 output,.mono{font:500 14px/1.4 var(--mono);color:var(--ink);white-space:nowrap}
@@ -106,7 +117,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 <header class="wrap top">
   <div>
     <h1>Live HRTEM</h1>
-    <p class="sub">Tilt the specimen, turn the focus and watch the micrograph form. Each of the 78 virtual carbons is imaged by a multislice simulation that reruns on your graphics card as you work the controls.</p>
+    <p class="sub">Tilt the specimen, turn the focus and watch the micrograph form. Each of the 78 virtual carbons, plus graphite and nanotubes for reference, is imaged by a multislice simulation that reruns on your graphics card as you work the controls.</p>
   </div>
   <div class="eng" id="eng">Starting the microscope…</div>
 </header>
@@ -115,53 +126,58 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
   <section class="panel spec" aria-label="Specimen stage">
     <div class="stage" id="stage"><canvas id="bg"></canvas><canvas id="gl"></canvas><canvas id="ov"></canvas><div class="hint">Drag to tilt · Shift-drag to orbit</div></div>
     <div class="seg view"><button id="vObl" aria-pressed="true">Oblique view</button><button id="vDet" aria-pressed="false">Camera's view</button></div>
-    <h2>Specimen</h2>
+    <h2>Specimen<button class="tip" type="button" data-k="spec" aria-label="What is this?">?</button></h2>
     <div class="pick"><button id="prev" aria-label="Previous structure">‹</button><select id="struct" aria-label="Structure"></select><button id="next" aria-label="Next structure">›</button></div>
     <p class="facts" id="facts"></p>
-    <div class="row"><label>Beam along cell axis</label><div class="seg" id="face"><button data-v="a">a</button><button data-v="b">b</button><button data-v="c">c</button></div></div>
-    <div class="row"><label for="ta">Tilt α</label><output id="tav"></output><input type="range" id="ta" min="-40" max="40" step="0.5" value="0"></div>
-    <div class="row"><label for="tb">Tilt β</label><output id="tbv"></output><input type="range" id="tb" min="-30" max="30" step="0.5" value="0"></div>
-    <div class="row"><label for="th">Thickness</label><output id="thv"></output><input type="range" id="th" min="2" max="10" step="0.1" value="5"></div>
+    <div class="row"><span class="lab"><label>Beam along cell axis</label><button class="tip" type="button" data-k="face" aria-label="What is this?">?</button></span><div class="seg" id="face"><button data-v="a">a</button><button data-v="b">b</button><button data-v="c">c</button></div></div>
+    <div class="row"><span class="lab"><label for="ta">Tilt α</label><button class="tip" type="button" data-k="ta" aria-label="What is this?">?</button></span><output id="tav"></output><input type="range" class="lim" id="ta" min="-70" max="70" step="0.5" value="0" style="--lo:21.43%;--hi:78.57%"></div>
+    <div class="row"><span class="lab"><label for="tb">Tilt β</label><button class="tip" type="button" data-k="tb" aria-label="What is this?">?</button></span><output id="tbv"></output><input type="range" class="lim" id="tb" min="-70" max="70" step="0.5" value="0" style="--lo:28.57%;--hi:71.43%"></div>
+    <p class="note" id="tiltnote" hidden>Beyond a standard double-tilt holder (α ±40°, β ±30°): possible here, not on most microscopes.</p>
+    <div class="row"><span class="lab"><label for="th">Thickness</label><button class="tip" type="button" data-k="th" aria-label="What is this?">?</button></span><output id="thv"></output><input type="range" id="th" min="2" max="10" step="0.1" value="5"></div>
+    <div class="row"><span class="lab"><label for="tk">Temperature</label><button class="tip" type="button" data-k="tk" aria-label="What is this?">?</button></span><output id="tkv"></output><input type="range" class="lim" id="tk" min="4" max="3000" step="1" value="293" style="--lo:0%;--hi:52.40%"></div>
+    <p class="tinfo" id="tki"></p>
+    <p class="note" id="tknote" hidden>Hotter than a heating holder reaches (about 1300 °C). Real carbon would also start to anneal; here only the vibrations grow.</p>
     <button class="full" id="rst">Reset stage</button>
   </section>
 
   <section class="scope" aria-label="Viewing screen">
     <div class="screen" id="screen"><canvas id="scr"></canvas><canvas id="fftc"></canvas><div class="hud" id="hud"></div><div class="hud br" id="hud2"></div><div class="wait" id="wait">Computing the exit wave…</div></div>
-    <div class="bar"><div class="seg" id="zoom"><button data-v="1">×1</button><button data-v="2">×2</button><button data-v="4">×4</button></div><button id="bFFT" aria-pressed="true">Live FFT</button><button id="bPh" aria-pressed="false">Phosphor screen</button><span class="perf" id="perf"></span></div>
-    <div class="ctfbox"><div class="ctfhead"><h2>Contrast transfer</h2><span id="res"></span></div><div class="fig"><canvas id="ctf"></canvas></div></div>
+    <div class="bar"><div class="seg" id="zoom"><button data-v="1">×1</button><button data-v="2">×2</button><button data-v="4">×4</button></div><button id="bFFT" aria-pressed="true">Live FFT</button><button id="bPh" aria-pressed="false">Phosphor screen</button><button class="tip" type="button" data-k="scr" aria-label="What is this?">?</button><span class="perf" id="perf"></span></div>
+    <div class="ctfbox"><div class="ctfhead"><h2>Contrast transfer<button class="tip" type="button" data-k="ctf" aria-label="What is this?">?</button></h2><span id="res"></span></div><div class="fig"><canvas id="ctf"></canvas></div></div>
   </section>
 
   <section class="panel console" aria-label="Microscope controls">
-    <h2>Optics</h2>
-    <div class="row"><label>High tension (kV)</label><div class="seg" id="kv"><button data-v="80">80</button><button data-v="120">120</button><button data-v="200">200</button><button data-v="300">300</button></div></div>
+    <h2>Optics<button class="tip" type="button" data-k="opt" aria-label="What is this?">?</button></h2>
+    <div class="row"><span class="lab"><label>High tension (kV)</label><button class="tip" type="button" data-k="kv" aria-label="What is this?">?</button></span><div class="seg" id="kv"><button data-v="80">80</button><button data-v="120">120</button><button data-v="200">200</button><button data-v="300">300</button></div></div>
     <div class="focus">
       <svg id="knob" viewBox="0 0 100 100" role="slider" tabindex="0" aria-label="Focus" aria-valuemin="-200" aria-valuemax="400"><circle cx="50" cy="50" r="47" class="kr"/><g id="kt"></g><g id="kg"><circle cx="50" cy="50" r="33" class="kb"/><line x1="50" y1="22" x2="50" y2="36" class="kp"/></g></svg>
-      <div><div class="small">Focus</div><div class="big" id="dfv"></div><div class="small" id="dfs"></div>
+      <div><div class="small lab">Focus<button class="tip" type="button" data-k="df" aria-label="What is this?">?</button></div><div class="big" id="dfv"></div><div class="small" id="dfs"></div>
         <div class="seg"><button id="sch">Scherzer</button><button id="gau">Gaussian</button></div></div>
     </div>
-    <div class="row"><label for="cs">Spherical aberration Cs</label><output id="csv"></output><input type="range" id="cs" min="0" max="2" step="0.01" value="0.5"></div>
-    <div class="row"><label for="sp">Focus spread</label><output id="spv"></output><input type="range" id="sp" min="0" max="8" step="0.1" value="2.8"></div>
-    <div class="row"><label for="dv">Beam divergence</label><output id="dvv"></output><input type="range" id="dv" min="0" max="3" step="0.05" value="1"></div>
-    <div class="row"><label>Objective aperture</label><div class="seg" id="ap"><button data-v="0">Out</button><button data-v="20">20 mrad</button><button data-v="12">12 mrad</button><button data-v="6">6 mrad</button></div></div>
-    <h2>Camera</h2>
-    <div class="row"><label for="ds">Dose</label><output id="dsv"></output><input type="range" id="ds" min="1.5" max="5" step="0.05" value="4"></div>
+    <div class="row"><span class="lab"><label for="cs">Spherical aberration Cs</label><button class="tip" type="button" data-k="cs" aria-label="What is this?">?</button></span><output id="csv"></output><input type="range" id="cs" min="0" max="2" step="0.01" value="0.5"></div>
+    <div class="row"><span class="lab"><label for="sp">Focus spread</label><button class="tip" type="button" data-k="sp" aria-label="What is this?">?</button></span><output id="spv"></output><input type="range" id="sp" min="0" max="8" step="0.1" value="2.8"></div>
+    <div class="row"><span class="lab"><label for="dv">Beam divergence</label><button class="tip" type="button" data-k="dv" aria-label="What is this?">?</button></span><output id="dvv"></output><input type="range" id="dv" min="0" max="3" step="0.05" value="1"></div>
+    <div class="row"><span class="lab"><label>Objective aperture</label><button class="tip" type="button" data-k="ap" aria-label="What is this?">?</button></span><div class="seg" id="ap"><button data-v="0">Out</button><button data-v="20">20 mrad</button><button data-v="12">12 mrad</button><button data-v="6">6 mrad</button></div></div>
+    <h2>Camera<button class="tip" type="button" data-k="cam" aria-label="What is this?">?</button></h2>
+    <div class="row"><span class="lab"><label for="ds">Dose</label><button class="tip" type="button" data-k="ds" aria-label="What is this?">?</button></span><output id="dsv"></output><input type="range" id="ds" min="1.5" max="5" step="0.05" value="4"></div>
     <div class="seg"><button id="bNoise" aria-pressed="true">Shot noise</button><button id="bLive" aria-pressed="true">Live frames</button></div>
-    <h2>Presets</h2>
+    <h2>Presets<button class="tip" type="button" data-k="pre" aria-label="What is this?">?</button></h2>
     <div class="presets" id="presets"></div>
   </section>
 </main>
 
 <footer class="wrap foot">
-  <p>The specimen is a film cut from the periodic structure, perpendicular to the chosen cell axis, and laterally continuous. The double-tilt holder turns it in the fixed vertical beam, so the beam's path through the film grows as 1/cos(tilt). The simulated window is 1.2 nm wider than the field on every side, so tilted films have no wrap-around seams. At zero tilt, with the beam along c and one cell of thickness, the image matches the gallery's HRTEM view, which in turn correlates at r ≈ 0.93 with the paper's MacTempas images.</p>
-  <p>Physics: Kirkland's carbon scattering factors, phase grating and Fresnel propagation with a 2/3 band limit, and Debye–Waller damping (B = 0.5 Å²). Focal spread is averaged over 7 Gauss–Hermite foci, and beam divergence is a quasi-coherent envelope. Noise is Poisson at the set dose, seen through a detector with a 0.8 Å⁻¹ Gaussian MTF.</p>
+  <p>The specimen is a film cut from the periodic structure, perpendicular to the chosen cell axis, and laterally continuous. The double-tilt holder turns it in the fixed vertical beam, so the beam's path through the film grows as 1/cos(tilt). Tilts go to ±70° on both axes, past what a standard holder allows; at high tilt the slices are made thicker (shown under the screen) to keep the simulation live. The simulated window is 1.2 nm wider than the field on every side, so tilted films have no wrap-around seams. At zero tilt, with the beam along c and one cell of thickness, the image matches the gallery's HRTEM view, which in turn correlates at r ≈ 0.93 with the paper's MacTempas images.</p>
+  <p>Physics: Kirkland's carbon scattering factors, phase grating and Fresnel propagation with a 2/3 band limit, and Debye–Waller damping of thermal vibrations, with B from a Debye model calibrated to B = 0.5 Å² at 20 °C (θ<sub>D</sub> ≈ 800 K). Focal spread is averaged over 7 Gauss–Hermite foci, and beam divergence is a quasi-coherent envelope. Noise is Poisson at the set dose, seen through a detector with a 0.8 Å⁻¹ Gaussian MTF.</p>
   <p class="legal"><span>© 2026 Fernando Vallejos-Burgos · made with the assistance of Claude Opus 5.5 · v<span id="ver"></span></span>
     <span>All rights reserved: code and data may not be copied, redistributed or reused without written permission · <a href="https://vallejos.cl/">vallejos.cl</a></span></p>
 </footer>
+<div id="tipbox" role="tooltip" hidden></div>
 
 <script>
 {
 const $ = id => document.getElementById(id);
-const VERSION = "1.0.1";
+const VERSION = "1.1.0";
 $('ver').textContent = VERSION;
 const PAD = 12, KSHOW = 0.9, MTF = 0.8;
 const SANS = 'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif', MONO = 'ui-monospace,"SF Mono",Menlo,Consolas,"Roboto Mono",monospace';
@@ -199,11 +215,12 @@ function cpuCore(){
     const dx=W/n,N2=n*n,kx=new Float64Array(n),kmax=2/3*(n/2-1)/W,k2=new Float32Array(N2),vk=new Float32Array(N2);
     for(let i=0;i<n;i++)kx[i]=(i<n/2?i:i-n)/W;
     for(let y=0;y<n;y++)for(let x=0;x<n;x++){const i=y*n+x,q2=kx[x]*kx[x]+kx[y]*kx[y];k2[i]=q2;
-      if(q2<=kmax*kmax){const c=(sinc(kx[x]*dx)*sinc(kx[y]*dx))**2;vk[i]=TPA*fe(q2)*Math.exp(-BDW*q2/4)/Math.max(c,1e-3)/(dx*dx)}}
-    g={n,W,dx,N2,k2,vk,kmax2:kmax*kmax,fft:makeFFT(n),pr:null,pi:null,I:null};
+      if(q2<=kmax*kmax){const c=(sinc(kx[x]*dx)*sinc(kx[y]*dx))**2;vk[i]=TPA*fe(q2)/Math.max(c,1e-3)/(dx*dx)}}
+    g={n,W,dx,N2,k2,vk0:vk,kmax2:kmax*kmax,fft:makeFFT(n),pr:null,pi:null,I:null};
   }
-  function exitWave(xy,offs,nz,dz,E){
-    const {n,N2,k2,vk,kmax2,fft}=g,l=lam(E),s=sig(E);
+  function exitWave(xy,offs,nz,dz,E,B=BDW){
+    const {n,N2,k2,vk0,kmax2,fft}=g,l=lam(E),s=sig(E),vk=new Float32Array(N2);
+    for(let i=0;i<N2;i++)vk[i]=vk0[i]*Math.exp(-B*k2[i]/4);
     const pr=new Float32Array(N2).fill(1),pi=new Float32Array(N2),ar=new Float32Array(N2),ai=new Float32Array(N2),cr=new Float32Array(N2),ci=new Float32Array(N2);
     for(let i=0;i<N2;i++)if(k2[i]<=kmax2){const p=-Math.PI*l*dz*k2[i];cr[i]=Math.cos(p);ci[i]=Math.sin(p)}
     for(let j=0;j<nz;j++){
@@ -262,7 +279,7 @@ const core = cpuCore();
 const WORKER = `const core=(${cpuCore.toString()})();
 onmessage=e=>{const d=e.data;try{let r=null;
   if(d.cmd==='grid')core.grid(d.n,d.W);
-  else if(d.cmd==='exit')core.exitWave(d.xy,d.offs,d.nz,d.dz,d.E);
+  else if(d.cmd==='exit')core.exitWave(d.xy,d.offs,d.nz,d.dz,d.E,d.B);
   else if(d.cmd==='image')core.image(d.o);
   else if(d.cmd==='frame'){r=core.frame(d.o);postMessage({id:d.id,r},[r.img.buffer,r.dif.buffer]);return}
   postMessage({id:d.id,r})}catch(err){postMessage({id:d.id,err:String(err)})}};`;
@@ -286,17 +303,17 @@ class CPUEngine{
     return new Promise((res,rej)=>{this.q.set(id,{res,rej});this.w.postMessage(msg,tr)});
   }
   direct(m){const c=this.core;
-    if(m.cmd==='grid')c.grid(m.n,m.W);else if(m.cmd==='exit')c.exitWave(m.xy,m.offs,m.nz,m.dz,m.E);
+    if(m.cmd==='grid')c.grid(m.n,m.W);else if(m.cmd==='exit')c.exitWave(m.xy,m.offs,m.nz,m.dz,m.E,m.B);
     else if(m.cmd==='image')c.image(m.o);else if(m.cmd==='frame')return c.frame(m.o);return null}
   grid(n,W){return this.call({cmd:'grid',n,W})}
-  exit(xy,offs,nz,dz,E){return this.call({cmd:'exit',xy,offs,nz,dz,E},[xy.buffer,offs.buffer])}
+  exit(xy,offs,nz,dz,E,B=0.5){return this.call({cmd:'exit',xy,offs,nz,dz,E,B},[xy.buffer,offs.buffer])}
   image(o){return this.call({cmd:'image',o})}
   frame(o){return this.call({cmd:'frame',o})}
   label(){return `<b>CPU</b> ${this.w?'worker':'main thread'} · ${GPUEngine.soft?'only a software GPU (no hardware acceleration) here':'WebGPU unavailable here'}, so grids are ${this.preview}² while tilting and ${this.final}² at rest`}
 }
 
 const WGSL = `
-struct U{n:u32,m:u32,x0:u32,kk:u32,W:f32,lam:f32,sig:f32,dz:f32,f:f32,cs:f32,a2:f32,ap2:f32,wgt:f32,lamD:f32,mtf:f32,seed:u32,kmax2:f32,mode:u32,start:u32,cnt:u32};
+struct U{n:u32,m:u32,x0:u32,kk:u32,W:f32,lam:f32,sig:f32,dz:f32,f:f32,cs:f32,a2:f32,ap2:f32,wgt:f32,lamD:f32,mtf:f32,seed:u32,kmax2:f32,mode:u32,start:u32,cnt:u32,bdw:f32,p0:f32,p1:f32,p2:f32};
 @group(0) @binding(0) var<uniform> u:U;
 @group(0) @binding(1) var<storage,read_write> A:array<vec2f>;
 @group(0) @binding(2) var<storage,read_write> PSI:array<vec2f>;
@@ -329,7 +346,7 @@ fn rf(s:u32)->f32{return (f32(s>>8u)+0.5)/16777216.0;}
 @compute @workgroup_size(256) fn mulvk(@builtin(global_invocation_id) g:vec3u){let i=g.x;if(i>=u.n*u.n){return;}
   let k=kv(i);let q=dot(k,k);if(q>u.kmax2){A[i]=vec2f(0.0);return;}
   let dx=u.W/f32(u.n);let c=sinc(k.x*dx)*sinc(k.y*dx);
-  A[i]=A[i]*(47.877645*fe(q)*exp(-0.125*q)/max(c*c,1e-3)/(dx*dx));}
+  A[i]=A[i]*(47.877645*fe(q)*exp(-0.25*u.bdw*q)/max(c*c,1e-3)/(dx*dx));}
 @compute @workgroup_size(256) fn transmit(@builtin(global_invocation_id) g:vec3u){let i=g.x;if(i>=u.n*u.n){return;}
   PSI[i]=cmul(PSI[i],cis(u.sig*A[i].x));}
 @compute @workgroup_size(256) fn prop(@builtin(global_invocation_id) g:vec3u){let i=g.x;if(i>=u.n*u.n){return;}
@@ -395,7 +412,7 @@ class GPUEngine{
     const d=dev,S=GPUShaderStage.COMPUTE,BU=GPUBufferUsage;
     this.U=d.createBuffer({size:256*512,usage:BU.UNIFORM|BU.COPY_DST});
     const st=b=>({binding:b,visibility:S,buffer:{type:'storage'}});
-    this.bgl=d.createBindGroupLayout({entries:[{binding:0,visibility:S,buffer:{type:'uniform',hasDynamicOffset:true,minBindingSize:80}},st(1),st(2),st(3),{binding:4,visibility:S,buffer:{type:'read-only-storage'}},st(5),st(6),st(7)]});
+    this.bgl=d.createBindGroupLayout({entries:[{binding:0,visibility:S,buffer:{type:'uniform',hasDynamicOffset:true,minBindingSize:96}},st(1),st(2),st(3),{binding:4,visibility:S,buffer:{type:'read-only-storage'}},st(5),st(6),st(7)]});
     const mod=d.createShaderModule({code:WGSL}),pl=d.createPipelineLayout({bindGroupLayouts:[this.bgl]});
     this.p={};
     for(const e of ['initpsi','deposit','rho2a','mulvk','transmit','prop','ctf','accum','expose','psprep','psout','mtf','crop'])
@@ -424,21 +441,21 @@ class GPUEngine{
   }
   ensureAT(bytes,force){
     if(bytes>this.atCap||force){if(bytes>this.atCap){this.AT?.destroy();this.atCap=Math.max(bytes,this.atCap*2,1<<20);this.AT=this.buf(this.atCap,GPUBufferUsage.STORAGE|GPUBufferUsage.COPY_DST)}
-      this.bg=this.dev.createBindGroup({layout:this.bgl,entries:[{binding:0,resource:{buffer:this.U,size:80}},{binding:1,resource:{buffer:this.A}},{binding:2,resource:{buffer:this.P}},{binding:3,resource:{buffer:this.RHO}},{binding:4,resource:{buffer:this.AT}},{binding:5,resource:{buffer:this.I}},{binding:6,resource:{buffer:this.OUT}},{binding:7,resource:{buffer:this.B}}]})}
+      this.bg=this.dev.createBindGroup({layout:this.bgl,entries:[{binding:0,resource:{buffer:this.U,size:96}},{binding:1,resource:{buffer:this.A}},{binding:2,resource:{buffer:this.P}},{binding:3,resource:{buffer:this.RHO}},{binding:4,resource:{buffer:this.AT}},{binding:5,resource:{buffer:this.I}},{binding:6,resource:{buffer:this.OUT}},{binding:7,resource:{buffer:this.B}}]})}
   }
-  ue(ab,j,o){const u=new Uint32Array(ab,j*256,20),f=new Float32Array(ab,j*256,20);
+  ue(ab,j,o){const u=new Uint32Array(ab,j*256,24),f=new Float32Array(ab,j*256,24);f[20]=o.bdw??0.5;
     u[0]=this.n;u[1]=o.m||0;u[2]=o.x0||0;u[3]=o.kk||0;f[4]=this.W;f[5]=o.lam||0;f[6]=o.sig||0;f[7]=o.dz||0;f[8]=o.f||0;f[9]=o.cs||0;
     f[10]=o.a2||0;f[11]=o.ap2??1e30;f[12]=o.wgt||0;f[13]=o.lamD||0;f[14]=o.mtf||1;u[15]=o.seed||0;f[16]=this.kmax2;u[17]=o.mode||0;u[18]=o.start||0;u[19]=o.cnt||0}
   pass(fn){const d=this.dev,enc=d.createCommandEncoder(),p=enc.beginComputePass(),G=Math.ceil(this.n*this.n/256);
     const run=(e,j,g=G)=>{p.setPipeline(this.p[e]);p.setBindGroup(0,this.bg,[j*256]);p.dispatchWorkgroups(g)};
     const fft=(k,dir)=>{for(const col of [0,1]){p.setPipeline(this.ffts[`${this.n}${dir}${col}`]);p.setBindGroup(0,this.fb[k]);p.dispatchWorkgroups(this.n)}};
     fn(run,fft);p.end();return enc}
-  async exit(xy,offs,nz,dz,E){
+  async exit(xy,offs,nz,dz,E,B=0.5){
     const q=this.dev.queue,l=core.lam(E),s=core.sig(E);
     this.ensureAT(xy.byteLength);q.writeBuffer(this.AT,0,xy);
     for(let j0=0;j0<nz;j0+=500){
       const j1=Math.min(nz,j0+500),ab=new ArrayBuffer(256*(j1-j0));
-      for(let j=j0;j<j1;j++)this.ue(ab,j-j0,{lam:l,sig:s,dz,start:offs[j],cnt:offs[j+1]-offs[j]});
+      for(let j=j0;j<j1;j++)this.ue(ab,j-j0,{lam:l,sig:s,dz,start:offs[j],cnt:offs[j+1]-offs[j],bdw:B});
       q.writeBuffer(this.U,0,ab);
       q.submit([this.pass((run,fft)=>{
         if(j0===0)run('initpsi',0);
@@ -476,9 +493,17 @@ const ry=a=>{const c=Math.cos(a),s=Math.sin(a);return[c,0,s,0,1,0,-s,0,c]};
 const FACE={c:[1,0,0,0,1,0,0,0,1],a:[0,1,0,0,0,1,1,0,0],b:[0,0,1,1,0,0,0,1,0]};
 const AXIS={c:[0,1,2],a:[1,2,0],b:[2,0,1]};
 
-const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42};
+const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42,K:293};
 let meta=[],cur=null,atoms={},cloud=new Float32Array(0),E=null,frameData=null;
-const AMAX=40,BMAX=30,TMAX=10;
+const AMAX=70,BMAX=70,TMAX=10,HOLD_A=40,HOLD_B=30,HOLD_K=1573;
+// Thermal vibration of carbon, Debye model: <u²> per direction = 3ħ²/(m kB θ) [ (1/x²)∫₀ˣ t/(eᵗ−1) dt + 1/4 ], x = θ/T; B = 8π²<u²>.
+// θ is calibrated so that B = 0.5 Å² at 293 K, the value whose images match the paper's MacTempas ones.
+const HB=4.03866; // ħ²/(m_C kB) in Å²·K
+function debyeU2(T,th){const x=th/Math.max(T,1e-3),X=Math.min(x,60),N=400;let I=0;
+  for(let i=0;i<=N;i++){const t=X*i/N,f=t<1e-9?1:t/Math.expm1(t);I+=f*(i===0||i===N?1:i%2?4:2)}I*=X/N/3;
+  return 3*HB/th*(I/(x*x)+0.25)}
+const THETA=(()=>{let lo=200,hi=3000;for(let i=0;i<60;i++){const m=(lo+hi)/2;if(8*Math.PI**2*debyeU2(293,m)>0.5)lo=m;else hi=m}return (lo+hi)/2})();
+const bOf=T=>8*Math.PI**2*debyeU2(T,THETA);
 const rot=()=>m3(rx(st.a*Math.PI/180),ry(st.b*Math.PI/180));   // film frame -> lab (beam along +z)
 function geom(){const L=cur.L,ax=AXIS[st.face],S=Math.min(L[ax[0]],L[ax[1]]);return {S,W:S+2*PAD,Lb:L[ax[2]]}}
 const scherzer=()=>Math.sqrt(1.5*st.cs*1e7*core.lam(st.kv*1e3))/10;
@@ -491,25 +516,34 @@ async function loadAtoms(name){
   for(let i=0;i<q.length;i++){const k=i%3;P[i]=(q[i]+0.5)/65536*L[k]-L[k]/2}
   return atoms[name]=P;
 }
+// Film-frame box holding every atom the beam column can meet for tilts up to (am, bm) degrees.
+function cloudBox(am,bm){const g=geom(),h=g.W/2+1,t=st.T/2,d=Math.PI/180;let ex=h,ey=h;
+  for(const a of [-am,0,am])for(const b of [-bm,0,bm]){const R=m3(rx(a*d),ry(b*d)),det=R[0]*R[4]-R[1]*R[3];
+    for(const X of [-h,h])for(const Y of [-h,h])for(const z of [-t,t]){const u=X-R[2]*z,v=Y-R[5]*z;
+      ex=Math.max(ex,Math.abs((u*R[4]-R[1]*v)/det));ey=Math.max(ey,Math.abs((R[0]*v-R[3]*u)/det))}}
+  return [ex+2,ey+2,t+1]}
+let cloudTilt=[0,0];
+const tiltBucket=(v,m)=>Math.min(m,Math.ceil(Math.abs(v)/10)*10+10);
 function buildCloud(){
-  const P=atoms[st.name],L=cur.L,g=geom(),F=FACE[st.face],n=P.length/3,d=Math.PI/180;
-  const zw=(st.T/2+g.W/2*(Math.sin(AMAX*d)+Math.sin(BMAX*d)))/(Math.cos(AMAX*d)*Math.cos(BMAX*d));
-  const r=Math.sqrt(2*(g.W/2)**2+zw*zw)+1,r2=r*r;
-  const R=[0,1,2].map(k=>Math.ceil(r/L[k]+0.5));
-  let out=new Float32Array(Math.ceil(4.2*r**3*n/(L[0]*L[1]*L[2])*1.3+3e4)*3),k=0;
+  const P=atoms[st.name],L=cur.L,F=FACE[st.face],n=P.length/3;
+  cloudTilt=[tiltBucket(st.a,AMAX),tiltBucket(st.b,BMAX)];
+  const ext=cloudBox(...cloudTilt),eo=[0,0,0];
+  for(let j=0;j<3;j++)eo[[0,1,2].find(c=>F[3*j+c])]=ext[j];       // FACE is a permutation: film axis j is cell axis c
+  const R=[0,1,2].map(k=>Math.ceil(eo[k]/L[k]+0.5));
+  let out=new Float32Array(Math.max(3e5,n*24)),k=0;
   for(let i=-R[0];i<=R[0];i++)for(let j=-R[1];j<=R[1];j++)for(let l=-R[2];l<=R[2];l++){
     const o=[i*L[0],j*L[1],l*L[2]];
-    if(o.reduce((s,v,a)=>s+Math.max(0,Math.abs(v)-L[a]/2)**2,0)>r2)continue;
+    if(o.some((v,a)=>Math.abs(v)-L[a]/2>eo[a]))continue;
     for(let a=0;a<n;a++){const x=P[3*a]+o[0],y=P[3*a+1]+o[1],z=P[3*a+2]+o[2];
-      if(x*x+y*y+z*z<r2){if(k+3>out.length){const t=new Float32Array(out.length*2);t.set(out);out=t}
+      if(Math.abs(x)<eo[0]&&Math.abs(y)<eo[1]&&Math.abs(z)<eo[2]){if(k+3>out.length){const t=new Float32Array(out.length*2);t.set(out);out=t}
         out[k++]=F[0]*x+F[1]*y+F[2]*z;out[k++]=F[3]*x+F[4]*y+F[5]*z;out[k++]=F[6]*x+F[7]*y+F[8]*z}}
   }
   cloud=out.slice(0,k);upload3D();
 }
-function slab(n,dz0){
+function slab(n,dz0,nzMax=1e9){
   const g=geom(),R=rot(),W=g.W,h=W/2,t=st.T/2,c=cloud,N=c.length/3;
   const zm=(t+h*(Math.abs(R[6])+Math.abs(R[7])))/Math.abs(R[8]);      // beam path half-length through the tilted film
-  const nz=Math.max(1,Math.round(2*zm/dz0)),dz=2*zm/nz,dx=W/n;
+  const nz=Math.max(1,Math.min(nzMax,Math.round(2*zm/dz0))),dz=2*zm/nz,dx=W/n;
   const sx=new Float32Array(N),sy=new Float32Array(N),si=new Int32Array(N),offs=new Uint32Array(nz+1);let k=0;
   for(let a=0;a<N;a++){const x=c[3*a],y=c[3*a+1],z=c[3*a+2];if(z<-t||z>=t)continue;
     const lx=R[0]*x+R[1]*y+R[2]*z;if(lx<-h||lx>=h)continue;
@@ -534,10 +568,10 @@ async function pump(){
     do{again=false;
       const g=geom(),n=tilting?E.preview:E.final,dz0=tilting?E.dzPrev:E.dzFinal,gk=n+'|'+g.W;
       if(gk!==have.gk){await E.grid(n,g.W);have.gk=gk;have.sk=''}
-      const sk=[st.name,st.face,st.a,st.b,st.T,st.kv,dz0,gk].join('|');
-      if(sk!==have.sk){const t0=performance.now(),sl=slab(n,dz0);
-        await E.exit(sl.xy,sl.offs,sl.nz,sl.dz,st.kv*1e3);
-        Object.assign(perf,{exit:performance.now()-t0,nz:sl.nz,atoms:sl.count,n});have.sk=sk;have.ik=''}
+      const nzMax=E.kind==='gpu'?(tilting?300:800):(tilting?60:160),sk=[st.name,st.face,st.a,st.b,st.T,st.kv,st.K,dz0,nzMax,gk].join('|');
+      if(sk!==have.sk){const t0=performance.now(),sl=slab(n,dz0,nzMax);
+        await E.exit(sl.xy,sl.offs,sl.nz,sl.dz,st.kv*1e3,bOf(st.K));
+        Object.assign(perf,{exit:performance.now()-t0,nz:sl.nz,dz:sl.dz,atoms:sl.count,n});have.sk=sk;have.ik=''}
       const o=optics(),ik=JSON.stringify(o)+have.sk;
       if(ik!==have.ik){const t0=performance.now();await E.image(o);perf.img=performance.now()-t0;have.ik=ik;have.fk=''}
       const dx=g.W/n,x0=Math.round(PAD/dx),m=Math.min(n-x0,Math.round(g.S/dx)),kk=Math.min(n/2-1,Math.round(KSHOW*g.W));
@@ -552,7 +586,7 @@ async function pump(){
   if(again)request();
   showPerf();
 }
-function tiltChanged(){tilting=true;clearTimeout(tiltTimer);tiltTimer=setTimeout(()=>{tilting=false;request()},260);dirty3D=true;sync();request()}
+function tiltChanged(){if(cur&&((Math.abs(st.a)>cloudTilt[0]-0.01&&cloudTilt[0]<AMAX)||(Math.abs(st.b)>cloudTilt[1]-0.01&&cloudTilt[1]<BMAX)))buildCloud();tilting=true;clearTimeout(tiltTimer);tiltTimer=setTimeout(()=>{tilting=false;request()},260);dirty3D=true;sync();request()}
 
 // ---------- viewing screen ----------
 const off=document.createElement('canvas'),offF=document.createElement('canvas');
@@ -701,6 +735,10 @@ function press(id,v){for(const b of $(id).querySelectorAll('button'))b.setAttrib
 function sync(){
   const g=cur?geom():null;
   $('ta').value=st.a;$('tb').value=st.b;$('tav').textContent=`${st.a.toFixed(1)}°`;$('tbv').textContent=`${st.b.toFixed(1)}°`;
+  const oa=Math.abs(st.a)>HOLD_A,ob=Math.abs(st.b)>HOLD_B,ok=st.K>HOLD_K;
+  $('tav').classList.toggle('over',oa);$('tbv').classList.toggle('over',ob);$('tiltnote').hidden=!(oa||ob);
+  $('tk').value=st.K;$('tkv').textContent=`${st.K} K · ${st.K-273} °C`;$('tkv').classList.toggle('over',ok);$('tknote').hidden=!ok;
+  {const B=bOf(st.K);$('tki').textContent=`Atoms vibrate by ${Math.sqrt(B/(8*Math.PI**2)).toFixed(3)} Å rms per direction · B = ${B.toFixed(2)} Å²`}
   $('th').value=(st.T/10).toFixed(1);$('thv').textContent=`${(st.T/10).toFixed(1)} nm`+(g&&Math.abs(st.T-g.Lb)<0.05?' (1 cell)':'');
   press('face',st.face);press('kv',st.kv);press('ap',st.ap);press('zoom',st.zoom);
   $('cs').value=st.cs;$('csv').textContent=`${st.cs.toFixed(2)} mm`;$('sp').value=st.spread;$('spv').textContent=`${st.spread.toFixed(1)} nm`;
@@ -712,14 +750,15 @@ function sync(){
   $('dfs').textContent=(Math.abs(df)<0.05?'Gaussian focus':df>0?'underfocus':'overfocus')+(Math.abs(df-sch)<0.3&&sch>0.3?' · Scherzer':'');
   $('kg').setAttribute('transform',`rotate(${df*3.6} 50 50)`);$('knob').setAttribute('aria-valuenow',df.toFixed(1));
   $('hud').textContent=`${st.kv} kV · Cs ${st.cs.toFixed(2)} mm · Δf ${df>=0?'−':'+'}${Math.abs(df).toFixed(1)} nm`;
-  if(cur)$('hud2').textContent=`${cur.name} · α ${st.a.toFixed(1)}° β ${st.b.toFixed(1)}° · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}`;
-  if(cur){$('facts').textContent=`${nf.format(cur.n)} atoms · ${cur.rho.toFixed(2)} g/cm³ · cell ${(cur.L[0]/10).toFixed(2)} nm`;$('struct').value=cur.name}
+  if(cur)$('hud2').textContent=`${cur.name} · α ${st.a.toFixed(1)}° β ${st.b.toFixed(1)}° · ${st.K} K · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}`;
+  if(cur){$('facts').textContent=`${nf.format(cur.n)} atoms · ${cur.rho.toFixed(2)} g/cm³ · cell ${new Set(cur.L.map(v=>v.toFixed(1))).size>1?cur.L.map(v=>(v/10).toFixed(2)).join(' × '):(cur.L[0]/10).toFixed(2)} nm`;$('struct').value=cur.name}
   drawCTF();
 }
-function showPerf(){if(!perf.n)return;$('perf').textContent=`${perf.n}² · ${perf.nz} slices · ${nf.format(perf.atoms)} atoms · ${Math.round(perf.exit)} ms`}
+function showPerf(){if(!perf.n)return;$('perf').textContent=`${perf.n}² · ${perf.nz} slices${perf.dz>2.05?` of ${perf.dz.toFixed(1)} Å`:''} · ${nf.format(perf.atoms)} atoms · ${Math.round(perf.exit)} ms`}
 
 async function choose(name){
-  st.name=name;cur=meta.find(m=>m.name===name);$('wait').hidden=!!frameData;
+  const was=cur;st.name=name;cur=meta.find(m=>m.name===name);
+  if(cur.face)st.face=cur.face;else if(was&&was.face)st.face='c';   // reference crystals open side-on$('wait').hidden=!!frameData;
   await loadAtoms(name);st.T=geom().Lb;buildCloud();have.sk='';sync();request();
   try{history.replaceState(null,'','#'+name)}catch(e){}
 }
@@ -734,6 +773,7 @@ bindSeg('face',v=>setFace(v));
 $('ta').addEventListener('input',e=>{st.a=+e.target.value;tiltChanged()});
 $('tb').addEventListener('input',e=>{st.b=+e.target.value;tiltChanged()});
 $('th').addEventListener('input',e=>{st.T=+e.target.value*10;buildCloud();tiltChanged()});
+$('tk').addEventListener('input',e=>{st.K=+e.target.value;sync();request()});
 $('rst').onclick=()=>{st.a=0;st.b=0;st.T=geom().Lb;buildCloud();dirty3D=true;sync();request()};
 bindSeg('kv',v=>{const wasS=Math.abs(st.df-scherzer())<0.3;st.kv=+v;if(wasS)st.df=+scherzer().toFixed(1);sync();request();dirty3D=true});
 bindSeg('ap',v=>{st.ap=+v;sync();request()});
@@ -775,12 +815,13 @@ const press2=()=>{$('vObl').setAttribute('aria-pressed',!st.det);$('vDet').setAt
 $('vObl').onclick=()=>{st.det=false;press2();dirty3D=true};$('vDet').onclick=()=>{st.det=true;press2();dirty3D=true};
 
 const PRESETS=[
-  ['Paper conditions','120 kV, Cs 0.5 mm, Scherzer',()=>Object.assign(st,{kv:120,cs:0.5,spread:2.8,div:1,ap:0,dose:10000,noise:true}),true],
+  ['Paper conditions','120 kV, Cs 0.5 mm, Scherzer, 20 °C',()=>Object.assign(st,{kv:120,cs:0.5,spread:2.8,div:1,ap:0,dose:10000,noise:true,K:293}),true],
   ['Gaussian focus','Phase contrast vanishes',()=>{st.df=0}],
   ['Strong underfocus','Fresnel fringes, 200 nm',()=>{st.df=200}],
   ['Corrected 80 kV','Cs 0.01 mm, low spread',()=>Object.assign(st,{kv:80,cs:0.01,spread:1.0,div:0.5,ap:0}),true],
   ['Low dose','300 e/Å², live frames',()=>Object.assign(st,{dose:300,noise:true,live:true})],
   ['Lattice filter','12 mrad aperture',()=>{st.ap=12}],
+  ['Hot stage','Corrected 80 kV at 1300 °C',()=>Object.assign(st,{kv:80,cs:0.01,spread:1.0,div:0.5,ap:0,K:1573}),true],
 ];
 $('presets').innerHTML=PRESETS.map((p,i)=>`<button data-i="${i}">${p[0]}<br><span class="small">${p[1]}</span></button>`).join('');
 $('presets').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const p=PRESETS[+b.dataset.i];p[2]();if(p[3])st.df=+scherzer().toFixed(1);sync();request();dirty3D=true});
@@ -802,7 +843,8 @@ function tick(t){
 async function boot(){
   try{initGL()}catch(e){console.error(e)}
   meta=await (await fetch('structures.json')).json();
-  $('struct').innerHTML=meta.map(m=>`<option value="${m.name}">${m.name} · ${m.rho.toFixed(2)} g/cm³</option>`).join('');
+  const opt=m=>`<option value="${m.name}">${m.ref?m.label:`${m.name} · ${m.rho.toFixed(2)} g/cm³`}</option>`;
+  $('struct').innerHTML=`<optgroup label="Reference crystals">${meta.filter(m=>m.ref).map(opt).join('')}</optgroup><optgroup label="Virtual carbons">${meta.filter(m=>!m.ref).map(opt).join('')}</optgroup>`;
   const h=location.hash.slice(1);const first=meta.some(m=>m.name===h)?h:'040';
   try{E=/[?&]cpu\b/.test(location.search)?null:await GPUEngine.create()}catch(e){console.warn(e);E=null}
   if(!E)E=await CPUEngine.create();
@@ -811,6 +853,38 @@ async function boot(){
   await choose(first);
   requestAnimationFrame(tick);
   if(/selftest/.test(location.search))selftest();
+}
+// ---------- "?" tips ----------
+const TIPS={
+  spec:'Reference crystals (graphite, nanotubes; they open side-on, switch the beam to c to look down the layers or tubes) and the 78 virtual carbons, periodic boxes of disordered carbon, each listed with its density. Use ‹ › or the arrow keys in the list to step through them.',
+  face:'Which edge of the periodic cell points along the beam before any tilt. The film is cut perpendicular to it.',
+  ta:'Rotation of the film about the holder axis (x). A standard double-tilt holder reaches about ±40°, tomography holders ±70° or more; the orange part of the track is beyond a standard holder. The beam path through the film grows as 1/cos(tilt), so tilted films look thicker.',
+  tb:'Rotation about the second, perpendicular axis (y). Double-tilt holders give about ±30° here; the orange part of the track is beyond that, possible only in the simulation.',
+  th:'Film thickness along its normal. Thicker films stack more atoms in projection, so the image of each layer washes out. It starts at one periodic cell.',
+  tk:'Specimen temperature. Atoms vibrate more as it rises (Debye model), which damps the finest image detail through the Debye–Waller factor. Only the vibrations change: the structure does not anneal or graphitize, which would need molecular dynamics with a force field. Cryo holders reach about −180 °C, heating holders about 1300 °C (orange beyond).',
+  opt:'The objective lens and illumination: together they decide which spatial frequencies reach the image, shown in the contrast-transfer plot under the screen.',
+  kv:'Accelerating voltage. Higher voltage means a shorter electron wavelength and finer resolution, but weaker contrast from light carbon atoms. Above about 80 kV, real electrons also knock carbon atoms out (not simulated).',
+  df:'Objective lens defocus: drag the knob up or down, or use the arrow keys when it is focused. Scherzer focus gives the widest band of uniform phase contrast; at Gaussian focus a thin specimen almost disappears.',
+  cs:'Spherical aberration of the objective: rays far from the axis focus too strongly. It sets the Scherzer focus and the point resolution; aberration-corrected microscopes reach about 0.01 mm.',
+  sp:'Spread of focus from chromatic aberration and the energy spread of the beam (temporal coherence). It damps fine detail and sets the information limit.',
+  dv:'Angular spread of the illumination (spatial coherence). It damps detail wherever the contrast transfer oscillates quickly, mostly at large defocus.',
+  ap:'An aperture in the back focal plane that blocks electrons scattered beyond an angle. Smaller apertures remove fine detail and noise, like a low-pass filter (shaded in the contrast-transfer plot).',
+  cam:'The detector: dose sets how many electrons make the image, shot noise draws random counts, and live frames keep recording new noisy frames like a camera feed.',
+  ds:'Electrons per Å² in each recorded frame. Lower dose means a noisier image, as in beam-sensitive work.',
+  scr:'Zoom and pan the micrograph (drag when zoomed). Live FFT shows the power spectrum of the frame, with rings at 0.34 nm (graphite 002) and 0.21 nm (graphite 100/10). Phosphor screen gives the round viewing-screen look.',
+  ctf:'How strongly each spatial frequency is passed to image contrast with the current optics. Green: transfer function; dashed: damping envelopes from focus spread and divergence; orange line: the 0.34 nm graphite layer spacing; shaded: blocked by the aperture.',
+  pre:'Starting points that set several controls at once. Presets marked with a focus value reset the focus to Scherzer.',
+};
+{const box=$('tipbox');let on=null;
+  const show=b=>{on=b;box.textContent=TIPS[b.dataset.k]||'';box.hidden=false;b.setAttribute('aria-expanded','true');
+    const r=b.getBoundingClientRect(),w=box.offsetWidth,h=box.offsetHeight;let x=Math.min(innerWidth-w-8,Math.max(8,r.left+r.width/2-w/2)),y=r.bottom+8;
+    if(y+h>innerHeight-8)y=Math.max(8,r.top-h-8);box.style.left=x+'px';box.style.top=y+'px'};
+  const hide=()=>{if(on)on.setAttribute('aria-expanded','false');on=null;box.hidden=true};
+  for(const b of document.querySelectorAll('.tip')){b.setAttribute('aria-expanded','false');b.setAttribute('aria-describedby','tipbox');
+    b.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')show(b)});b.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')hide()});
+    b.addEventListener('focus',()=>show(b));b.addEventListener('blur',hide);
+    b.addEventListener('click',e=>{e.preventDefault();on===b?hide():show(b)})}
+  addEventListener('keydown',e=>{if(e.key==='Escape')hide()});addEventListener('scroll',hide,{passive:true});
 }
 // Re-theme when the OS setting changes or the site's toggle is used in another tab.
 const retheme=()=>{const t=themeOf();if(t!==document.documentElement.getAttribute('data-theme')){document.documentElement.setAttribute('data-theme',t);drawCTF()}};
