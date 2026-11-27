@@ -1752,6 +1752,11 @@ ninja.data = [{
           description: "Interactive energy landscapes for Lennard-Jones particle permeation through graphene nanowindows",
           section: "Projects",handler: () => {
               window.location.href = "/projects/0_nanowindow_landscapes/";
+            },},{id: "projects-live-hrtem",
+          title: 'Live HRTEM',
+          description: "Simulated HRTEM of disordered carbons, computed live in the browser (WebGPU multislice)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_livetem/";
             },},{id: "teaching-applied-research",
           title: 'Applied Research',
           description: "Graduate course on applying research in industry and transition from academia",
