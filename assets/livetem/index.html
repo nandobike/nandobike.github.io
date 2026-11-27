@@ -127,7 +127,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 <header class="wrap top">
   <div>
     <h1>Live HRTEM</h1>
-    <p class="sub">Tilt the specimen, turn the focus and watch the micrograph form. Each of the 78 virtual carbons, plus graphite and nanotubes for reference, is imaged by a multislice simulation that reruns on your graphics card as you work the controls.</p>
+    <p class="sub">Tilt the specimen, turn the focus and watch the micrograph form. Each of the 78 virtual carbons, plus reference crystals, nanotubes, twisted bilayers, an onion, a nanocone and schwarzites, is imaged by a multislice simulation that reruns on your graphics card as you work the controls.</p>
   </div>
   <div class="eng" id="eng">Starting the microscope…</div>
 </header>
@@ -141,6 +141,8 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
     <p class="facts" id="facts"></p>
     <div class="row" id="lsrow" hidden><span class="lab"><label for="ls">Layer spacing</label><button class="tip" type="button" data-k="ls" aria-label="What is this?">?</button></span><output id="lsv"></output><input type="range" class="lim" id="ls" min="2.8" max="8" step="0.01" value="3.35" style="--lo:7.69%;--hi:100%"></div>
     <p class="tinfo" id="lsi" hidden>Graphite 3.35 Å · turbostratic 3.44 Å · graphite oxide about 6–9 Å</p>
+    <div class="row" id="twrow" hidden><span class="lab"><label for="tw">Layer rotation</label><button class="tip" type="button" data-k="tw" aria-label="What is this?">?</button></span><output id="twv"></output><input type="range" id="tw" min="0" max="30" step="0.1" value="30"></div>
+    <p class="tinfo" id="twi" hidden>0° Bernal (AB) graphite · 30° fully turbostratic</p>
     <p class="note" id="lsnote" hidden>Squeezed below 3.2 Å: that takes pressures of several GPa.</p>
     <div class="row"><span class="lab"><label>Beam along cell axis</label><button class="tip" type="button" data-k="face" aria-label="What is this?">?</button></span><div class="seg" id="face"><button data-v="a">a</button><button data-v="b">b</button><button data-v="c">c</button></div></div>
     <div class="row"><span class="lab"><label>Specimen shape</label><button class="tip" type="button" data-k="shape" aria-label="What is this?">?</button></span><div class="seg" id="shape"><button data-v="film">Continuous film</button><button data-v="flake">Flake</button></div></div>
@@ -194,7 +196,7 @@ input[type=range]::-moz-range-thumb{width:13px;height:13px;border-radius:50%;bac
 <script>
 {
 const $ = id => document.getElementById(id);
-const VERSION = "1.2.0";
+const VERSION = "1.3.0";
 $('ver').textContent = VERSION;
 const PAD = 12, KSHOW = 0.9, MTF = 0.8;
 const SANS = 'system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif', MONO = 'ui-monospace,"SF Mono",Menlo,Consolas,"Roboto Mono",monospace';
@@ -510,7 +512,7 @@ const ry=a=>{const c=Math.cos(a),s=Math.sin(a);return[c,0,s,0,1,0,-s,0,c]};
 const FACE={c:[1,0,0,0,1,0,0,0,1],a:[0,1,0,0,0,1,1,0,0],b:[0,0,1,1,0,0,0,1,0]};
 const AXIS={c:[0,1,2],a:[1,2,0],b:[2,0,1]};
 
-const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42,K:293,flake:false,autoFlake:false,ls:0};
+const st={name:'040',face:'c',a:0,b:0,T:50,kv:120,cs:0.5,df:50,spread:2.8,div:1,ap:0,dose:10000,noise:true,live:true,fft:true,phos:false,zoom:1,pan:[0,0],seed:1,det:false,yaw:-0.62,pitch:0.42,K:293,flake:false,autoFlake:false,ls:0,tw:0};
 let meta=[],cur=null,atoms={},cloud=new Float32Array(0),E=null,frameData=null;
 const AMAX=90,FILM_A=70,BMAX=70,TMAX=10,HOLD_A=40,HOLD_B=30,HOLD_K=1573;
 // Thermal vibration of carbon, Debye model: <u²> per direction = 3ħ²/(m kB θ) [ (1/x²)∫₀ˣ t/(eᵗ−1) dt + 1/4 ], x = θ/T; B = 8π²<u²>.
@@ -525,7 +527,26 @@ const rot=()=>m3(rx(st.a*Math.PI/180),ry(st.b*Math.PI/180));   // film frame -> 
 function geom(){const L=cur.L,ax=AXIS[st.face],S=Math.min(L[ax[0]],L[ax[1]]);return {S,W:S+2*PAD,Lb:L[ax[2]]}}
 const scherzer=()=>Math.sqrt(1.5*st.cs*1e7*core.lam(st.kv*1e3))/10;
 
+// Turbostratic graphite, built here so the layer rotation can change continuously. Bernal (AB) layers, each turned
+// by its own fixed random share of ±tw degrees about its own random point. Off the commensurate angles a turned layer
+// does not repeat across the box, so it is cut at the box edge, which is the edge of the image.
+function mulberry(a){return()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function genTurbo(m,tw){
+  const A=2.461,h=A*Math.sqrt(3)/2,L=m.L,d=m.layer,rnd=mulberry(m.seed||7),hx=L[0]/2,hy=L[1]/2,out=[];
+  const R=Math.hypot(L[0],L[1])+2*A,nI=Math.ceil(R/h)+2;
+  for(let k=0;k<m.layers;k++){
+    const u=2*rnd()-1,cx=(rnd()-0.5)*L[0],cy=(rnd()-0.5)*L[1],t=tw*u*Math.PI/180,c=Math.cos(t),s=Math.sin(t);
+    const sy=k%2?A/Math.sqrt(3):0,z=(k+0.5)*d-L[2]/2;                         // B layers sit one bond along y
+    for(let j=-nI;j<=nI;j++)for(let i=-nI;i<=nI;i++)for(const by of [0,A/Math.sqrt(3)]){
+      const x0=i*A+j*A/2-hx,y0=j*h+by+sy-hy;                    // same lattice and box as graphite.txt
+      const dx=x0-cx,dy=y0-cy,x=cx+c*dx-s*dy+1e-3,y=cy+s*dx+c*dy+1e-3;   // the nudge keeps one of two atoms on opposite edges
+      if(x>=-hx&&x<hx&&y>=-hy&&y<hy)out.push(x,y,z)}}
+  return new Float32Array(out)}
+function setTurbo(){const P=genTurbo(cur,st.tw);atoms[st.name]=P;scaled.k='';cur.n=P.length/3;
+  cur.rho=cur.n*12.011/0.602214/(cur.L0[0]*cur.L0[1]*cur.L0[2]);cur.rhoS=cur.rho;applyLayer();return P}
+
 async function loadAtoms(name){
+  if(cur&&cur.gen==='turbo'&&cur.name===name)return setTurbo();
   if(atoms[name])return atoms[name];
   const r=await fetch(`atoms/${name}.txt`);if(!r.ok)throw new Error(`atoms/${name}.txt: ${r.status}`);
   const bin=atob((await r.text()).trim()),u8=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u8[i]=bin.charCodeAt(i);
@@ -598,7 +619,7 @@ async function pump(){
     do{again=false;
       const g=geom(),n=tilting?E.preview:E.final,dz0=tilting?E.dzPrev:E.dzFinal,gk=n+'|'+g.W;
       if(gk!==have.gk){await E.grid(n,g.W);have.gk=gk;have.sk=''}
-      const nzMax=E.kind==='gpu'?(tilting?300:800):(tilting?60:160),sk=[st.name,st.face,st.a,st.b,st.T,st.kv,st.K,st.ls,st.flake,dz0,nzMax,gk].join('|');
+      const nzMax=E.kind==='gpu'?(tilting?300:800):(tilting?60:160),sk=[st.name,st.face,st.a,st.b,st.T,st.kv,st.K,st.ls,st.tw,st.flake,dz0,nzMax,gk].join('|');
       if(sk!==have.sk){heavy=heavy||performance.now();const t0=performance.now(),sl=slab(n,dz0,nzMax);setStat('busy',`Computing the exit wave · ${n}², ${sl.nz} slices`);
         await E.exit(sl.xy,sl.offs,sl.nz,sl.dz,st.kv*1e3,bOf(st.K));
         Object.assign(perf,{exit:performance.now()-t0,nz:sl.nz,dz:sl.dz,atoms:sl.count,n});have.sk=sk;have.ik=''}
@@ -775,6 +796,7 @@ function sync(){
   $('th').value=(st.T/10).toFixed(1);$('thv').textContent=`${(st.T/10).toFixed(1)} nm`+(g&&Math.abs(st.T-g.Lb)<0.05?' (1 cell)':'');
   press('face',st.face);press('kv',st.kv);press('shape',st.flake?'flake':'film');$('flakenote').hidden=!(st.flake&&st.autoFlake);$('kvnote').hidden=st.kv<=300;
   $('lsrow').hidden=$('lsi').hidden=!(cur&&cur.layer);
+  $('twrow').hidden=$('twi').hidden=!(cur&&cur.gen==='turbo');if(cur&&cur.gen==='turbo'){$('tw').value=st.tw;$('twv').textContent=`±${st.tw.toFixed(1)}°`}
   if(cur&&cur.layer){$('ls').value=st.ls;$('lsv').textContent=`${st.ls.toFixed(2)} Å`;$('lsv').classList.toggle('over',st.ls<3.2);$('lsnote').hidden=st.ls>=3.2}else $('lsnote').hidden=true;press('ap',st.ap);press('zoom',st.zoom);
   $('cs').value=st.cs;$('csv').textContent=`${st.cs.toFixed(2)} mm`;$('sp').value=st.spread;$('spv').textContent=`${st.spread.toFixed(1)} nm`;
   $('dv').value=st.div;$('dvv').textContent=`${st.div.toFixed(2)} mrad`;
@@ -792,7 +814,7 @@ function sync(){
 function showPerf(){if(!perf.n)return;$('perf').textContent=`${perf.n}² · ${perf.nz} slices${perf.dz>2.05?` of ${perf.dz.toFixed(1)} Å`:''} · ${nf.format(perf.atoms)} atoms · ${Math.round(perf.exit)} ms`}
 
 async function choose(name){
-  const was=cur;st.name=name;cur={...meta.find(m=>m.name===name)};cur.L0=cur.L.slice();st.ls=cur.layer||0;
+  const was=cur;st.name=name;cur={...meta.find(m=>m.name===name)};cur.L0=cur.L.slice();st.ls=cur.layer||0;st.tw=cur.gen==='turbo'?30:0;
   if(cur.face)st.face=cur.face;else if(was&&was.face)st.face='c';   // reference crystals open side-on
   $('wait').hidden=!!frameData;
   await loadAtoms(name);st.T=geom().Lb;buildCloud();have.sk='';sync();request();
@@ -810,6 +832,7 @@ $('ta').addEventListener('input',e=>{st.a=+e.target.value;tiltChanged()});
 $('tb').addEventListener('input',e=>{st.b=+e.target.value;tiltChanged()});
 $('th').addEventListener('input',e=>{st.T=+e.target.value*10;buildCloud();tiltChanged()});
 $('tk').addEventListener('input',e=>{st.K=+e.target.value;sync();request()});
+$('tw').addEventListener('input',e=>{st.tw=+e.target.value;setTurbo();buildCloud();tiltChanged()});
 $('ls').addEventListener('input',e=>{const old=geom().Lb;st.ls=+e.target.value;applyLayer();if(Math.abs(st.T-old)<0.05)st.T=Math.min(TMAX*10,geom().Lb);buildCloud();tiltChanged()});
 bindSeg('shape',v=>{st.flake=v==='flake';st.autoFlake=false;if(!st.flake&&Math.abs(st.a)>FILM_A)st.a=Math.sign(st.a)*FILM_A;buildCloud();tiltChanged()});
 $('rst').onclick=()=>{st.a=0;st.b=0;st.T=geom().Lb;buildCloud();dirty3D=true;sync();request()};
@@ -881,8 +904,8 @@ function tick(t){
 async function boot(){
   try{initGL()}catch(e){console.error(e)}
   meta=await (await fetch('structures.json')).json();
-  const opt=m=>`<option value="${m.name}">${m.ref?m.label:`${m.name} · ${m.rho.toFixed(2)} g/cm³`}</option>`;
-  $('struct').innerHTML=`<optgroup label="Reference crystals">${meta.filter(m=>m.ref).map(opt).join('')}</optgroup><optgroup label="Virtual carbons">${meta.filter(m=>!m.ref).map(opt).join('')}</optgroup>`;
+  const opt=m=>`<option value="${m.name}">${m.ref?m.label:`${m.name} · ${m.rho.toFixed(2)} g/cm³`}</option>`,grp=(g,f)=>`<optgroup label="${g}">${meta.filter(f).map(opt).join('')}</optgroup>`;
+  $('struct').innerHTML=grp('Reference crystals',m=>m.ref&&!m.group)+[...new Set(meta.map(m=>m.group).filter(Boolean))].map(g=>grp(g,m=>m.group===g)).join('')+grp('Virtual carbons',m=>!m.ref);
   const h=location.hash.slice(1);const first=meta.some(m=>m.name===h)?h:'040';
   try{E=/[?&]cpu\b/.test(location.search)?null:await GPUEngine.create()}catch(e){console.warn(e);E=null}
   if(!E)E=await CPUEngine.create();
@@ -934,7 +957,7 @@ async function savePub(img,m0,S){
   x.strokeText(`${bar} nm`,bx+px/2,by-fs*0.5);x.fillStyle='#fff';x.fillText(`${bar} nm`,bx+px/2,by-fs*0.5);
   // caption band: conditions, credit
   const pad=Math.round(m*0.025),fit=(t,w,size,wt='')=>{let z=size;x.font=`${wt}${z}px ${SANS}`;while(z>8&&x.measureText(t).width>w){z--;x.font=`${wt}${z}px ${SANS}`}};
-  const cond=`${cur.label||cur.name} · simulated HRTEM · ${st.kv} kV, Cs ${st.cs.toFixed(2)} mm, Δf ${st.df>=0?'−':'+'}${Math.abs(st.df).toFixed(1)} nm · α ${st.a.toFixed(1)}°, β ${st.b.toFixed(1)}° · ${(st.T/10).toFixed(1)} nm ${st.flake?'flake':'film'} · ${st.K} K · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}${cur.layer&&Math.abs(st.ls-cur.layer)>1e-6?` · layers ${st.ls.toFixed(2)} Å`:''}`;
+  const cond=`${cur.label||cur.name} · simulated HRTEM · ${st.kv} kV, Cs ${st.cs.toFixed(2)} mm, Δf ${st.df>=0?'−':'+'}${Math.abs(st.df).toFixed(1)} nm · α ${st.a.toFixed(1)}°, β ${st.b.toFixed(1)}° · ${(st.T/10).toFixed(1)} nm ${st.flake?'flake':'film'} · ${st.K} K · ${st.noise?nf.format(Math.round(st.dose))+' e/Å²':'noise-free'}${cur.layer&&Math.abs(st.ls-cur.layer)>1e-6?` · layers ${st.ls.toFixed(2)} Å`:''}${cur.gen==='turbo'?` · layers turned ±${st.tw.toFixed(1)}°`:''}`;
   const credit=`© ${new Date().getFullYear()} ${CREDIT.name} · ${CREDIT.site} · All rights reserved${CREDIT.doi?' · doi:'+CREDIT.doi:''}`,tool=`Live HRTEM v${VERSION}`;
   x.fillStyle='#fff';x.fillRect(0,m,m,band);x.textAlign='left';x.fillStyle='#1f1f1e';
   fit(cond,m-2*pad,Math.round(band*0.27),'500 ');x.fillText(cond,pad,m+band*0.42);
@@ -950,10 +973,11 @@ async function savePub(img,m0,S){
 $('bPub').onclick=pubRender;
 // ---------- "?" tips ----------
 const TIPS={
-  spec:'Reference crystals (graphite, nanotubes; they open side-on, switch the beam to c to look down the layers or tubes) and the 78 virtual carbons, periodic boxes of disordered carbon, each listed with its density. Use ‹ › or the arrow keys in the list to step through them.',
+  spec:'Reference crystals (graphite, nanotubes; they open side-on, switch the beam to c to look down the layers or tubes), twisted and curved carbons (twisted bilayer graphene at commensurate angles, so the moiré repeats in the box; turbostratic graphite, with a slider for how far its layers turn; a six-shell onion; a four-wall nanocone; schwarzites, negatively curved carbons on the Schwarz P surface) and the 78 virtual carbons, periodic boxes of disordered carbon, each listed with its density. Use ‹ › or the arrow keys in the list to step through them.',
   face:'Which edge of the periodic cell points along the beam before any tilt. The film is cut perpendicular to it.',
   ta:'Rotation of the specimen about the holder axis (x), up to ±90°. A standard double-tilt holder reaches about ±40°, tomography holders ±70° or more; the orange part of the track is beyond a standard holder. The beam path through a film grows as 1/cos(tilt); past ±70° the specimen becomes a finite flake, so at 90° you look along its edge.',
   shape:'Continuous film: laterally endless, like a real thin film; the beam path grows as 1/cos(tilt). Flake: a finite piece the size of the field (the box on the stage), which you can turn fully edge-on. Tilting α past ±70° switches to the flake on its own.',
+  tw:'How far the layers of turbostratic graphite are turned. Each layer gets its own fixed random share of ±θ, about its own random point: 0° is Bernal (AB) graphite, 30° allows any orientation. With the beam along c, watch the moiré change and the FFT spots spread into rings; side-on (beam along a) the 0.34 nm fringes stay while the in-plane lattice fades. A turned layer does not repeat across the box, so it is cut at the image edge, where large tilts can show the seam.',
   ls:'Spacing between graphite layers. Natural graphite has 3.35 Å; turbostratic carbons about 3.44 Å; intercalated graphite and graphite oxide reach 6–9 Å. Watch the 0.34 nm fringes and the FFT ring move. Below 3.2 Å (orange) takes GPa pressures.',
   pub:'Renders the current view at high resolution (2048² with WebGPU, 1024² on the CPU, 1 Å slices) and downloads a PNG of about 1400 px or more at 300 dpi with a scale bar, the imaging conditions and the copyright line, which are also stored in the file metadata. Takes a few seconds on a GPU, up to a minute on the CPU.',
   tb:'Rotation about the second, perpendicular axis (y). Double-tilt holders give about ±30° here; the orange part of the track is beyond that, possible only in the simulation.',
